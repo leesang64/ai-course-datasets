@@ -1,0 +1,8 @@
+﻿parameter,value
+population_size,100.0
+generations,250.0
+elite_count,4.0
+tournament_size,3.0
+crossover_rate,0.9
+mutation_rate,0.2
+mutation_sigma,0.35
