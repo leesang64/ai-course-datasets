@@ -15,3 +15,5 @@ flowchart TD
     C --> D
     D --> E["수식·해석·검증 과제"]
 ```
+
+[7.13 열별 데이터 사전과 검증 기준](dataset_guide.md) · [계산된 통계 JSON](data_profile.json)

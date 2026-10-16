@@ -1,0 +1,78 @@
+[
+  {
+    "file": "drift.csv",
+    "rows": 500,
+    "duplicate_rows": 0,
+    "origin": "시드 42의 교육용 합성 분포 이동. 실서비스 데이터 아님.",
+    "columns": [
+      {
+        "column": "reference",
+        "meaning": "기준 정규분포에서 생성한 가상 관측",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 500,
+        "min": -3.648412825,
+        "max": 3.178853679,
+        "mean": -0.007608669649434013
+      },
+      {
+        "column": "current",
+        "meaning": "평균·분산을 바꾸어 생성한 가상 관측",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 500,
+        "min": -2.748961648,
+        "max": 4.001381346,
+        "mean": 0.5815982733721818
+      }
+    ]
+  },
+  {
+    "file": "serving.csv",
+    "rows": 360,
+    "duplicate_rows": 0,
+    "origin": "시드 42의 교육용 합성 회귀. 실제 운영 성능을 의미하지 않음.",
+    "columns": [
+      {
+        "column": "x0",
+        "meaning": "합성 회귀의 첫째 입력",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 360,
+        "min": -2.917159881,
+        "max": 2.80956897,
+        "mean": -0.08712037680732501
+      },
+      {
+        "column": "x1",
+        "meaning": "합성 회귀의 둘째 입력",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 360,
+        "min": -2.436375663,
+        "max": 2.812649248,
+        "mean": -0.016405289001150007
+      },
+      {
+        "column": "x2",
+        "meaning": "합성 회귀의 셋째 입력",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 360,
+        "min": -3.063779866,
+        "max": 2.857438423,
+        "mean": -0.005327098297477771
+      },
+      {
+        "column": "target",
+        "meaning": "합성 두 반달 정답 0/1",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 360,
+        "min": -8.392467825,
+        "max": 6.820762854,
+        "mean": -0.15160641953594442
+      }
+    ]
+  }
+]

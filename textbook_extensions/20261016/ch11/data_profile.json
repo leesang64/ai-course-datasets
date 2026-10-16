@@ -1,0 +1,158 @@
+[
+  {
+    "file": "image.csv",
+    "rows": 12,
+    "duplicate_rows": 10,
+    "origin": "교육용 12×12 합성 회색조 영상. 실제 사진 아님.",
+    "columns": [
+      {
+        "column": "c0",
+        "meaning": "합성 영상의 0번째 픽셀 열. 값은 0~1 밝기",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 1,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      {
+        "column": "c1",
+        "meaning": "합성 영상의 1번째 픽셀 열. 값은 0~1 밝기",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 1,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      {
+        "column": "c2",
+        "meaning": "합성 영상의 2번째 픽셀 열. 값은 0~1 밝기",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 1,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      {
+        "column": "c3",
+        "meaning": "합성 영상의 3번째 픽셀 열. 값은 0~1 밝기",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 0.5,
+        "mean": 0.16666666666666666
+      },
+      {
+        "column": "c4",
+        "meaning": "합성 영상의 4번째 픽셀 열. 값은 0~1 밝기",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 0.5,
+        "mean": 0.16666666666666666
+      },
+      {
+        "column": "c5",
+        "meaning": "합성 영상의 5번째 픽셀 열. 값은 0~1 밝기",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 0.5,
+        "mean": 0.16666666666666666
+      },
+      {
+        "column": "c6",
+        "meaning": "합성 영상의 6번째 픽셀 열. 값은 0~1 밝기",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 2,
+        "min": 0.5,
+        "max": 1.0,
+        "mean": 0.8333333333333334
+      },
+      {
+        "column": "c7",
+        "meaning": "합성 영상의 7번째 픽셀 열. 값은 0~1 밝기",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 2,
+        "min": 0.5,
+        "max": 1.0,
+        "mean": 0.8333333333333334
+      },
+      {
+        "column": "c8",
+        "meaning": "합성 영상의 8번째 픽셀 열. 값은 0~1 밝기",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 2,
+        "min": 0.5,
+        "max": 1.0,
+        "mean": 0.8333333333333334
+      },
+      {
+        "column": "c9",
+        "meaning": "합성 영상의 9번째 픽셀 열. 값은 0~1 밝기",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 1,
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0
+      },
+      {
+        "column": "c10",
+        "meaning": "합성 영상의 10번째 픽셀 열. 값은 0~1 밝기",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 1,
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0
+      },
+      {
+        "column": "c11",
+        "meaning": "합성 영상의 11번째 픽셀 열. 값은 0~1 밝기",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 1,
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0
+      }
+    ]
+  },
+  {
+    "file": "series.csv",
+    "rows": 360,
+    "duplicate_rows": 0,
+    "origin": "시드 42로 만든 주기 24, 선형 추세 0.003t, 잡음의 교육용 합성 시계열.",
+    "columns": [
+      {
+        "column": "t",
+        "meaning": "합성 시계열의 순서 번호",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 360,
+        "min": 0.0,
+        "max": 359.0,
+        "mean": 179.5
+      },
+      {
+        "column": "signal",
+        "meaning": "주기·추세·잡음을 합한 합성 신호",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 360,
+        "min": -0.955060567,
+        "max": 2.331919354,
+        "mean": 0.5351461365375388
+      }
+    ]
+  }
+]

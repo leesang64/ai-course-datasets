@@ -1,0 +1,30 @@
+[
+  {
+    "file": "linear.csv",
+    "rows": 90,
+    "duplicate_rows": 0,
+    "origin": "난수 시드 42로 만든 교육용 합성 데이터. 실제 측정값 아님.",
+    "columns": [
+      {
+        "column": "x",
+        "meaning": "무차원 독립 입력",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 90,
+        "min": -3.0,
+        "max": 3.0,
+        "mean": 5.427757009278543e-17
+      },
+      {
+        "column": "y",
+        "meaning": "생성식으로 만든 연속형 목표",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 90,
+        "min": -5.482779614,
+        "max": 6.390245264,
+        "mean": 0.7062779450083334
+      }
+    ]
+  }
+]

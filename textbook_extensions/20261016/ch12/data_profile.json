@@ -1,0 +1,105 @@
+[
+  {
+    "file": "queries.csv",
+    "rows": 3,
+    "duplicate_rows": 0,
+    "origin": "직접 정의한 교육용 Q 행렬. 학습된 언어 임베딩 아님.",
+    "columns": [
+      {
+        "column": "d0",
+        "meaning": "직접 정의한 벡터의 첫 성분",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.6666666666666666
+      },
+      {
+        "column": "d1",
+        "meaning": "직접 정의한 벡터의 둘째 성분",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.6666666666666666
+      }
+    ]
+  },
+  {
+    "file": "keys.csv",
+    "rows": 4,
+    "duplicate_rows": 0,
+    "origin": "직접 정의한 교육용 K 행렬. 학습된 언어 임베딩 아님.",
+    "columns": [
+      {
+        "column": "d0",
+        "meaning": "직접 정의한 벡터의 첫 성분",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.5
+      },
+      {
+        "column": "d1",
+        "meaning": "직접 정의한 벡터의 둘째 성분",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 3,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.25
+      }
+    ]
+  },
+  {
+    "file": "documents.csv",
+    "rows": 60,
+    "duplicate_rows": 0,
+    "origin": "기존 GitHub 12_Sequence_Transformer_GenerativeAI/course_documents.csv.",
+    "columns": [
+      {
+        "column": "id",
+        "meaning": "교육용 검색 문서 식별자",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 60,
+        "examples": [
+          "DOC000",
+          "DOC001",
+          "DOC002",
+          "DOC003"
+        ]
+      },
+      {
+        "column": "title",
+        "meaning": "교육용 문서 제목",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 60,
+        "examples": [
+          "인공지능 교재 문서 0",
+          "인공지능 교재 문서 1",
+          "인공지능 교재 문서 2",
+          "인공지능 교재 문서 3"
+        ]
+      },
+      {
+        "column": "content",
+        "meaning": "검색 대상으로 제공한 교육용 본문",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 13,
+        "examples": [
+          "이 문서는 인공지능 학습 주제 1장에 대한 핵심 개념, 실습 절차, 평가 방법을 설명한다. 데이터 누수 방지와 재현성을 강조한다.",
+          "이 문서는 인공지능 학습 주제 2장에 대한 핵심 개념, 실습 절차, 평가 방법을 설명한다. 데이터 누수 방지와 재현성을 강조한다.",
+          "이 문서는 인공지능 학습 주제 3장에 대한 핵심 개념, 실습 절차, 평가 방법을 설명한다. 데이터 누수 방지와 재현성을 강조한다.",
+          "이 문서는 인공지능 학습 주제 4장에 대한 핵심 개념, 실습 절차, 평가 방법을 설명한다. 데이터 누수 방지와 재현성을 강조한다."
+        ]
+      }
+    ]
+  }
+]

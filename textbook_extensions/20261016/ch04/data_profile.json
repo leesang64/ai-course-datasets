@@ -1,0 +1,119 @@
+[
+  {
+    "file": "churn.csv",
+    "rows": 1200,
+    "duplicate_rows": 0,
+    "origin": "난수 시드 20261016의 완전한 교육용 합성 고객 데이터. 실제 고객 자료를 복사·익명화한 것이 아니며 개인과 연결되지 않음.",
+    "columns": [
+      {
+        "column": "customer_id",
+        "meaning": "합성 행 식별자. 모델 입력에서 제외",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 1200,
+        "examples": [
+          "SYN00000",
+          "SYN00001",
+          "SYN00002",
+          "SYN00003"
+        ]
+      },
+      {
+        "column": "age",
+        "meaning": "생성한 가상 나이",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 63,
+        "min": 18.0,
+        "max": 80.0,
+        "mean": 48.9675
+      },
+      {
+        "column": "tenure",
+        "meaning": "생성한 가상 이용 기간",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 72,
+        "min": 1.0,
+        "max": 72.0,
+        "mean": 36.69166666666667
+      },
+      {
+        "column": "monthly_charge",
+        "meaning": "생성한 가상 월요금",
+        "dtype": "float64",
+        "missing": 20,
+        "unique": 1165,
+        "min": 15.0,
+        "max": 134.8434578,
+        "mean": 68.35162870545763
+      },
+      {
+        "column": "total_charge",
+        "meaning": "월요금×기간에 잡음을 더한 가상 누적 요금",
+        "dtype": "float64",
+        "missing": 20,
+        "unique": 1180,
+        "min": 21.58748037,
+        "max": 9101.151637,
+        "mean": 2522.148905246983
+      },
+      {
+        "column": "contract",
+        "meaning": "가상 계약 범주",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 3,
+        "examples": [
+          "monthly",
+          "two_year",
+          "one_year"
+        ]
+      },
+      {
+        "column": "internet",
+        "meaning": "가상 인터넷 서비스 범주",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 3,
+        "examples": [
+          "dsl",
+          "fiber",
+          "none"
+        ]
+      },
+      {
+        "column": "support",
+        "meaning": "가상 지원 여부",
+        "dtype": "object",
+        "missing": 20,
+        "unique": 2,
+        "examples": [
+          "no",
+          "yes"
+        ]
+      },
+      {
+        "column": "ebilling",
+        "meaning": "가상 전자 청구 여부",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 2,
+        "examples": [
+          "yes",
+          "no"
+        ]
+      },
+      {
+        "column": "churn",
+        "meaning": "생성 확률로 표집한 가상 이탈 정답 0/1",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.19583333333333333
+      }
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "file": "housing.csv",
+    "rows": 900,
+    "duplicate_rows": 0,
+    "origin": "기존 GitHub 06_Regression/housing_regression.csv를 열 이름만 바꾼 자료. 실측·합성 여부와 원 단위는 미확인.",
+    "columns": [
+      {
+        "column": "area",
+        "meaning": "원 저장소의 주택 면적 관련 특성",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 860,
+        "min": 25.0,
+        "max": 188.79,
+        "mean": 94.72114444444445
+      },
+      {
+        "column": "rooms",
+        "meaning": "원 저장소의 방 수 관련 특성",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 6,
+        "min": 1.0,
+        "max": 6.0,
+        "mean": 3.451111111111111
+      },
+      {
+        "column": "age",
+        "meaning": "원 저장소의 건축 연수 관련 특성",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 50,
+        "min": 0.0,
+        "max": 49.0,
+        "mean": 25.394444444444446
+      },
+      {
+        "column": "distance",
+        "meaning": "원 저장소의 거리 관련 특성",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 749,
+        "min": 0.2,
+        "max": 25.0,
+        "mean": 12.32551111111111
+      },
+      {
+        "column": "school_score",
+        "meaning": "원 저장소의 학군 점수 관련 특성",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 836,
+        "min": 40.01,
+        "max": 99.98,
+        "mean": 69.1176
+      },
+      {
+        "column": "price",
+        "meaning": "원 저장소의 주택 가격 목표. 금액 단위 미확인",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 897,
+        "min": 11576.0,
+        "max": 485385.0,
+        "mean": 261573.06666666668
+      }
+    ]
+  },
+  {
+    "file": "nonlinear.csv",
+    "rows": 100,
+    "duplicate_rows": 0,
+    "origin": "난수 시드 42의 교육용 합성 비선형 회귀. 실제 측정값 아님.",
+    "columns": [
+      {
+        "column": "x",
+        "meaning": "무차원 독립 입력",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 100,
+        "min": -2.870327521,
+        "max": 2.954253384,
+        "mean": 0.00739661525020002
+      },
+      {
+        "column": "y",
+        "meaning": "생성식으로 만든 연속형 목표",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 100,
+        "min": -1.269589442,
+        "max": 1.392801223,
+        "mean": -0.047930253452200006
+      }
+    ]
+  }
+]

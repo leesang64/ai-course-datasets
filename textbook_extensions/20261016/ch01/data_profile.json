@@ -1,0 +1,150 @@
+[
+  {
+    "file": "wine.csv",
+    "rows": 178,
+    "duplicate_rows": 0,
+    "origin": "scikit-learn 내장 Wine 데이터(load_wine), UCI Wine에서 유래한 178개 관측. 생성 자료 아님.",
+    "columns": [
+      {
+        "column": "alcohol",
+        "meaning": "알코올 관련 측정 특성",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 126,
+        "min": 11.03,
+        "max": 14.83,
+        "mean": 13.00061797752809
+      },
+      {
+        "column": "malic_acid",
+        "meaning": "사과산 관련 측정 특성",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 133,
+        "min": 0.74,
+        "max": 5.8,
+        "mean": 2.3363483146067416
+      },
+      {
+        "column": "ash",
+        "meaning": "회분 관련 측정 특성",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 79,
+        "min": 1.36,
+        "max": 3.23,
+        "mean": 2.3665168539325845
+      },
+      {
+        "column": "alcalinity_of_ash",
+        "meaning": "회분 알칼리도 관련 특성",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 63,
+        "min": 10.6,
+        "max": 30.0,
+        "mean": 19.49494382022472
+      },
+      {
+        "column": "magnesium",
+        "meaning": "마그네슘 관련 측정 특성",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 53,
+        "min": 70.0,
+        "max": 162.0,
+        "mean": 99.74157303370787
+      },
+      {
+        "column": "total_phenols",
+        "meaning": "총 페놀 관련 특성",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 97,
+        "min": 0.98,
+        "max": 3.88,
+        "mean": 2.295112359550562
+      },
+      {
+        "column": "flavanoids",
+        "meaning": "플라바노이드 관련 측정 특성",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 132,
+        "min": 0.34,
+        "max": 5.08,
+        "mean": 2.0292696629213487
+      },
+      {
+        "column": "nonflavanoid_phenols",
+        "meaning": "비플라바노이드 페놀 관련 특성",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 39,
+        "min": 0.13,
+        "max": 0.66,
+        "mean": 0.3618539325842696
+      },
+      {
+        "column": "proanthocyanins",
+        "meaning": "프로안토시아닌 관련 측정 특성",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 101,
+        "min": 0.41,
+        "max": 3.58,
+        "mean": 1.5908988764044945
+      },
+      {
+        "column": "color_intensity",
+        "meaning": "색 강도 관련 특성",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 132,
+        "min": 1.28,
+        "max": 13.0,
+        "mean": 5.058089882022472
+      },
+      {
+        "column": "hue",
+        "meaning": "색조 관련 특성",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 78,
+        "min": 0.48,
+        "max": 1.71,
+        "mean": 0.9574494382022471
+      },
+      {
+        "column": "od280_od315_of_diluted_wines",
+        "meaning": "희석 와인의 OD280/OD315 관련 측정 특성",
+        "dtype": "float64",
+        "missing": 0,
+        "unique": 122,
+        "min": 1.27,
+        "max": 4.0,
+        "mean": 2.6116853932584267
+      },
+      {
+        "column": "proline",
+        "meaning": "프롤린 관련 측정 특성",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 121,
+        "min": 278.0,
+        "max": 1680.0,
+        "mean": 746.8932584269663
+      },
+      {
+        "column": "target",
+        "meaning": "Wine 품종 0/1/2",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 3,
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.9382022471910112
+      }
+    ]
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "file": "maze.csv",
+    "rows": 6,
+    "duplicate_rows": 1,
+    "origin": "저자가 정의한 6×6 교육용 격자. 실제 지도 아님.",
+    "columns": [
+      {
+        "column": "c0",
+        "meaning": "격자의 0번째 열. 값 0은 통로, 1은 장애물",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.3333333333333333
+      },
+      {
+        "column": "c1",
+        "meaning": "격자의 1번째 열. 값 0은 통로, 1은 장애물",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.5
+      },
+      {
+        "column": "c2",
+        "meaning": "격자의 2번째 열. 값 0은 통로, 1은 장애물",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.16666666666666666
+      },
+      {
+        "column": "c3",
+        "meaning": "격자의 3번째 열. 값 0은 통로, 1은 장애물",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.6666666666666666
+      },
+      {
+        "column": "c4",
+        "meaning": "격자의 4번째 열. 값 0은 통로, 1은 장애물",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.3333333333333333
+      },
+      {
+        "column": "c5",
+        "meaning": "격자의 5번째 열. 값 0은 통로, 1은 장애물",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.16666666666666666
+      }
+    ]
+  },
+  {
+    "file": "items.csv",
+    "rows": 8,
+    "duplicate_rows": 0,
+    "origin": "교육용 8개 배낭 물품을 명시적으로 정의. 실제 상품 가격 아님.",
+    "columns": [
+      {
+        "column": "item",
+        "meaning": "가상 물품 이름",
+        "dtype": "object",
+        "missing": 0,
+        "unique": 8,
+        "examples": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      {
+        "column": "weight",
+        "meaning": "가상 중량",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 6,
+        "min": 2.0,
+        "max": 7.0,
+        "mean": 4.0
+      },
+      {
+        "column": "value",
+        "meaning": "가상 효용",
+        "dtype": "int64",
+        "missing": 0,
+        "unique": 8,
+        "min": 5.0,
+        "max": 16.0,
+        "mean": 9.625
+      }
+    ]
+  }
+]
