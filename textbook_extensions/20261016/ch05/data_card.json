@@ -1,0 +1,21 @@
+[
+  {
+    "file": "churn.csv",
+    "rows": 1200,
+    "columns": [
+      "customer_id",
+      "age",
+      "tenure",
+      "monthly_charge",
+      "total_charge",
+      "contract",
+      "internet",
+      "support",
+      "ebilling",
+      "churn"
+    ],
+    "origin": "난수 시드 20261016의 완전한 교육용 합성 고객 데이터. 실제 고객 자료를 복사·익명화한 것이 아니며 개인과 연결되지 않음.",
+    "meaning": "SYN 식별자는 생성 행 번호. 요금은 가상 단위. churn=1은 생성 확률에 따라 표집한 가상 이탈. 실제 고객 행동이나 기업 성능을 뜻하지 않는다.",
+    "sha256": "3ba7cb141cab2dd302272ec555adb04842cc5adafd44a9e3968b93bad8cec0d1"
+  }
+]

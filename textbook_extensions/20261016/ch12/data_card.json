@@ -1,0 +1,36 @@
+[
+  {
+    "file": "queries.csv",
+    "rows": 3,
+    "columns": [
+      "d0",
+      "d1"
+    ],
+    "origin": "직접 정의한 교육용 Q 행렬. 학습된 언어 임베딩 아님.",
+    "meaning": "질의 3개×차원 2.",
+    "sha256": "d5f504cc84b5811c3012e5bc66d9ed0adbc3f1de8c421d14eedc2430330fde1c"
+  },
+  {
+    "file": "keys.csv",
+    "rows": 4,
+    "columns": [
+      "d0",
+      "d1"
+    ],
+    "origin": "직접 정의한 교육용 K 행렬. 학습된 언어 임베딩 아님.",
+    "meaning": "키 4개×차원 2. V는 코드에 고정된 4×2 행렬.",
+    "sha256": "f0cc913cc88a2705694fb0557ddc724ca929d2d37862ff4fcedcd1601559f4d9"
+  },
+  {
+    "file": "documents.csv",
+    "rows": 60,
+    "columns": [
+      "id",
+      "title",
+      "content"
+    ],
+    "origin": "기존 GitHub 12_Sequence_Transformer_GenerativeAI/course_documents.csv.",
+    "meaning": "id/title/content는 교육용 검색 문서. TF-IDF 문자 n-gram으로 점수 계산. 외부 LLM 호출 없음.",
+    "sha256": "857a6db84ed8f1d6c32555471fd0b7fb12433a955d1175d9bca3c9e95d275f5e"
+  }
+]

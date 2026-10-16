@@ -1,0 +1,37 @@
+[
+  {
+    "file": "wine.csv",
+    "rows": 178,
+    "columns": [
+      "alcohol",
+      "malic_acid",
+      "ash",
+      "alcalinity_of_ash",
+      "magnesium",
+      "total_phenols",
+      "flavanoids",
+      "nonflavanoid_phenols",
+      "proanthocyanins",
+      "color_intensity",
+      "hue",
+      "od280_od315_of_diluted_wines",
+      "proline",
+      "target"
+    ],
+    "origin": "scikit-learn 내장 Wine 데이터(load_wine), UCI Wine에서 유래한 178개 관측. 생성 자료 아님.",
+    "meaning": "13개 연속형 화학 분석 특성과 target(0,1,2). 7장은 target==0을 양성으로 재정의한다. 물리 단위는 원 출처 설명을 확인한다.",
+    "sha256": "47946bdb6b5017961c6e2b5daa8a74b0d98779c1c66f21645d1d737eded7e8cb"
+  },
+  {
+    "file": "moons.csv",
+    "rows": 300,
+    "columns": [
+      "x1",
+      "x2",
+      "target"
+    ],
+    "origin": "scikit-learn make_moons로 생성한 교육용 합성 데이터, random_state=42.",
+    "meaning": "x1/x2는 무차원 평면 좌표. 군집화에는 정답 target을 입력하지 않는다.",
+    "sha256": "3cfcdf0ee96c8e65958d028fbbc388c1797e8359727b6b2703f172f56c07036d"
+  }
+]

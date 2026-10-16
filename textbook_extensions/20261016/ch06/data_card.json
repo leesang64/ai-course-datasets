@@ -1,0 +1,28 @@
+[
+  {
+    "file": "housing.csv",
+    "rows": 900,
+    "columns": [
+      "area",
+      "rooms",
+      "age",
+      "distance",
+      "school_score",
+      "price"
+    ],
+    "origin": "기존 GitHub 06_Regression/housing_regression.csv를 열 이름만 바꾼 자료. 실측·합성 여부와 원 단위는 미확인.",
+    "meaning": "price를 목표로 사용. area, rooms, age, distance, school_score는 입력. 가격 단위를 임의로 원으로 부르지 않는다.",
+    "sha256": "d25be46f3069abd79501e8315ef866d9e9c8915b49b4899a62d16763ba61c88a"
+  },
+  {
+    "file": "nonlinear.csv",
+    "rows": 100,
+    "columns": [
+      "x",
+      "y"
+    ],
+    "origin": "난수 시드 42의 교육용 합성 비선형 회귀. 실제 측정값 아님.",
+    "meaning": "x 입력, y=sin(1.5x)+잡음. 다항식 차수와 과적합 비교. 단위 없음.",
+    "sha256": "dc5366f8949e175cb60f3e47303e801e1593732fedda4c469b8a34671ed70ba5"
+  }
+]

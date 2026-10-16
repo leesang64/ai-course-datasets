@@ -1,0 +1,29 @@
+[
+  {
+    "file": "maze.csv",
+    "rows": 6,
+    "columns": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "origin": "저자가 정의한 6×6 교육용 격자. 실제 지도 아님.",
+    "meaning": "0 이동 가능, 1 장애물. 시작 (0,0), 목표 (5,5), 상하좌우 비용 1.",
+    "sha256": "1ca72bfcfff0d54858ecebfc6002ff0574c8502b123ee1c3a3b64dd10c029dab"
+  },
+  {
+    "file": "items.csv",
+    "rows": 8,
+    "columns": [
+      "item",
+      "weight",
+      "value"
+    ],
+    "origin": "교육용 8개 배낭 물품을 명시적으로 정의. 실제 상품 가격 아님.",
+    "meaning": "weight 중량과 value 효용은 무차원. 허용 중량 15. 선택 비트 0/1.",
+    "sha256": "5e169c1d25ee11316b139aa3f3f9b43007d8761d69961f8357f2b5cfad2bfabe"
+  }
+]

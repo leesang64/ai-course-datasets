@@ -1,0 +1,12 @@
+{
+  "KMeans": {
+    "ARI": 0.4789688417784687,
+    "noise_n": 0,
+    "silhouette_without_noise": 0.4794676118145756
+  },
+  "DBSCAN": {
+    "ARI": 0.016442244736271424,
+    "noise_n": 15,
+    "silhouette_without_noise": 0.17507986910405698
+  }
+}

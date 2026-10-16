@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="324pt" viewBox="0 0 648 324" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-16T19:12:01.318073</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 324 
+L 648 324 
+L 648 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 113.860165 231.361911 
+Q 139.942131 197.909608 166.711547 163.575594 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 118.300584 229.244676 
+L 113.860165 231.361911 
+L 114.830629 226.539235 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <g id="patch_3">
+     <path d="M 37.540547 289.839359 
+L 142.279453 289.839359 
+L 142.279453 234.320641 
+L 37.540547 234.320641 
+z
+" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(56.026562 246.638922)">gini = 0.044</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(51.944531 258.956516)">samples = 44</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(41.500547 271.274109)">value = [1, 43, 0]</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(64.652969 283.591703)">class = 1</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 222.019835 231.361911 
+Q 195.937869 197.909608 169.168453 163.575594 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 221.049371 226.539235 
+L 222.019835 231.361911 
+L 217.579416 229.244676 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <g id="patch_5">
+     <path d="M 197.099922 289.839359 
+L 294.840078 289.839359 
+L 294.840078 234.320641 
+L 197.099922 234.320641 
+z
+" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(219.085312 246.638922)">gini = 0.0</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(211.503906 258.956516)">samples = 1</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(201.059922 271.274109)">value = [1, 0, 0]</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(220.712969 283.591703)">class = 0</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 425.980165 231.361911 
+Q 452.062131 197.909608 478.831547 163.575594 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 430.420584 229.244676 
+L 425.980165 231.361911 
+L 426.950629 226.539235 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <g id="patch_7">
+     <path d="M 349.660547 289.839359 
+L 454.399453 289.839359 
+L 454.399453 234.320641 
+L 349.660547 234.320641 
+z
+" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(368.146562 246.638922)">gini = 0.057</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(364.064531 258.956516)">samples = 34</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(353.620547 271.274109)">value = [0, 1, 33]</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(376.772969 283.591703)">class = 2</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 534.139835 231.361911 
+Q 508.057869 197.909608 481.288453 163.575594 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 533.169371 226.539235 
+L 534.139835 231.361911 
+L 529.699416 229.244676 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <g id="patch_9">
+     <path d="M 505.720547 289.839359 
+L 610.459453 289.839359 
+L 610.459453 234.320641 
+L 505.720547 234.320641 
+z
+" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(524.206563 246.638922)">gini = 0.231</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(520.124531 258.956516)">samples = 45</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(509.680547 271.274109)">value = [39, 6, 0]</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(532.832969 283.591703)">class = 0</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 223.437588 126.409851 
+Q 272.407216 95.00603 322.31798 62.998666 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 228.329023 125.886532 
+L 223.437588 126.409851 
+L 225.953793 122.182712 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <g id="patch_11">
+     <path d="M 115.570547 195.918156 
+L 220.309453 195.918156 
+L 220.309453 128.081844 
+L 115.570547 128.081844 
+z
+" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(136.758437 140.400125)">ash &lt;= 3.0</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(134.056562 152.717719)">gini = 0.085</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(129.974531 165.035313)">samples = 45</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(119.530547 177.352906)">value = [2, 43, 0]</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(142.682969 189.6705)">class = 1</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end" x="245.97" y="111.96" transform="rotate(-0 245.97 111.96)">True  </text>
+   </g>
+   <g id="patch_12">
+    <path d="M 423.762865 125.897108 
+Q 375.192532 94.749351 325.681063 62.998052 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 421.246659 121.669968 
+L 423.762865 125.897108 
+L 418.87143 125.373789 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <g id="patch_13">
+     <path d="M 422.944219 195.918156 
+L 537.175781 195.918156 
+L 537.175781 128.081844 
+L 422.944219 128.081844 
+z
+" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(426.904219 140.400125)">flavanoids &lt;= 1.58</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(446.176562 152.717719)">gini = 0.574</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(442.094531 165.035313)">samples = 79</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(428.151172 177.352906)">value = [39, 7, 33]</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(454.802969 189.6705)">class = 0</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="402.03" y="111.96" transform="rotate(-0 402.03 111.96)">  False</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 324 61.92 
+Q 324 61.92 324 61.92 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <g id="patch_15">
+     <path d="M 254.942344 95.991125 
+L 393.057656 95.991125 
+L 393.057656 27.542938 
+L 254.942344 27.542938 
+z
+" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(258.902344 40.167156)">color_intensity &lt;= 3.82</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(290.116562 52.790687)">gini = 0.657</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(282.535156 65.108281)">samples = 124</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(268.591797 77.425875)">value = [41, 50, 33]</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(298.742969 89.743469)">class = 1</text>
+   </g>
+  </g>
+ </g>
+</svg>

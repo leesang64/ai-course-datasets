@@ -1,0 +1,13 @@
+[
+  {
+    "file": "linear.csv",
+    "rows": 90,
+    "columns": [
+      "x",
+      "y"
+    ],
+    "origin": "난수 시드 42로 만든 교육용 합성 데이터. 실제 측정값 아님.",
+    "meaning": "x 입력과 y 정답. y=1.8x+0.7+정규 잡음. 단위 없음.",
+    "sha256": "7f4ec9eabcbef4c2b259d1f11af633bebb2a09a57daf59073b81a88f93a37fec"
+  }
+]

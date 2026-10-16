@@ -1,0 +1,7 @@
+{
+  "test_n": 54,
+  "accuracy": {
+    "RandomForest": 1.0,
+    "GradientBoosting": 0.9629629629629629
+  }
+}

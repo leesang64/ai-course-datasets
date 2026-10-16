@@ -1,0 +1,31 @@
+{
+  "train_n": 124,
+  "test_n": 54,
+  "variance_first2": 0.5496008722014621,
+  "reconstruction": [
+    {
+      "components": 1,
+      "scaled_test_mse": 0.6095364010651653
+    },
+    {
+      "components": 2,
+      "scaled_test_mse": 0.40088476657451155
+    },
+    {
+      "components": 3,
+      "scaled_test_mse": 0.3120173677869732
+    },
+    {
+      "components": 5,
+      "scaled_test_mse": 0.2209629414664772
+    },
+    {
+      "components": 8,
+      "scaled_test_mse": 0.08390779160474185
+    },
+    {
+      "components": 13,
+      "scaled_test_mse": 1.4499782735682569e-30
+    }
+  ]
+}

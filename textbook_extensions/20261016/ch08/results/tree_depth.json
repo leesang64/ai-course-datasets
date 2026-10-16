@@ -1,0 +1,41 @@
+{
+  "validation_n": 54,
+  "comparison": [
+    {
+      "depth_label": "1",
+      "nodes": 3,
+      "train_accuracy": 0.6612903225806451,
+      "validation_accuracy": 0.6111111111111112
+    },
+    {
+      "depth_label": "2",
+      "nodes": 7,
+      "train_accuracy": 0.9354838709677419,
+      "validation_accuracy": 0.8888888888888888
+    },
+    {
+      "depth_label": "3",
+      "nodes": 13,
+      "train_accuracy": 0.9919354838709677,
+      "validation_accuracy": 0.9629629629629629
+    },
+    {
+      "depth_label": "4",
+      "nodes": 15,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.9629629629629629
+    },
+    {
+      "depth_label": "6",
+      "nodes": 15,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.9629629629629629
+    },
+    {
+      "depth_label": "None",
+      "nodes": 15,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.9629629629629629
+    }
+  ]
+}

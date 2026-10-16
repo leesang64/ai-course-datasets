@@ -1,0 +1,10 @@
+{
+  "2": {
+    "test_accuracy": 0.8555555555555555,
+    "iterations": 42
+  },
+  "20": {
+    "test_accuracy": 0.9666666666666667,
+    "iterations": 147
+  }
+}

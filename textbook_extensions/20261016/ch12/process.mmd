@@ -1,0 +1,6 @@
+flowchart TD
+    A["CSV 입력·스키마 확인"] --> B["Attention 점수·정규화·가중합의 수치 검증"]
+    A --> C["한국어 문서 TF-IDF 검색과 근거 프롬프트"]
+    B --> D["수치 CSV·JSON·흑백 SVG"]
+    C --> D
+    D --> E["수식·해석·검증 과제"]

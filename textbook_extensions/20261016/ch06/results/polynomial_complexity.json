@@ -1,0 +1,21 @@
+{
+  "train_n": 65,
+  "validation_n": 35,
+  "comparison": [
+    {
+      "degree": 1,
+      "train_mse": 0.5473315381283144,
+      "validation_mse": 0.5837276886715528
+    },
+    {
+      "degree": 3,
+      "train_mse": 0.09840338772961127,
+      "validation_mse": 0.10333037320461691
+    },
+    {
+      "degree": 12,
+      "train_mse": 0.0555680496892883,
+      "validation_mse": 0.07235448274809285
+    }
+  ]
+}

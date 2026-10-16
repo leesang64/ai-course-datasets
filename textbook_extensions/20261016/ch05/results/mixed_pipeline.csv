@@ -1,0 +1,15 @@
+feature,coefficient
+num__age,-0.0833521729329346
+num__tenure,-0.1672903153241417
+num__monthly_charge,0.34716714786217673
+num__total_charge,-0.18088076907654674
+cat__contract_monthly,0.6993096209434584
+cat__contract_one_year,-0.3596881838351329
+cat__contract_two_year,-0.3350038049233364
+cat__internet_dsl,-0.10127422057473814
+cat__internet_fiber,-0.06844036637518602
+cat__internet_none,0.1743322191349054
+cat__support_no,0.27963101712149
+cat__support_yes,-0.275013384936504
+cat__ebilling_no,0.03234480140939057
+cat__ebilling_yes,-0.027727169224409993
