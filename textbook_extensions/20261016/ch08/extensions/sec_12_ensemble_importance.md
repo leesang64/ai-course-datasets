@@ -4,7 +4,7 @@ wine.csv는 178행입니다. scikit-learn 내장 Wine 데이터(load_wine), UCI 
 
 ## 선정 이유
 
-서로 다른 앙상블을 동일 분할에서 비교하고 열을 섞을 때 예측 성능이 얼마나 떨어지는지 본다.
+같은 Wine 입력과 분할에서 여러 앙상블과 특성 순열 결과를 비교할 수 있습니다. 훈련 분기 중요도와 테스트 순열 중요도를 구분하기 위해 선택했습니다.
 
 - [셀별 노트북](sec_12_ensemble_importance.ipynb)
 - [전체 코드](sec_12_ensemble_importance.py)

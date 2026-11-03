@@ -4,7 +4,7 @@ housing.csv는 900행입니다. 기존 GitHub 06_Regression/housing_regression.c
 
 ## 선정 이유
 
-평가 수치 하나와 예측·잔차의 시각적 진단을 함께 확인한다.
+여러 입력 열을 가진 주택 자료라 면적 하나로 설명되지 않는 오차와 잔차 패턴을 살펴볼 수 있습니다. 잔차가 큰 행을 무조건 오류로 삭제하지 않는 진단을 연습하기 위해 선택했습니다.
 
 - [셀별 노트북](sec_12_regression_residual.ipynb)
 - [전체 코드](sec_12_regression_residual.py)

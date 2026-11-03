@@ -4,7 +4,7 @@ wine.csv는 178행입니다. scikit-learn 내장 Wine 데이터(load_wine), UCI 
 
 ## 선정 이유
 
-학습 자료의 양과 훈련·검증 격차를 연결하고 epoch 손실 곡선과 구분한다.
+같은 Wine 분할에서 훈련 표본 수만 바꿀 수 있어 학습량의 영향을 관찰하기 좋습니다. 작은 표본에서도 모든 클래스가 있는지 함께 점검합니다.
 
 - [셀별 노트북](sec_12_mlp_learning_curve.ipynb)
 - [전체 코드](sec_12_mlp_learning_curve.py)

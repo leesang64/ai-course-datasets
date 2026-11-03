@@ -4,7 +4,7 @@ wine.csv는 178행입니다. scikit-learn 내장 Wine 데이터(load_wine), UCI 
 
 ## 선정 이유
 
-같은 확률 예측을 여러 임계값으로 바꾸어 지표 수식과 혼동행렬을 일대일로 대응한다.
+세 품종 Wine 중 한 품종을 양성으로 재정의하면 같은 자료에서 확률과 임계값을 비교할 수 있습니다. 원래의 3클래스 분류와 이진 지표의 차이를 설명하기 위해 선택했습니다.
 
 - [셀별 노트북](sec_11_threshold_metrics.ipynb)
 - [전체 코드](sec_11_threshold_metrics.py)

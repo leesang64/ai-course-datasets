@@ -4,7 +4,7 @@ moons.csv는 300행입니다. scikit-learn make_moons로 생성한 교육용 합
 
 ## 선정 이유
 
-중심까지의 거리와 밀도 연결이라는 서로 다른 군집 정의를 비교한다.
+휘어진 두 반달의 합성 군집은 구형 군집을 선호하는 방법과 밀도 기반 방법의 차이를 보이기 좋습니다. 생성 라벨은 학습에 넣지 않고 외부 평가에만 사용합니다.
 
 - [셀별 노트북](sec_11_clustering_compare.ipynb)
 - [전체 코드](sec_11_clustering_compare.py)

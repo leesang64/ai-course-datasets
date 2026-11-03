@@ -4,7 +4,7 @@ wine.csv는 178행입니다. scikit-learn 내장 Wine 데이터(load_wine), UCI 
 
 ## 선정 이유
 
-차원 축소의 정보 보존을 훈련 설명 분산과 미관측 재구성 오차로 구분한다.
+13개 수치 입력의 Wine은 차원 수와 설명 분산·재구성 오차를 비교하기 좋습니다. 2차원 시각화에 남는 정보와 원래 공간의 복원을 구분하기 위해 선택했습니다.
 
 - [셀별 노트북](sec_12_pca_reconstruction.ipynb)
 - [전체 코드](sec_12_pca_reconstruction.py)

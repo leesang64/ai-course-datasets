@@ -4,7 +4,7 @@ documents.csv는 60행입니다. 기존 GitHub 12_Sequence_Transformer_Generativ
 
 ## 선정 이유
 
-질문과 문서의 검색 점수를 계산하고 근거 문서를 식별자로 연결한 프롬프트를 만든다.
+한국어 문서는 공백과 조사 때문에 단어가 정확히 일치하지 않을 수 있습니다. 문자 조각 벡터화와 근거 프롬프트를 확인하기 위해 선택했으며 관련성은 사람이 문서를 읽고 평가합니다.
 
 - [셀별 노트북](sec_12_retrieval.ipynb)
 - [전체 코드](sec_12_retrieval.py)
