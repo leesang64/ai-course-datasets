@@ -1,0 +1,14 @@
+Final Epoch Loss: 0.000034
+XOR Accuracy: 1.0000
+XOR Predictions: [0, 1, 1, 0]
+{
+  "training_accuracy": 1.0,
+  "predictions": [
+    0,
+    1,
+    1,
+    0
+  ],
+  "last_preupdate_loss": 3.3944263122975826e-05,
+  "training_rows": 4
+}

@@ -1,0 +1,12 @@
+RandomForest     | Accuracy: 0.9300 | F1: 0.2222
+GradientBoosting | Accuracy: 0.9167 | F1: 0.2424
+{
+  "RandomForest": {
+    "accuracy": 0.93,
+    "F1": 0.2222222222222222
+  },
+  "GradientBoosting": {
+    "accuracy": 0.9166666666666666,
+    "F1": 0.24242424242424243
+  }
+}

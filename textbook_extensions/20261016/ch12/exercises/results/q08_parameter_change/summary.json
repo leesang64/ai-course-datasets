@@ -1,0 +1,11 @@
+{
+  "retrieved_ids": [
+    "DOC000",
+    "DOC001"
+  ],
+  "shared_tokens": [
+    2,
+    2
+  ],
+  "LLM_called": false
+}

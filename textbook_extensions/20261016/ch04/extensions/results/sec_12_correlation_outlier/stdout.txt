@@ -1,0 +1,9 @@
+{
+  "iqr_flags": {
+    "age": 0,
+    "tenure": 0,
+    "monthly_charge": 9,
+    "total_charge": 5
+  },
+  "pairwise_corr_tenure_total": 0.8197286745425285
+}

@@ -1,0 +1,19 @@
+{
+  "train_n": 840,
+  "test_n": 360,
+  "transformed_features": 14,
+  "figure_feature_codes": {
+    "F7": "cat__internet_dsl",
+    "F1": "num__tenure",
+    "F9": "cat__internet_none",
+    "F3": "num__total_charge",
+    "F11": "cat__support_yes",
+    "F10": "cat__support_no",
+    "F6": "cat__contract_two_year",
+    "F2": "num__monthly_charge",
+    "F5": "cat__contract_one_year",
+    "F4": "cat__contract_monthly"
+  },
+  "accuracy": 0.7916666666666666,
+  "f1": 0.025974025974025976
+}

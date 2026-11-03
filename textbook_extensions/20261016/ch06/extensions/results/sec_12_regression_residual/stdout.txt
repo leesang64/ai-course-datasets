@@ -1,0 +1,7 @@
+Out[0]: <matplotlib.collections.PathCollection at 0x7ff935f915e0>
+{
+  "test_n": 225,
+  "MAE": 21262.236678422567,
+  "RMSE": 26904.542907001793,
+  "R2": 0.8993479315644811
+}

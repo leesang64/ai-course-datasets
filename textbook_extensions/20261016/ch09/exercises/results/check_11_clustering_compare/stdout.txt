@@ -1,0 +1,30 @@
+{
+  "KMeans": {
+    "ARI": 0.4789688417784687,
+    "noise_n": 0,
+    "silhouette_without_noise": 0.4794676118145756
+  },
+  "DBSCAN": {
+    "ARI": 0.016442244736271424,
+    "noise_n": 15,
+    "silhouette_without_noise": 0.17507986910405698
+  }
+}
+{
+  "comparison": [
+    {
+      "eps": 0.15,
+      "clusters": 12,
+      "noise": 185,
+      "ARI": 0.031029798528385926,
+      "silhouette_without_noise": 0.5752680056306211
+    },
+    {
+      "eps": 0.5,
+      "clusters": 1,
+      "noise": 1,
+      "ARI": 0.0,
+      "silhouette_without_noise": null
+    }
+  ]
+}

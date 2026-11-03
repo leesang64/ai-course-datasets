@@ -1,18 +1,83 @@
+# %% 셀 1 라이브러리 가져오기
+# 가져오기(Import) 문장으로 경로 객체(Path)를 연결합니다. 이 셀에서는 자료를 학습하지 않습니다.
 from pathlib import Path
-import sys
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from common import np, pd, plt, setup, figure, report
-DATA, OUT = setup(__file__)
+
+# 가져오기(Import) 문장으로 자바스크립트 객체 표기법(JavaScript Object Notation, JSON) 도구를 연결합니다. 이 셀에서는 자료를 학습하지 않습니다.
+import json
+
+# 가져오기(Import) 문장으로 수치 배열 도구 넘파이(Numerical Python, NumPy)의 별칭 np를 연결합니다. 이 셀에서는 자료를 학습하지 않습니다.
+import numpy as np
+
+# 가져오기(Import) 문장으로 자료 표 도구 판다스(pandas)의 별칭 pd를 연결합니다. 이 셀에서는 자료를 학습하지 않습니다.
+import pandas as pd
+
+# 가져오기(Import) 문장으로 맷플롯립 파이플롯(Matplotlib Pyplot)의 별칭 plt를 연결합니다. 이 셀에서는 자료를 학습하지 않습니다.
+import matplotlib.pyplot as plt
+
+# 가져오기(Import) 문장으로 셀 출력 표시 함수(display), 이미지 표시 객체(IPython Image)를 연결합니다. 이 셀에서는 자료를 학습하지 않습니다.
+from IPython.display import display, Image as NotebookImage
+
+# 가져오기(Import) 문장으로 deque 기능를 연결합니다. 이 셀에서는 자료를 학습하지 않습니다.
 from collections import deque
+
+# 가져오기(Import) 문장으로 heapq 기능를 연결합니다. 이 셀에서는 자료를 학습하지 않습니다.
 import heapq
+
+# %% 셀 2 입력·계산·출력 확인
+# 그림의 축·제목·범례·표시 범위를 설정합니다. 표시 범위가 계산에 사용한 관측 수를 바꾸는 것은 아닙니다.
+plt.rcParams.update({"font.family":"DejaVu Sans","font.size":11,"svg.fonttype":"none","axes.prop_cycle":plt.cycler(color=["black","0.45","0.7"]),"figure.figsize":(7,4.2)})
+
+# 변수 HERE를 오른쪽 식으로 계산해 다음 단계에서 사용합니다. 값과 형태(Shape)를 구분하고 앞 셀의 입력이 준비되어 있는지 확인합니다.
+HERE=Path(__file__).resolve().parent if "__file__" in globals() else Path.cwd()
+
+# 변수 CHAPTER를 오른쪽 식으로 계산해 다음 단계에서 사용합니다. 값과 형태(Shape)를 구분하고 앞 셀의 입력이 준비되어 있는지 확인합니다.
+CHAPTER=HERE if (HERE/"data").exists() else HERE.parent
+
+# 입력 폴더(Data Directory, DATA)를 오른쪽 식으로 계산해 다음 단계에서 사용합니다. 값과 형태(Shape)를 구분하고 앞 셀의 입력이 준비되어 있는지 확인합니다.
+DATA=CHAPTER/"data"
+
+# 출력 폴더(Output Directory, OUT)를 오른쪽 식으로 계산해 다음 단계에서 사용합니다. 값과 형태(Shape)를 구분하고 앞 셀의 입력이 준비되어 있는지 확인합니다.
+OUT=HERE/"results"/"sec_11_search_compare"
+
+# 앞 셀의 값을 사용해 OUT.mkdir(parents=True,exist_ok=True) 동작을 수행합니다. 코드에 쓰인 괄호·인자·들여쓰기를 유지합니다.
+OUT.mkdir(parents=True,exist_ok=True)
+
+# 검증 조건(Assertion)을 확인합니다. 거짓이면 셀을 중단하며 실패를 성공한 결과로 바꾸지 않습니다.
+assert DATA.exists(), f"장별 data 폴더를 함께 내려받으세요: {DATA}"
+
+# %% 셀 3 함수와 모듈 정의
+# 그림 저장 함수(figure)를 정의합니다. 실제 현재 그림을 벡터 형식과 300dpi 이미지로 저장하고 노트북에 표시합니다. 함수 정의와 뒤의 실제 호출을 구분합니다.
+def figure(out,name):
+    plt.tight_layout()
+    plt.savefig(out/(name+".svg"),facecolor="white")
+    plt.savefig(out/(name+".png"),dpi=300,facecolor="white")
+    if "get_ipython" in globals():display(NotebookImage(filename=str(out/(name+".png"))))
+    plt.close()
+
+# %% 셀 4 함수와 모듈 정의
+# 결과 기록 함수(report)를 정의합니다. 계산된 지표만 JSON과 문자 출력에 기록하며 비유한 수치를 성공값으로 바꾸지 않습니다.
+def report(out,name,metrics):
+    text=json.dumps(metrics,ensure_ascii=False,indent=2,allow_nan=False)
+    (out/(name+".json")).write_text(text,encoding="utf-8")
+    print(text)
+
+# %% 셀 5 입력·계산·출력 확인
+# 쉼표 구분 자료(Comma Separated Values, CSV)를 읽습니다. 이 실습에서 선정한 입력 파일과 열 이름·목표 열을 확인합니다. 입력 자료의 선정 이유와 실제 행 수는 앞의 자료 설명을 따릅니다.
 maze=pd.read_csv(DATA/"maze.csv").to_numpy()
+
+# 변수 start·변수 goal를 오른쪽 식으로 계산해 다음 단계에서 사용합니다. 값과 형태(Shape)를 구분하고 앞 셀의 입력이 준비되어 있는지 확인합니다.
 start,goal=(0,0),(5,5)
+
+# %% 셀 6 함수와 모듈 정의
+# neighbors의 입력·처리·반환을 정의합니다. 들여쓴 문장은 함수 또는 순전파가 호출될 때 실행됩니다. 아래 코드를 따라 조건·반복·종료 경로를 확인합니다.
 def neighbors(u):
     for dr,dc in [(0,1),(1,0),(0,-1),(-1,0)]:
         v=(u[0]+dr,u[1]+dc)
         if 0<=v[0]<6 and 0<=v[1]<6 and maze[v]==0:
             yield v
 
+# %% 셀 7 함수와 모듈 정의
+# search의 입력·처리·반환을 정의합니다. 들여쓴 문장은 함수 또는 순전파가 호출될 때 실행됩니다. 아래 코드를 따라 조건·반복·종료 경로를 확인합니다.
 def search(astar):
     frontier=[(0,start)];parent={start:None};cost={start:0};seen=[]
     while frontier:
@@ -29,6 +94,8 @@ def search(astar):
     path=[];u=goal
     while u is not None: path.append(u);u=parent[u]
     return path[::-1],seen
+
+# %% 셀 8 함수와 모듈 정의
 # FIFO BFS is implemented explicitly, not as a priority-queue substitute.
 def bfs():
     q=deque([start]);parent={start:None};seen=[]
@@ -40,7 +107,15 @@ def bfs():
     path=[];u=goal
     while u is not None:path.append(u);u=parent[u]
     return path[::-1],seen
-fig,axes=plt.subplots(1,2,figsize=(7,3.6));metrics={}
+
+# %% 셀 9 입력·계산·출력 확인
+# 변수 fig·변수 axes를 오른쪽 식으로 계산해 다음 단계에서 사용합니다. 값과 형태(Shape)를 구분하고 앞 셀의 입력이 준비되어 있는지 확인합니다.
+fig,axes=plt.subplots(1,2,figsize=(7,3.6))
+
+# 변수 metrics를 오른쪽 식으로 계산해 다음 단계에서 사용합니다. 값과 형태(Shape)를 구분하고 앞 셀의 입력이 준비되어 있는지 확인합니다.
+metrics={}
+
+# 반복문(Loop)의 조건에 따라 들여쓴 계산을 수행합니다. for ax,label,fn in zip(axes,["BFS","A*"],[bfs,lambda:search(True)]):에서 반복 대상과 횟수를 확인하고 종료 뒤에는 마지막 계산 상태가 남는다는 점에 주의합니다.
 for ax,label,fn in zip(axes,["BFS","A*"],[bfs,lambda:search(True)]):
     path,seen=fn();rr,cc=zip(*path)
     ax.imshow(maze,cmap="gray_r",vmin=0,vmax=1)
@@ -49,5 +124,12 @@ for ax,label,fn in zip(axes,["BFS","A*"],[bfs,lambda:search(True)]):
     ax.set(title=f"{label}: expanded {len(seen)}",xlabel="Column",ylabel="Row")
     metrics[label]={"steps":len(path)-1,"expanded":len(seen)}
     pd.DataFrame(path,columns=["row","column"]).to_csv(OUT/f"{label.replace('*','star')}_path.csv",index=False)
-figure(OUT,"search_compare");report(OUT,"search_compare",metrics)
+
+# 실제 계산한 그림을 저장하고 표시합니다. 축·기호·범례의 의미는 이 실습의 결과 해설과 대조합니다.
+figure(OUT,"search_compare")
+
+# 실제 계산한 수치를 결과 파일과 셀 출력에 기록합니다. 다른 데이터나 미실행 모델의 성능으로 해석하지 않습니다.
+report(OUT,"search_compare",metrics)
+
+# 검증 조건(Assertion)을 확인합니다. 거짓이면 셀을 중단하며 실패를 성공한 결과로 바꾸지 않습니다.
 assert metrics["BFS"]["steps"]==metrics["A*"]["steps"]

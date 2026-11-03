@@ -1,0 +1,16 @@
+{
+  "complete_rows": 1140,
+  "excluded_rows": 60,
+  "missing_by_column": {
+    "customer_id": 0,
+    "age": 0,
+    "tenure": 0,
+    "monthly_charge": 20,
+    "total_charge": 20,
+    "contract": 0,
+    "internet": 0,
+    "support": 20,
+    "ebilling": 0,
+    "churn": 0
+  }
+}

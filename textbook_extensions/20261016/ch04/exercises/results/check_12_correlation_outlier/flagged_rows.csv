@@ -1,0 +1,12 @@
+customer_id,age,tenure,monthly_charge,total_charge,contract,internet,support,ebilling,churn
+SYN00431,26,65,122.6565891,7911.209714,monthly,fiber,yes,yes,0
+SYN00509,63,55,130.6735,7156.855803,monthly,dsl,no,no,1
+SYN00576,23,4,129.5985421,499.3416226,monthly,dsl,yes,no,0
+SYN00596,29,67,133.004559,8890.594248,monthly,none,no,yes,0
+SYN00607,57,45,131.839713,6038.500445,one_year,dsl,no,yes,0
+SYN00732,56,68,132.1869154,8919.054614,monthly,dsl,no,yes,1
+SYN00895,60,22,129.1752976,2764.736999,two_year,fiber,no,no,1
+SYN00923,35,69,132.0910356,9101.151637,one_year,fiber,no,yes,0
+SYN00941,57,70,114.7816115,8047.001074,one_year,none,yes,yes,1
+SYN01077,79,13,134.3240702,1775.757093,monthly,none,yes,no,0
+SYN01153,64,18,134.8434578,2448.729099,monthly,none,no,yes,1

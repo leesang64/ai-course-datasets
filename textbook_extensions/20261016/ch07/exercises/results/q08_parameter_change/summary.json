@@ -1,0 +1,15 @@
+{
+  "confusion_matrix": [
+    [
+      41,
+      1
+    ],
+    [
+      5,
+      67
+    ]
+  ],
+  "ROC_AUC": 0.9953703703703703,
+  "positive_class": "1=benign",
+  "test_n": 114
+}

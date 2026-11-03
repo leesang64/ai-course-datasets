@@ -1,0 +1,30 @@
+Confusion Matrix:
+[[40  2]
+ [ 0 72]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     1.0000    0.9524    0.9756        42
+           1     0.9730    1.0000    0.9863        72
+
+    accuracy                         0.9825       114
+   macro avg     0.9865    0.9762    0.9810       114
+weighted avg     0.9829    0.9825    0.9824       114
+
+ROC-AUC: 0.9954
+{
+  "confusion_matrix": [
+    [
+      40,
+      2
+    ],
+    [
+      0,
+      72
+    ]
+  ],
+  "ROC_AUC": 0.9953703703703703,
+  "positive_class": "1=benign",
+  "test_n": 114
+}

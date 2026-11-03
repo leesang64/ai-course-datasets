@@ -1,0 +1,14 @@
+{
+  "BFS": {
+    "steps": 10,
+    "expanded": 19
+  },
+  "A*": {
+    "steps": 10,
+    "expanded": 11
+  }
+}
+{
+  "both_paths_valid": true,
+  "equal_steps": true
+}

@@ -1,0 +1,8 @@
+flowchart TD
+ A["X y split 80:20"] --> B["X_train fit_transform"]
+ A --> E["X_test transform only"]
+ B --> C["Numeric median scale and category mode one hot"]
+ C --> D["Train array feature names"]
+ C -. "fitted state" .-> F["Reuse learned statistics and categories"]
+ E --> F --> G["Test array same feature
+order"]

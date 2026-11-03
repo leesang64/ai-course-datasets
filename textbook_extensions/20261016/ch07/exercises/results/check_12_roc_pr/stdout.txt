@@ -1,0 +1,14 @@
+Out[0]: <matplotlib.lines.Line2D at 0x7f8d5a489e80>
+{
+  "test_n": 54,
+  "prevalence": 0.3333333333333333,
+  "ROC_AUC": 1.0,
+  "AP": 1.0000000000000002,
+  "Brier": 0.027331693273780305
+}
+{
+  "positive_prevalence": 0.3333333333333333,
+  "Brier": 0.027331693273780305,
+  "ROC_AUC": 1.0
+}
+브라이어 점수는 확률의 평균제곱오차이며 ROC AUC는 순위 구분 능력입니다.

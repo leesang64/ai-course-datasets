@@ -1,0 +1,20 @@
+Out[0]: <matplotlib.collections.PathCollection at 0x7f2ae6443fe0>
+{
+  "test_n": 225,
+  "MAE": 21262.236678422567,
+  "RMSE": 26904.542907001793,
+  "R2": 0.8993479315644811
+}
+{
+  "source_row": 543,
+  "residual": -77808.77118682387,
+  "missing_cells": 0,
+  "features": {
+    "area": 76.04,
+    "rooms": 6.0,
+    "age": 22.0,
+    "distance": 16.15,
+    "school_score": 43.9
+  }
+}
+누락 특성과 비선형 관계는 추가 확인할 원인 가설이며 확정 원인이 아닙니다.

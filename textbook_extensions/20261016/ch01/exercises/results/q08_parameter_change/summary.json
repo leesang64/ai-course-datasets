@@ -1,0 +1,6 @@
+{
+  "events": 3,
+  "mean_gap": 5.0,
+  "seed": 42,
+  "device": "cpu"
+}

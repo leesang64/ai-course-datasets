@@ -1,0 +1,22 @@
+{
+  "cnn_input": [
+    4,
+    1,
+    28,
+    28
+  ],
+  "cnn_output": [
+    4,
+    10
+  ],
+  "lstm_input": [
+    4,
+    20,
+    5
+  ],
+  "lstm_output": [
+    4,
+    3
+  ],
+  "trained": false
+}

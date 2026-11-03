@@ -7,3 +7,4 @@ nbformat>=5.10
 nbclient>=0.10
 ipykernel>=6.0
 jupyterlab>=4.0
+# PyTorch CPU 설치는 README의 별도 명령을 사용합니다.

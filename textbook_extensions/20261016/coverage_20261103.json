@@ -1,0 +1,2593 @@
+{
+  "date": "2026-11-03",
+  "programs": [
+    {
+      "chapter": 1,
+      "section": "1.7",
+      "kind": "body",
+      "title": "환경과 사건 연도 텐서",
+      "path": "ch01/body/sec_07_main",
+      "summary": {
+        "summary": {
+          "events": 9,
+          "mean_gap": 9.875,
+          "seed": 42,
+          "device": "cpu"
+        }
+      },
+      "result_images": [
+        "ch01/body/results/sec_07_main/event_gaps.png"
+      ]
+    },
+    {
+      "chapter": 1,
+      "section": "1.11",
+      "kind": "extension",
+      "title": "지도·비지도 학습의 입력과 출력 비교",
+      "path": "ch01/extensions/sec_11_learning_modes",
+      "summary": {
+        "learning_modes": {
+          "test_n": 54,
+          "accuracy": 0.9814814814814815,
+          "cluster_ARI": 0.8341623876765083
+        }
+      },
+      "result_images": [
+        "ch01/extensions/results/sec_11_learning_modes/learning_modes.png"
+      ]
+    },
+    {
+      "chapter": 1,
+      "section": "1.12",
+      "kind": "extension",
+      "title": "난수 시드와 데이터 분할에 따른 평가 변동",
+      "path": "ch01/extensions/sec_12_seed_sensitivity",
+      "summary": {
+        "seed_sensitivity": {
+          "python": "3.12.14",
+          "sklearn": "1.8.0",
+          "accuracy_mean": 0.9814814814814815,
+          "accuracy_std_ddof1": 0.015120307054217172
+        }
+      },
+      "result_images": [
+        "ch01/extensions/results/sec_12_seed_sensitivity/seed_sensitivity.png"
+      ]
+    },
+    {
+      "chapter": 2,
+      "section": "2.7",
+      "kind": "body",
+      "title": "자동 미분과 선형 회귀",
+      "path": "ch02/body/sec_07_main",
+      "summary": {
+        "summary": {
+          "W": 2.664076566696167,
+          "b": 4.104000568389893,
+          "last_preupdate_loss": 4.006217002868652,
+          "steps": 301
+        }
+      },
+      "result_images": [
+        "ch02/body/results/sec_07_main/ch02_gradient_descent_loss.png"
+      ]
+    },
+    {
+      "chapter": 2,
+      "section": "2.11",
+      "kind": "extension",
+      "title": "선형 회귀 손실과 경사하강법 궤적",
+      "path": "ch02/extensions/sec_11_gradient_descent",
+      "summary": {
+        "gradient_descent": {
+          "w": 1.7881074789633025,
+          "b": 0.7062523833269793,
+          "initial_mse": 10.543754677694318,
+          "final_mse": 0.2373908470728377
+        }
+      },
+      "result_images": [
+        "ch02/extensions/results/sec_11_gradient_descent/gradient_descent.png"
+      ]
+    },
+    {
+      "chapter": 2,
+      "section": "2.12",
+      "kind": "extension",
+      "title": "중앙 차분으로 해석적 미분 검산",
+      "path": "ch02/extensions/sec_12_gradient_check",
+      "summary": {
+        "gradient_check": {
+          "analytic_dw": -8.515805433112032,
+          "analytic_db": -1.8125558900166667,
+          "min_abs_error": 7.105427357601002e-15
+        }
+      },
+      "result_images": [
+        "ch02/extensions/results/sec_12_gradient_check/gradient_check.png"
+      ]
+    },
+    {
+      "chapter": 3,
+      "section": "3.7",
+      "kind": "body",
+      "title": "가중 그래프의 최단 경로",
+      "path": "ch03/body/sec_07_main",
+      "summary": {
+        "summary": {
+          "path": [
+            "A",
+            "C",
+            "D"
+          ],
+          "cost": 4
+        }
+      },
+      "result_images": [
+        "ch03/body/results/sec_07_main/astar_path.png"
+      ]
+    },
+    {
+      "chapter": 3,
+      "section": "3.11",
+      "kind": "extension",
+      "title": "BFS와 A*의 경로·확장 노드 비교",
+      "path": "ch03/extensions/sec_11_search_compare",
+      "summary": {
+        "search_compare": {
+          "BFS": {
+            "steps": 10,
+            "expanded": 19
+          },
+          "A*": {
+            "steps": 10,
+            "expanded": 11
+          }
+        }
+      },
+      "result_images": [
+        "ch03/extensions/results/sec_11_search_compare/search_compare.png"
+      ]
+    },
+    {
+      "chapter": 3,
+      "section": "3.12",
+      "kind": "extension",
+      "title": "유전자 알고리즘과 완전 탐색의 배낭 해 비교",
+      "path": "ch03/extensions/sec_12_genetic_knapsack",
+      "summary": {
+        "genetic_knapsack": {
+          "exact_optimum": 38,
+          "ga_value": 38,
+          "ga_weight": 15,
+          "bits": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      },
+      "result_images": [
+        "ch03/extensions/results/sec_12_genetic_knapsack/genetic_knapsack.png"
+      ]
+    },
+    {
+      "chapter": 4,
+      "section": "4.7",
+      "kind": "body",
+      "title": "자료 요약과 상관·산점도",
+      "path": "ch04/body/sec_07_main",
+      "summary": {
+        "summary": {
+          "rows": 900,
+          "area_price_correlation": 0.7651328794054775
+        }
+      },
+      "result_images": [
+        "ch04/body/results/sec_07_main/ch04_area_price_scatter.png",
+        "ch04/body/results/sec_07_main/ch04_correlation_heatmap.png"
+      ]
+    },
+    {
+      "chapter": 4,
+      "section": "4.11",
+      "kind": "extension",
+      "title": "결측 분포와 범주별 관측 수 탐색",
+      "path": "ch04/extensions/sec_11_missingness",
+      "summary": {
+        "missingness": {
+          "rows": 1200,
+          "duplicate_rows": 0,
+          "missing_fraction": {
+            "total_charge": 0.016666666666666666,
+            "monthly_charge": 0.016666666666666666,
+            "support": 0.016666666666666666,
+            "customer_id": 0.0,
+            "age": 0.0,
+            "tenure": 0.0,
+            "contract": 0.0,
+            "internet": 0.0,
+            "ebilling": 0.0,
+            "churn": 0.0
+          },
+          "contract_codes": {
+            "C0": "monthly",
+            "C1": "one_year",
+            "C2": "two_year"
+          }
+        }
+      },
+      "result_images": [
+        "ch04/extensions/results/sec_11_missingness/missingness.png"
+      ]
+    },
+    {
+      "chapter": 4,
+      "section": "4.12",
+      "kind": "extension",
+      "title": "산점도·상관행렬·이상값 플래그 비교",
+      "path": "ch04/extensions/sec_12_correlation_outlier",
+      "summary": {
+        "correlation_outlier": {
+          "iqr_flags": {
+            "age": 0,
+            "tenure": 0,
+            "monthly_charge": 9,
+            "total_charge": 5
+          },
+          "pairwise_corr_tenure_total": 0.8197286745425285
+        }
+      },
+      "result_images": [
+        "ch04/extensions/results/sec_12_correlation_outlier/correlation_outlier.png"
+      ]
+    },
+    {
+      "chapter": 5,
+      "section": "5.7",
+      "kind": "body",
+      "title": "혼합형 입력의 전처리",
+      "path": "ch05/body/sec_07_main",
+      "summary": {
+        "summary": {
+          "train_shape": [
+            80,
+            4
+          ],
+          "transformed_train_shape": [
+            80,
+            7
+          ],
+          "test_shape": [
+            20,
+            7
+          ],
+          "missing_before": 4,
+          "missing_after": 0
+        }
+      },
+      "result_images": [
+        "ch05/body/results/sec_07_main/missing_before_after.png"
+      ]
+    },
+    {
+      "chapter": 5,
+      "section": "5.11",
+      "kind": "extension",
+      "title": "혼합형 데이터 전처리 Pipeline과 계수 해석",
+      "path": "ch05/extensions/sec_11_mixed_pipeline",
+      "summary": {
+        "mixed_pipeline": {
+          "train_n": 840,
+          "test_n": 360,
+          "transformed_features": 14,
+          "figure_feature_codes": {
+            "F7": "cat__internet_dsl",
+            "F1": "num__tenure",
+            "F9": "cat__internet_none",
+            "F3": "num__total_charge",
+            "F11": "cat__support_yes",
+            "F10": "cat__support_no",
+            "F6": "cat__contract_two_year",
+            "F2": "num__monthly_charge",
+            "F5": "cat__contract_one_year",
+            "F4": "cat__contract_monthly"
+          },
+          "accuracy": 0.7916666666666666,
+          "f1": 0.025974025974025976
+        }
+      },
+      "result_images": [
+        "ch05/extensions/results/sec_11_mixed_pipeline/mixed_pipeline.png"
+      ]
+    },
+    {
+      "chapter": 5,
+      "section": "5.12",
+      "kind": "extension",
+      "title": "훈련 통계 고정과 분포 이동 시 표준화",
+      "path": "ch05/extensions/sec_12_shift_scaler",
+      "summary": {
+        "shift_scaler": {
+          "training_mean": -1.6917684184764292e-17,
+          "current_fixed_mean": 0.9820481867102312,
+          "current_refit_mean": 8.437694987151189e-16
+        }
+      },
+      "result_images": [
+        "ch05/extensions/results/sec_12_shift_scaler/shift_scaler.png"
+      ]
+    },
+    {
+      "chapter": 6,
+      "section": "6.7",
+      "kind": "body",
+      "title": "선형·릿지·라쏘 회귀",
+      "path": "ch06/body/sec_07_main",
+      "summary": {
+        "summary": {
+          "LinearRegression": {
+            "MAE": 22454.42034827255,
+            "RMSE": 27880.177658387813,
+            "R2": 0.8927138391507903
+          },
+          "Ridge": {
+            "MAE": 22452.54551950532,
+            "RMSE": 27878.549550923468,
+            "R2": 0.8927263690780579
+          },
+          "Lasso": {
+            "MAE": 22454.338297173214,
+            "RMSE": 27880.111562570193,
+            "R2": 0.8927143478389488
+          }
+        }
+      },
+      "result_images": [
+        "ch06/body/results/sec_07_main/ch06_actual_vs_predicted.png",
+        "ch06/body/results/sec_07_main/ch06_residual_plot.png"
+      ]
+    },
+    {
+      "chapter": 6,
+      "section": "6.11",
+      "kind": "extension",
+      "title": "다항 회귀 차수와 훈련·검증 오차",
+      "path": "ch06/extensions/sec_11_polynomial_complexity",
+      "summary": {
+        "polynomial_complexity": {
+          "train_n": 65,
+          "validation_n": 35,
+          "comparison": [
+            {
+              "degree": 1,
+              "train_mse": 0.5473315381283144,
+              "validation_mse": 0.5837276886715528
+            },
+            {
+              "degree": 3,
+              "train_mse": 0.09840338772961127,
+              "validation_mse": 0.10333037320461691
+            },
+            {
+              "degree": 12,
+              "train_mse": 0.0555680496892883,
+              "validation_mse": 0.07235448274809285
+            }
+          ]
+        }
+      },
+      "result_images": [
+        "ch06/extensions/results/sec_11_polynomial_complexity/polynomial_complexity.png"
+      ]
+    },
+    {
+      "chapter": 6,
+      "section": "6.12",
+      "kind": "extension",
+      "title": "다변량 회귀의 예측·잔차 진단",
+      "path": "ch06/extensions/sec_12_regression_residual",
+      "summary": {
+        "regression_residual": {
+          "test_n": 225,
+          "MAE": 21262.236678422567,
+          "RMSE": 26904.542907001793,
+          "R2": 0.8993479315644811
+        }
+      },
+      "result_images": [
+        "ch06/extensions/results/sec_12_regression_residual/regression_residual.png"
+      ]
+    },
+    {
+      "chapter": 7,
+      "section": "7.7",
+      "kind": "body",
+      "title": "로지스틱 분류와 혼동행렬",
+      "path": "ch07/body/sec_07_main",
+      "summary": {
+        "summary": {
+          "confusion_matrix": [
+            [
+              41,
+              1
+            ],
+            [
+              1,
+              71
+            ]
+          ],
+          "ROC_AUC": 0.9953703703703703,
+          "positive_class": "1=benign",
+          "test_n": 114
+        }
+      },
+      "result_images": [
+        "ch07/body/results/sec_07_main/ch07_confusion_matrix.png"
+      ]
+    },
+    {
+      "chapter": 7,
+      "section": "7.11",
+      "kind": "extension",
+      "title": "임계값 변화와 혼동행렬·정밀도·재현율",
+      "path": "ch07/extensions/sec_11_threshold_metrics",
+      "summary": {
+        "threshold_metrics": {
+          "validation_n": 54,
+          "positive_definition": "wine target == 0",
+          "at_threshold_0.5": {
+            "threshold": 0.49999999999999994,
+            "TN": 35,
+            "FP": 1,
+            "FN": 1,
+            "TP": 17,
+            "Accuracy": 0.9629629629629629,
+            "Precision": 0.9444444444444444,
+            "Recall": 0.9444444444444444,
+            "F1": 0.9444444444444444
+          }
+        }
+      },
+      "result_images": [
+        "ch07/extensions/results/sec_11_threshold_metrics/threshold_metrics.png"
+      ]
+    },
+    {
+      "chapter": 7,
+      "section": "7.12",
+      "kind": "extension",
+      "title": "ROC·PR 곡선과 확률 보정 상태",
+      "path": "ch07/extensions/sec_12_roc_pr",
+      "summary": {
+        "roc_pr": {
+          "test_n": 54,
+          "prevalence": 0.3333333333333333,
+          "ROC_AUC": 1.0,
+          "AP": 1.0000000000000002,
+          "Brier": 0.027331693273780305
+        }
+      },
+      "result_images": [
+        "ch07/extensions/results/sec_12_roc_pr/roc_pr.png"
+      ]
+    },
+    {
+      "chapter": 8,
+      "section": "8.7",
+      "kind": "body",
+      "title": "트리 앙상블 비교",
+      "path": "ch08/body/sec_07_main",
+      "summary": {
+        "summary": {
+          "RandomForest": {
+            "accuracy": 0.9266666666666666,
+            "F1": 0.15384615384615385
+          },
+          "GradientBoosting": {
+            "accuracy": 0.9166666666666666,
+            "F1": 0.24242424242424243
+          }
+        }
+      },
+      "result_images": [
+        "ch08/body/results/sec_07_main/ch08_feature_importance.png"
+      ]
+    },
+    {
+      "chapter": 8,
+      "section": "8.11",
+      "kind": "extension",
+      "title": "의사결정트리 깊이와 가지 분기 해석",
+      "path": "ch08/extensions/sec_11_tree_depth",
+      "summary": {
+        "tree_depth": {
+          "validation_n": 54,
+          "comparison": [
+            {
+              "depth_label": "1",
+              "nodes": 3,
+              "train_accuracy": 0.6612903225806451,
+              "validation_accuracy": 0.6111111111111112
+            },
+            {
+              "depth_label": "2",
+              "nodes": 7,
+              "train_accuracy": 0.9354838709677419,
+              "validation_accuracy": 0.8888888888888888
+            },
+            {
+              "depth_label": "3",
+              "nodes": 13,
+              "train_accuracy": 0.9919354838709677,
+              "validation_accuracy": 0.9629629629629629
+            },
+            {
+              "depth_label": "4",
+              "nodes": 15,
+              "train_accuracy": 1.0,
+              "validation_accuracy": 0.9629629629629629
+            },
+            {
+              "depth_label": "6",
+              "nodes": 15,
+              "train_accuracy": 1.0,
+              "validation_accuracy": 0.9629629629629629
+            },
+            {
+              "depth_label": "None",
+              "nodes": 15,
+              "train_accuracy": 1.0,
+              "validation_accuracy": 0.9629629629629629
+            }
+          ]
+        }
+      },
+      "result_images": [
+        "ch08/extensions/results/sec_11_tree_depth/tree_depth.png",
+        "ch08/extensions/results/sec_11_tree_depth/tree_structure.png"
+      ]
+    },
+    {
+      "chapter": 8,
+      "section": "8.12",
+      "kind": "extension",
+      "title": "앙상블 비교와 테스트 순열 중요도",
+      "path": "ch08/extensions/sec_12_ensemble_importance",
+      "summary": {
+        "ensemble_importance": {
+          "test_n": 54,
+          "accuracy": {
+            "RandomForest": 1.0,
+            "GradientBoosting": 0.9629629629629629
+          }
+        }
+      },
+      "result_images": [
+        "ch08/extensions/results/sec_12_ensemble_importance/ensemble_importance.png"
+      ]
+    },
+    {
+      "chapter": 9,
+      "section": "9.7",
+      "kind": "body",
+      "title": "서포트 벡터 분류와 주성분 군집",
+      "path": "ch09/body/sec_07_main",
+      "summary": {
+        "summary": {
+          "SVM_accuracy": 0.9824561403508771,
+          "variance_ratio": [
+            0.2884156287408724,
+            0.2180823915645419
+          ],
+          "silhouette": 0.36897379969622723
+        }
+      },
+      "result_images": [
+        "ch09/body/results/sec_07_main/ch09_pca_clusters.png"
+      ]
+    },
+    {
+      "chapter": 9,
+      "section": "9.11",
+      "kind": "extension",
+      "title": "K-Means와 DBSCAN의 비선형 군집 비교",
+      "path": "ch09/extensions/sec_11_clustering_compare",
+      "summary": {
+        "clustering_compare": {
+          "KMeans": {
+            "ARI": 0.4789688417784687,
+            "noise_n": 0,
+            "silhouette_without_noise": 0.4794676118145756
+          },
+          "DBSCAN": {
+            "ARI": 0.016442244736271424,
+            "noise_n": 15,
+            "silhouette_without_noise": 0.17507986910405698
+          }
+        }
+      },
+      "result_images": [
+        "ch09/extensions/results/sec_11_clustering_compare/clustering_compare.png"
+      ]
+    },
+    {
+      "chapter": 9,
+      "section": "9.12",
+      "kind": "extension",
+      "title": "PCA 설명 분산과 재구성 오차",
+      "path": "ch09/extensions/sec_12_pca_reconstruction",
+      "summary": {
+        "pca_reconstruction": {
+          "train_n": 124,
+          "test_n": 54,
+          "variance_first2": 0.5496008722014621,
+          "reconstruction": [
+            {
+              "components": 1,
+              "scaled_test_mse": 0.6095364010651653
+            },
+            {
+              "components": 2,
+              "scaled_test_mse": 0.40088476657451155
+            },
+            {
+              "components": 3,
+              "scaled_test_mse": 0.3120173677869732
+            },
+            {
+              "components": 5,
+              "scaled_test_mse": 0.2209629414664772
+            },
+            {
+              "components": 8,
+              "scaled_test_mse": 0.08390779160474185
+            },
+            {
+              "components": 13,
+              "scaled_test_mse": 1.4499782735682569e-30
+            }
+          ]
+        }
+      },
+      "result_images": [
+        "ch09/extensions/results/sec_12_pca_reconstruction/pca_reconstruction.png"
+      ]
+    },
+    {
+      "chapter": 10,
+      "section": "10.7",
+      "kind": "body",
+      "title": "배타적 논리합 신경망",
+      "path": "ch10/body/sec_07_main",
+      "summary": {
+        "summary": {
+          "training_accuracy": 1.0,
+          "predictions": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "last_preupdate_loss": 6.749978638254106e-05,
+          "training_rows": 4
+        }
+      },
+      "result_images": [
+        "ch10/body/results/sec_07_main/ch10_mlp_loss.png"
+      ]
+    },
+    {
+      "chapter": 10,
+      "section": "10.11",
+      "kind": "extension",
+      "title": "MLP 은닉층과 비선형 결정 경계",
+      "path": "ch10/extensions/sec_11_mlp_boundary",
+      "summary": {
+        "mlp_boundary": {
+          "2": {
+            "test_accuracy": 0.8555555555555555,
+            "iterations": 42
+          },
+          "20": {
+            "test_accuracy": 0.9666666666666667,
+            "iterations": 147
+          }
+        }
+      },
+      "result_images": [
+        "ch10/extensions/results/sec_11_mlp_boundary/mlp_boundary.png"
+      ]
+    },
+    {
+      "chapter": 10,
+      "section": "10.12",
+      "kind": "extension",
+      "title": "훈련 크기에 따른 신경망 학습 곡선",
+      "path": "ch10/extensions/sec_12_mlp_learning_curve",
+      "summary": {
+        "mlp_learning_curve": {
+          "validation_n": 54,
+          "curve": [
+            {
+              "train_n": 18,
+              "train_accuracy": 1.0,
+              "validation_accuracy": 0.8888888888888888
+            },
+            {
+              "train_n": 36,
+              "train_accuracy": 1.0,
+              "validation_accuracy": 0.9074074074074074
+            },
+            {
+              "train_n": 60,
+              "train_accuracy": 1.0,
+              "validation_accuracy": 0.9629629629629629
+            },
+            {
+              "train_n": 90,
+              "train_accuracy": 1.0,
+              "validation_accuracy": 0.9814814814814815
+            },
+            {
+              "train_n": 124,
+              "train_accuracy": 1.0,
+              "validation_accuracy": 0.9814814814814815
+            }
+          ]
+        }
+      },
+      "result_images": [
+        "ch10/extensions/results/sec_12_mlp_learning_curve/mlp_learning_curve.png"
+      ]
+    },
+    {
+      "chapter": 11,
+      "section": "11.7",
+      "kind": "body",
+      "title": "합성곱·장단기 메모리 순전파",
+      "path": "ch11/body/sec_07_main",
+      "summary": {
+        "summary": {
+          "cnn_input": [
+            4,
+            1,
+            28,
+            28
+          ],
+          "cnn_output": [
+            4,
+            10
+          ],
+          "lstm_input": [
+            4,
+            20,
+            5
+          ],
+          "lstm_output": [
+            4,
+            3
+          ],
+          "trained": false
+        }
+      },
+      "result_images": [
+        "ch11/body/results/sec_07_main/forward_outputs.png"
+      ]
+    },
+    {
+      "chapter": 11,
+      "section": "11.11",
+      "kind": "extension",
+      "title": "합성 영상의 필터·풀링과 크기 계산",
+      "path": "ch11/extensions/sec_11_convolution",
+      "summary": {
+        "convolution": {
+          "input_shape": [
+            12,
+            12
+          ],
+          "feature_shape": [
+            10,
+            10
+          ],
+          "pooled_shape": [
+            5,
+            5
+          ],
+          "kernel": [
+            [
+              -1.0,
+              0.0,
+              1.0
+            ],
+            [
+              -2.0,
+              0.0,
+              2.0
+            ],
+            [
+              -1.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "stride": 1,
+          "padding": 0
+        }
+      },
+      "result_images": [
+        "ch11/extensions/results/sec_11_convolution/convolution.png"
+      ]
+    },
+    {
+      "chapter": 11,
+      "section": "11.12",
+      "kind": "extension",
+      "title": "시간순 분할의 한 단계 예측과 지속성 기준선",
+      "path": "ch11/extensions/sec_12_timeseries_forecast",
+      "summary": {
+        "timeseries_forecast": {
+          "train_windows": 261,
+          "test_windows": 87,
+          "metrics": {
+            "ridge": {
+              "RMSE": 0.17834284419927388,
+              "MAE": 0.15006759504095918
+            },
+            "persistence": {
+              "RMSE": 0.2624706632413813,
+              "MAE": 0.20958071257908045
+            }
+          }
+        }
+      },
+      "result_images": [
+        "ch11/extensions/results/sec_12_timeseries_forecast/timeseries_forecast.png"
+      ]
+    },
+    {
+      "chapter": 12,
+      "section": "12.7",
+      "kind": "body",
+      "title": "문서 검색과 프롬프트",
+      "path": "ch12/body/sec_07_main",
+      "summary": {
+        "summary": {
+          "retrieved_ids": [],
+          "shared_tokens": [],
+          "LLM_called": false
+        }
+      },
+      "result_images": [
+        "ch12/body/results/sec_07_main/retrieval_scores.png"
+      ]
+    },
+    {
+      "chapter": 12,
+      "section": "12.11",
+      "kind": "extension",
+      "title": "Attention 점수·정규화·가중합의 수치 검증",
+      "path": "ch12/extensions/sec_11_attention",
+      "summary": {
+        "attention": {
+          "Q_shape": [
+            3,
+            2
+          ],
+          "K_shape": [
+            4,
+            2
+          ],
+          "V_shape": [
+            4,
+            2
+          ],
+          "row_sums": [
+            1.0,
+            0.9999999999999999,
+            1.0
+          ],
+          "output_shape": [
+            3,
+            2
+          ]
+        }
+      },
+      "result_images": [
+        "ch12/extensions/results/sec_11_attention/attention.png"
+      ]
+    },
+    {
+      "chapter": 12,
+      "section": "12.12",
+      "kind": "extension",
+      "title": "한국어 문서 TF-IDF 검색과 근거 프롬프트",
+      "path": "ch12/extensions/sec_12_retrieval",
+      "summary": {
+        "retrieval": {
+          "documents": 60,
+          "question": "데이터 전처리와 결측값 처리 방법은?",
+          "top_ids": [
+            "DOC000",
+            "DOC013",
+            "DOC026",
+            "DOC039",
+            "DOC052"
+          ],
+          "top_scores": [
+            0.20643015755249697,
+            0.20643015755249697,
+            0.20643015755249697,
+            0.20643015755249697,
+            0.20643015755249697
+          ],
+          "LLM_called": false
+        }
+      },
+      "result_images": [
+        "ch12/extensions/results/sec_12_retrieval/retrieval.png"
+      ]
+    },
+    {
+      "chapter": 13,
+      "section": "13.7",
+      "kind": "body",
+      "title": "분포 이동 감시",
+      "path": "ch13/body/sec_07_main",
+      "summary": {
+        "summary": {
+          "PSI": 0.2150962508902851,
+          "status": "주의",
+          "educational_linear_result": 12.5,
+          "trained_model": false
+        }
+      },
+      "result_images": [
+        "ch13/body/results/sec_07_main/drift_distributions.png"
+      ]
+    },
+    {
+      "chapter": 13,
+      "section": "13.11",
+      "kind": "extension",
+      "title": "PSI·KS와 분포 이동 모니터링",
+      "path": "ch13/extensions/sec_11_drift_monitor",
+      "summary": {
+        "drift_monitor": {
+          "PSI": 0.3512911234541295,
+          "KS_statistic": 0.258,
+          "KS_pvalue": 4.977431397171044e-15,
+          "reference_n": 500,
+          "current_n": 500
+        }
+      },
+      "result_images": [
+        "ch13/extensions/results/sec_11_drift_monitor/drift_monitor.png"
+      ]
+    },
+    {
+      "chapter": 13,
+      "section": "13.12",
+      "kind": "extension",
+      "title": "모델 저장·복원과 배치 추론 입력 검증",
+      "path": "ch13/extensions/sec_12_model_roundtrip",
+      "summary": {
+        "model_roundtrip": {
+          "test_n": 108,
+          "max_abs_diff": 0.0,
+          "test_RMSE": 0.19421003354419544,
+          "missing_field_rejected": "Missing fields: ['x1']"
+        }
+      },
+      "result_images": [
+        "ch13/extensions/results/sec_12_model_roundtrip/model_roundtrip.png"
+      ]
+    },
+    {
+      "chapter": 1,
+      "section": "1.9.2 문항 8",
+      "kind": "exercise",
+      "title": "조건 변경 참고 실습",
+      "path": "ch01/exercises/q08_parameter_change",
+      "summary": {
+        "summary": {
+          "events": 3,
+          "mean_gap": 5.0,
+          "seed": 42,
+          "device": "cpu"
+        }
+      },
+      "result_images": [
+        "ch01/exercises/results/q08_parameter_change/event_gaps.png"
+      ]
+    },
+    {
+      "chapter": 1,
+      "section": "1.9.3",
+      "kind": "assignment",
+      "title": "조건 변경 참고 실습",
+      "path": "ch01/assignments/task01_reference",
+      "summary": {
+        "summary": {
+          "events": 5,
+          "mean_gap": 9.0,
+          "seed": 42,
+          "device": "cpu"
+        }
+      },
+      "result_images": [
+        "ch01/assignments/results/task01_reference/event_gaps.png"
+      ]
+    },
+    {
+      "chapter": 2,
+      "section": "2.9.2 문항 8",
+      "kind": "exercise",
+      "title": "조건 변경 참고 실습",
+      "path": "ch02/exercises/q08_parameter_change",
+      "summary": {
+        "summary": {
+          "W": 2.664077043533325,
+          "b": 4.1133832931518555,
+          "last_preupdate_loss": 4.006124973297119,
+          "steps": 301
+        }
+      },
+      "result_images": [
+        "ch02/exercises/results/q08_parameter_change/ch02_gradient_descent_loss.png"
+      ]
+    },
+    {
+      "chapter": 2,
+      "section": "2.9.3",
+      "kind": "assignment",
+      "title": "조건 변경 참고 실습",
+      "path": "ch02/assignments/task01_reference",
+      "summary": {
+        "summary": {
+          "W": 2.6640772819519043,
+          "b": 4.113400459289551,
+          "last_preupdate_loss": 4.006125450134277,
+          "steps": 301
+        }
+      },
+      "result_images": [
+        "ch02/assignments/results/task01_reference/ch02_gradient_descent_loss.png"
+      ]
+    },
+    {
+      "chapter": 3,
+      "section": "3.9.2 문항 8",
+      "kind": "exercise",
+      "title": "조건 변경 참고 실습",
+      "path": "ch03/exercises/q08_parameter_change",
+      "summary": {
+        "summary": {
+          "path": [
+            "A",
+            "C",
+            "D"
+          ],
+          "cost": 4
+        }
+      },
+      "result_images": [
+        "ch03/exercises/results/q08_parameter_change/astar_path.png"
+      ]
+    },
+    {
+      "chapter": 3,
+      "section": "3.9.3",
+      "kind": "assignment",
+      "title": "조건 변경 참고 실습",
+      "path": "ch03/assignments/task01_reference",
+      "summary": {
+        "summary": {
+          "path": [
+            "A",
+            "C",
+            "D"
+          ],
+          "cost": 2
+        }
+      },
+      "result_images": [
+        "ch03/assignments/results/task01_reference/astar_path.png"
+      ]
+    },
+    {
+      "chapter": 4,
+      "section": "4.9.2 문항 8",
+      "kind": "exercise",
+      "title": "조건 변경 참고 실습",
+      "path": "ch04/exercises/q08_parameter_change",
+      "summary": {
+        "summary": {
+          "rows": 900,
+          "area_price_correlation": 0.7518410127368768
+        }
+      },
+      "result_images": [
+        "ch04/exercises/results/q08_parameter_change/ch04_area_price_scatter.png",
+        "ch04/exercises/results/q08_parameter_change/ch04_correlation_heatmap.png"
+      ]
+    },
+    {
+      "chapter": 4,
+      "section": "4.9.3",
+      "kind": "assignment",
+      "title": "조건 변경 참고 실습",
+      "path": "ch04/assignments/task01_reference",
+      "summary": {
+        "summary": {
+          "rows": 450,
+          "area_price_correlation": 0.7570289657635607
+        }
+      },
+      "result_images": [
+        "ch04/assignments/results/task01_reference/ch04_area_price_scatter.png",
+        "ch04/assignments/results/task01_reference/ch04_correlation_heatmap.png"
+      ]
+    },
+    {
+      "chapter": 5,
+      "section": "5.9.2 문항 8",
+      "kind": "exercise",
+      "title": "조건 변경 참고 실습",
+      "path": "ch05/exercises/q08_parameter_change",
+      "summary": {
+        "summary": {
+          "train_shape": [
+            70,
+            4
+          ],
+          "transformed_train_shape": [
+            70,
+            7
+          ],
+          "test_shape": [
+            30,
+            7
+          ],
+          "missing_before": 4,
+          "missing_after": 0
+        }
+      },
+      "result_images": [
+        "ch05/exercises/results/q08_parameter_change/missing_before_after.png"
+      ]
+    },
+    {
+      "chapter": 5,
+      "section": "5.9.3",
+      "kind": "assignment",
+      "title": "조건 변경 참고 실습",
+      "path": "ch05/assignments/task01_reference",
+      "summary": {
+        "summary": {
+          "train_shape": [
+            60,
+            4
+          ],
+          "transformed_train_shape": [
+            60,
+            7
+          ],
+          "test_shape": [
+            40,
+            7
+          ],
+          "missing_before": 3,
+          "missing_after": 0
+        }
+      },
+      "result_images": [
+        "ch05/assignments/results/task01_reference/missing_before_after.png"
+      ]
+    },
+    {
+      "chapter": 6,
+      "section": "6.9.2 문항 8",
+      "kind": "exercise",
+      "title": "조건 변경 참고 실습",
+      "path": "ch06/exercises/q08_parameter_change",
+      "summary": {
+        "summary": {
+          "LinearRegression": {
+            "MAE": 22454.42034827255,
+            "RMSE": 27880.177658387813,
+            "R2": 0.8927138391507903
+          },
+          "Ridge": {
+            "MAE": 22437.32775253407,
+            "RMSE": 27864.285138751242,
+            "R2": 0.8928361168116701
+          },
+          "Lasso": {
+            "MAE": 22454.338297173214,
+            "RMSE": 27880.111562570193,
+            "R2": 0.8927143478389488
+          }
+        }
+      },
+      "result_images": [
+        "ch06/exercises/results/q08_parameter_change/ch06_actual_vs_predicted.png",
+        "ch06/exercises/results/q08_parameter_change/ch06_residual_plot.png"
+      ]
+    },
+    {
+      "chapter": 6,
+      "section": "6.9.3",
+      "kind": "assignment",
+      "title": "조건 변경 참고 실습",
+      "path": "ch06/assignments/task01_reference",
+      "summary": {
+        "summary": {
+          "LinearRegression": {
+            "MAE": 22454.42034827255,
+            "RMSE": 27880.177658387813,
+            "R2": 0.8927138391507903
+          },
+          "Ridge": {
+            "MAE": 22318.41709729432,
+            "RMSE": 27757.232177446058,
+            "R2": 0.8936579698181113
+          },
+          "Lasso": {
+            "MAE": 22454.338297173214,
+            "RMSE": 27880.111562570193,
+            "R2": 0.8927143478389488
+          }
+        }
+      },
+      "result_images": [
+        "ch06/assignments/results/task01_reference/ch06_actual_vs_predicted.png",
+        "ch06/assignments/results/task01_reference/ch06_residual_plot.png"
+      ]
+    },
+    {
+      "chapter": 7,
+      "section": "7.9.2 문항 8",
+      "kind": "exercise",
+      "title": "조건 변경 참고 실습",
+      "path": "ch07/exercises/q08_parameter_change",
+      "summary": {
+        "summary": {
+          "confusion_matrix": [
+            [
+              41,
+              1
+            ],
+            [
+              5,
+              67
+            ]
+          ],
+          "ROC_AUC": 0.9953703703703703,
+          "positive_class": "1=benign",
+          "test_n": 114
+        }
+      },
+      "result_images": [
+        "ch07/exercises/results/q08_parameter_change/ch07_confusion_matrix.png"
+      ]
+    },
+    {
+      "chapter": 7,
+      "section": "7.9.3",
+      "kind": "assignment",
+      "title": "조건 변경 참고 실습",
+      "path": "ch07/assignments/task01_reference",
+      "summary": {
+        "summary": {
+          "confusion_matrix": [
+            [
+              40,
+              2
+            ],
+            [
+              0,
+              72
+            ]
+          ],
+          "ROC_AUC": 0.9953703703703703,
+          "positive_class": "1=benign",
+          "test_n": 114
+        }
+      },
+      "result_images": [
+        "ch07/assignments/results/task01_reference/ch07_confusion_matrix.png"
+      ]
+    },
+    {
+      "chapter": 8,
+      "section": "8.9.2 문항 8",
+      "kind": "exercise",
+      "title": "조건 변경 참고 실습",
+      "path": "ch08/exercises/q08_parameter_change",
+      "summary": {
+        "summary": {
+          "RandomForest": {
+            "accuracy": 0.9266666666666666,
+            "F1": 0.0
+          },
+          "GradientBoosting": {
+            "accuracy": 0.9166666666666666,
+            "F1": 0.24242424242424243
+          }
+        }
+      },
+      "result_images": [
+        "ch08/exercises/results/q08_parameter_change/ch08_feature_importance.png"
+      ]
+    },
+    {
+      "chapter": 8,
+      "section": "8.9.3",
+      "kind": "assignment",
+      "title": "조건 변경 참고 실습",
+      "path": "ch08/assignments/task01_reference",
+      "summary": {
+        "summary": {
+          "RandomForest": {
+            "accuracy": 0.93,
+            "F1": 0.2222222222222222
+          },
+          "GradientBoosting": {
+            "accuracy": 0.9166666666666666,
+            "F1": 0.24242424242424243
+          }
+        }
+      },
+      "result_images": [
+        "ch08/assignments/results/task01_reference/ch08_feature_importance.png"
+      ]
+    },
+    {
+      "chapter": 9,
+      "section": "9.9.2 문항 8",
+      "kind": "exercise",
+      "title": "조건 변경 참고 실습",
+      "path": "ch09/exercises/q08_parameter_change",
+      "summary": {
+        "summary": {
+          "SVM_accuracy": 0.9824561403508771,
+          "variance_ratio": [
+            0.2884156287408724,
+            0.2180823915645419
+          ],
+          "silhouette": 0.33800515624066496
+        }
+      },
+      "result_images": [
+        "ch09/exercises/results/q08_parameter_change/ch09_pca_clusters.png"
+      ]
+    },
+    {
+      "chapter": 9,
+      "section": "9.9.3",
+      "kind": "assignment",
+      "title": "조건 변경 참고 실습",
+      "path": "ch09/assignments/task01_reference",
+      "summary": {
+        "summary": {
+          "SVM_accuracy": 0.9824561403508771,
+          "variance_ratio": [
+            0.2884156287408724,
+            0.2180823915645419
+          ],
+          "silhouette": 0.35168210038605074
+        }
+      },
+      "result_images": [
+        "ch09/assignments/results/task01_reference/ch09_pca_clusters.png"
+      ]
+    },
+    {
+      "chapter": 10,
+      "section": "10.9.2 문항 8",
+      "kind": "exercise",
+      "title": "조건 변경 참고 실습",
+      "path": "ch10/exercises/q08_parameter_change",
+      "summary": {
+        "summary": {
+          "training_accuracy": 1.0,
+          "predictions": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "last_preupdate_loss": 3.3944263122975826e-05,
+          "training_rows": 4
+        }
+      },
+      "result_images": [
+        "ch10/exercises/results/q08_parameter_change/ch10_mlp_loss.png"
+      ]
+    },
+    {
+      "chapter": 10,
+      "section": "10.9.3",
+      "kind": "assignment",
+      "title": "조건 변경 참고 실습",
+      "path": "ch10/assignments/task01_reference",
+      "summary": {
+        "summary": {
+          "training_accuracy": 1.0,
+          "predictions": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "last_preupdate_loss": 0.00012432730000000447,
+          "training_rows": 4
+        }
+      },
+      "result_images": [
+        "ch10/assignments/results/task01_reference/ch10_mlp_loss.png"
+      ]
+    },
+    {
+      "chapter": 11,
+      "section": "11.9.2 문항 8",
+      "kind": "exercise",
+      "title": "조건 변경 참고 실습",
+      "path": "ch11/exercises/q08_parameter_change",
+      "summary": {
+        "summary": {
+          "cnn_input": [
+            2,
+            1,
+            28,
+            28
+          ],
+          "cnn_output": [
+            2,
+            10
+          ],
+          "lstm_input": [
+            2,
+            20,
+            5
+          ],
+          "lstm_output": [
+            2,
+            3
+          ],
+          "trained": false
+        }
+      },
+      "result_images": [
+        "ch11/exercises/results/q08_parameter_change/forward_outputs.png"
+      ]
+    },
+    {
+      "chapter": 11,
+      "section": "11.9.3",
+      "kind": "assignment",
+      "title": "조건 변경 참고 실습",
+      "path": "ch11/assignments/task01_reference",
+      "summary": {
+        "summary": {
+          "cnn_input": [
+            6,
+            1,
+            28,
+            28
+          ],
+          "cnn_output": [
+            6,
+            10
+          ],
+          "lstm_input": [
+            6,
+            20,
+            5
+          ],
+          "lstm_output": [
+            6,
+            3
+          ],
+          "trained": false
+        }
+      },
+      "result_images": [
+        "ch11/assignments/results/task01_reference/forward_outputs.png"
+      ]
+    },
+    {
+      "chapter": 12,
+      "section": "12.9.2 문항 8",
+      "kind": "exercise",
+      "title": "조건 변경 참고 실습",
+      "path": "ch12/exercises/q08_parameter_change",
+      "summary": {
+        "summary": {
+          "retrieved_ids": [
+            "DOC000",
+            "DOC001"
+          ],
+          "shared_tokens": [
+            2,
+            2
+          ],
+          "LLM_called": false
+        }
+      },
+      "result_images": [
+        "ch12/exercises/results/q08_parameter_change/retrieval_scores.png"
+      ]
+    },
+    {
+      "chapter": 12,
+      "section": "12.9.3",
+      "kind": "assignment",
+      "title": "조건 변경 참고 실습",
+      "path": "ch12/assignments/task01_reference",
+      "summary": {
+        "summary": {
+          "retrieved_ids": [
+            "DOC000",
+            "DOC001"
+          ],
+          "shared_tokens": [
+            1,
+            1
+          ],
+          "LLM_called": false
+        }
+      },
+      "result_images": [
+        "ch12/assignments/results/task01_reference/retrieval_scores.png"
+      ]
+    },
+    {
+      "chapter": 13,
+      "section": "13.9.2 문항 8",
+      "kind": "exercise",
+      "title": "조건 변경 참고 실습",
+      "path": "ch13/exercises/q08_parameter_change",
+      "summary": {
+        "summary": {
+          "PSI": 0.022513466634676807,
+          "status": "정상",
+          "educational_linear_result": 12.5,
+          "trained_model": false
+        }
+      },
+      "result_images": [
+        "ch13/exercises/results/q08_parameter_change/drift_distributions.png"
+      ]
+    },
+    {
+      "chapter": 13,
+      "section": "13.9.3",
+      "kind": "assignment",
+      "title": "조건 변경 참고 실습",
+      "path": "ch13/assignments/task01_reference",
+      "summary": {
+        "summary": {
+          "PSI": 0.56961621856367,
+          "status": "재학습 검토",
+          "educational_linear_result": 12.5,
+          "trained_model": false
+        }
+      },
+      "result_images": [
+        "ch13/assignments/results/task01_reference/drift_distributions.png"
+      ]
+    },
+    {
+      "chapter": 1,
+      "section": "1.11.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch01/exercises/check_11_learning_modes",
+      "summary": {
+        "learning_modes": {
+          "test_n": 54,
+          "accuracy": 0.9814814814814815,
+          "cluster_ARI": 0.8341623876765083
+        },
+        "exercise_check": {
+          "test_rows": 54,
+          "accuracy": 0.9814814814814815,
+          "ARI_invariant_to_label_permutation": true
+        }
+      },
+      "result_images": [
+        "ch01/exercises/results/check_11_learning_modes/learning_modes.png"
+      ]
+    },
+    {
+      "chapter": 1,
+      "section": "1.12.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch01/exercises/check_12_seed_sensitivity",
+      "summary": {
+        "seed_sensitivity": {
+          "python": "3.12.14",
+          "sklearn": "1.8.0",
+          "accuracy_mean": 0.9814814814814815,
+          "accuracy_std_ddof1": 0.015120307054217172
+        },
+        "exercise_check": {
+          "mean": 0.9814814814814815,
+          "sample_standard_deviation": 0.015120307054217172,
+          "seeds": 10
+        }
+      },
+      "result_images": [
+        "ch01/exercises/results/check_12_seed_sensitivity/seed_sensitivity.png"
+      ]
+    },
+    {
+      "chapter": 2,
+      "section": "2.11.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch02/exercises/check_11_gradient_descent",
+      "summary": {
+        "gradient_descent": {
+          "w": 1.7881074789633025,
+          "b": 0.7062523833269793,
+          "initial_mse": 10.543754677694318,
+          "final_mse": 0.2373908470728377
+        },
+        "exercise_check": {
+          "comparison": [
+            {
+              "learning_rate": 0.006,
+              "final_mse": 0.3339749131821781,
+              "finite": true
+            },
+            {
+              "learning_rate": 0.6,
+              "final_mse": 3.2841963509618143e+69,
+              "finite": true
+            }
+          ]
+        }
+      },
+      "result_images": [
+        "ch02/exercises/results/check_11_gradient_descent/gradient_descent.png"
+      ]
+    },
+    {
+      "chapter": 2,
+      "section": "2.12.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch02/exercises/check_12_gradient_check",
+      "summary": {
+        "gradient_check": {
+          "analytic_dw": -8.515805433112032,
+          "analytic_db": -1.8125558900166667,
+          "min_abs_error": 7.105427357601002e-15
+        },
+        "exercise_check": {
+          "correct_dw": -8.515805433112032,
+          "incorrect_without_x": -1.8125558900166667,
+          "mismatch": true
+        }
+      },
+      "result_images": [
+        "ch02/exercises/results/check_12_gradient_check/gradient_check.png"
+      ]
+    },
+    {
+      "chapter": 3,
+      "section": "3.11.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch03/exercises/check_11_search_compare",
+      "summary": {
+        "search_compare": {
+          "BFS": {
+            "steps": 10,
+            "expanded": 19
+          },
+          "A*": {
+            "steps": 10,
+            "expanded": 11
+          }
+        },
+        "exercise_check": {
+          "both_paths_valid": true,
+          "equal_steps": true
+        }
+      },
+      "result_images": [
+        "ch03/exercises/results/check_11_search_compare/search_compare.png"
+      ]
+    },
+    {
+      "chapter": 3,
+      "section": "3.12.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch03/exercises/check_12_genetic_knapsack",
+      "summary": {
+        "exercise_check": {
+          "comparison": [
+            {
+              "capacity": 15,
+              "mutation_probability": 0.05,
+              "exact": 38,
+              "ga": 38,
+              "gap": 0
+            },
+            {
+              "capacity": 12,
+              "mutation_probability": 0.05,
+              "exact": 31,
+              "ga": 31,
+              "gap": 0
+            },
+            {
+              "capacity": 15,
+              "mutation_probability": 0.15,
+              "exact": 38,
+              "ga": 38,
+              "gap": 0
+            }
+          ]
+        },
+        "genetic_knapsack": {
+          "exact_optimum": 38,
+          "ga_value": 38,
+          "ga_weight": 15,
+          "bits": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      },
+      "result_images": [
+        "ch03/exercises/results/check_12_genetic_knapsack/genetic_knapsack.png"
+      ]
+    },
+    {
+      "chapter": 4,
+      "section": "4.11.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch04/exercises/check_11_missingness",
+      "summary": {
+        "missingness": {
+          "rows": 1200,
+          "duplicate_rows": 0,
+          "missing_fraction": {
+            "total_charge": 0.016666666666666666,
+            "monthly_charge": 0.016666666666666666,
+            "support": 0.016666666666666666,
+            "customer_id": 0.0,
+            "age": 0.0,
+            "tenure": 0.0,
+            "contract": 0.0,
+            "internet": 0.0,
+            "ebilling": 0.0,
+            "churn": 0.0
+          },
+          "contract_codes": {
+            "C0": "monthly",
+            "C1": "one_year",
+            "C2": "two_year"
+          }
+        },
+        "exercise_check": {
+          "complete_rows": 1140,
+          "excluded_rows": 60,
+          "missing_by_column": {
+            "customer_id": 0,
+            "age": 0,
+            "tenure": 0,
+            "monthly_charge": 20,
+            "total_charge": 20,
+            "contract": 0,
+            "internet": 0,
+            "support": 20,
+            "ebilling": 0,
+            "churn": 0
+          }
+        }
+      },
+      "result_images": [
+        "ch04/exercises/results/check_11_missingness/missingness.png"
+      ]
+    },
+    {
+      "chapter": 4,
+      "section": "4.12.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch04/exercises/check_12_correlation_outlier",
+      "summary": {
+        "correlation_outlier": {
+          "iqr_flags": {
+            "age": 0,
+            "tenure": 0,
+            "monthly_charge": 9,
+            "total_charge": 5
+          },
+          "pairwise_corr_tenure_total": 0.8197286745425285
+        },
+        "exercise_check": {
+          "flagged_rows": 11,
+          "causes_confirmed": false
+        }
+      },
+      "result_images": [
+        "ch04/exercises/results/check_12_correlation_outlier/correlation_outlier.png"
+      ]
+    },
+    {
+      "chapter": 5,
+      "section": "5.11.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch05/exercises/check_11_mixed_pipeline",
+      "summary": {
+        "mixed_pipeline": {
+          "train_n": 840,
+          "test_n": 360,
+          "transformed_features": 14,
+          "figure_feature_codes": {
+            "F7": "cat__internet_dsl",
+            "F1": "num__tenure",
+            "F9": "cat__internet_none",
+            "F3": "num__total_charge",
+            "F11": "cat__support_yes",
+            "F10": "cat__support_no",
+            "F6": "cat__contract_two_year",
+            "F2": "num__monthly_charge",
+            "F5": "cat__contract_one_year",
+            "F4": "cat__contract_monthly"
+          },
+          "accuracy": 0.7916666666666666,
+          "f1": 0.025974025974025976
+        },
+        "exercise_check": {
+          "unseen_category_prediction": [
+            0
+          ],
+          "coefficient_count_matches": true
+        }
+      },
+      "result_images": [
+        "ch05/exercises/results/check_11_mixed_pipeline/mixed_pipeline.png"
+      ]
+    },
+    {
+      "chapter": 5,
+      "section": "5.12.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch05/exercises/check_12_shift_scaler",
+      "summary": {
+        "shift_scaler": {
+          "training_mean": -1.6917684184764292e-17,
+          "current_fixed_mean": 0.9820481867102312,
+          "current_refit_mean": 8.437694987151189e-16
+        },
+        "exercise_check": {
+          "fixed_mean": -1.6917684184764292e-17,
+          "refit_mean": -1.6917684184764292e-17,
+          "max_difference": 0.0
+        }
+      },
+      "result_images": [
+        "ch05/exercises/results/check_12_shift_scaler/shift_scaler.png"
+      ]
+    },
+    {
+      "chapter": 6,
+      "section": "6.11.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch06/exercises/check_11_polynomial_complexity",
+      "summary": {
+        "polynomial_complexity": {
+          "train_n": 65,
+          "validation_n": 35,
+          "comparison": [
+            {
+              "degree": 1,
+              "train_mse": 0.5473315381283144,
+              "validation_mse": 0.5837276886715528
+            },
+            {
+              "degree": 3,
+              "train_mse": 0.09840338772961127,
+              "validation_mse": 0.10333037320461691
+            },
+            {
+              "degree": 12,
+              "train_mse": 0.0555680496892883,
+              "validation_mse": 0.07235448274809285
+            }
+          ]
+        },
+        "exercise_check": {
+          "comparison": [
+            {
+              "alpha": 0.01,
+              "train_mse": 0.0555680496892883,
+              "validation_mse": 0.07235448274809285
+            },
+            {
+              "alpha": 1.0,
+              "train_mse": 0.10032091069359274,
+              "validation_mse": 0.11295688284341819
+            },
+            {
+              "alpha": 100.0,
+              "train_mse": 0.39205624410782686,
+              "validation_mse": 0.4323360386688308
+            }
+          ]
+        }
+      },
+      "result_images": [
+        "ch06/exercises/results/check_11_polynomial_complexity/polynomial_complexity.png"
+      ]
+    },
+    {
+      "chapter": 6,
+      "section": "6.12.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch06/exercises/check_12_regression_residual",
+      "summary": {
+        "regression_residual": {
+          "test_n": 225,
+          "MAE": 21262.236678422567,
+          "RMSE": 26904.542907001793,
+          "R2": 0.8993479315644811
+        },
+        "exercise_check": {
+          "source_row": 543,
+          "residual": -77808.77118682387,
+          "missing_cells": 0,
+          "features": {
+            "area": 76.04,
+            "rooms": 6.0,
+            "age": 22.0,
+            "distance": 16.15,
+            "school_score": 43.9
+          }
+        }
+      },
+      "result_images": [
+        "ch06/exercises/results/check_12_regression_residual/regression_residual.png"
+      ]
+    },
+    {
+      "chapter": 7,
+      "section": "7.11.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch07/exercises/check_11_threshold_metrics",
+      "summary": {
+        "exercise_check": {
+          "Accuracy": 0.9629629629629629,
+          "Precision": 0.9444444444444444,
+          "Recall": 0.9444444444444444,
+          "F1": 0.9444444444444444
+        },
+        "threshold_metrics": {
+          "validation_n": 54,
+          "positive_definition": "wine target == 0",
+          "at_threshold_0.5": {
+            "threshold": 0.49999999999999994,
+            "TN": 35,
+            "FP": 1,
+            "FN": 1,
+            "TP": 17,
+            "Accuracy": 0.9629629629629629,
+            "Precision": 0.9444444444444444,
+            "Recall": 0.9444444444444444,
+            "F1": 0.9444444444444444
+          }
+        }
+      },
+      "result_images": [
+        "ch07/exercises/results/check_11_threshold_metrics/threshold_metrics.png"
+      ]
+    },
+    {
+      "chapter": 7,
+      "section": "7.12.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch07/exercises/check_12_roc_pr",
+      "summary": {
+        "roc_pr": {
+          "test_n": 54,
+          "prevalence": 0.3333333333333333,
+          "ROC_AUC": 1.0,
+          "AP": 1.0000000000000002,
+          "Brier": 0.027331693273780305
+        },
+        "exercise_check": {
+          "positive_prevalence": 0.3333333333333333,
+          "Brier": 0.027331693273780305,
+          "ROC_AUC": 1.0
+        }
+      },
+      "result_images": [
+        "ch07/exercises/results/check_12_roc_pr/roc_pr.png"
+      ]
+    },
+    {
+      "chapter": 8,
+      "section": "8.11.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch08/exercises/check_11_tree_depth",
+      "summary": {
+        "tree_depth": {
+          "validation_n": 54,
+          "comparison": [
+            {
+              "depth_label": "1",
+              "nodes": 3,
+              "train_accuracy": 0.6612903225806451,
+              "validation_accuracy": 0.6111111111111112
+            },
+            {
+              "depth_label": "2",
+              "nodes": 7,
+              "train_accuracy": 0.9354838709677419,
+              "validation_accuracy": 0.8888888888888888
+            },
+            {
+              "depth_label": "3",
+              "nodes": 13,
+              "train_accuracy": 0.9919354838709677,
+              "validation_accuracy": 0.9629629629629629
+            },
+            {
+              "depth_label": "4",
+              "nodes": 15,
+              "train_accuracy": 1.0,
+              "validation_accuracy": 0.9629629629629629
+            },
+            {
+              "depth_label": "6",
+              "nodes": 15,
+              "train_accuracy": 1.0,
+              "validation_accuracy": 0.9629629629629629
+            },
+            {
+              "depth_label": "None",
+              "nodes": 15,
+              "train_accuracy": 1.0,
+              "validation_accuracy": 0.9629629629629629
+            }
+          ]
+        },
+        "exercise_check": {
+          "route": [
+            {
+              "node": 0,
+              "feature": "color_intensity",
+              "value": 5.68,
+              "threshold": 3.819999933242798,
+              "left": false
+            },
+            {
+              "node": 4,
+              "feature": "flavanoids",
+              "value": 3.24,
+              "threshold": 1.5800000429153442,
+              "left": false
+            }
+          ],
+          "leaf": 6,
+          "manual": 0,
+          "prediction": 0
+        }
+      },
+      "result_images": [
+        "ch08/exercises/results/check_11_tree_depth/tree_depth.png",
+        "ch08/exercises/results/check_11_tree_depth/tree_structure.png"
+      ]
+    },
+    {
+      "chapter": 8,
+      "section": "8.12.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch08/exercises/check_12_ensemble_importance",
+      "summary": {
+        "ensemble_importance": {
+          "test_n": 54,
+          "accuracy": {
+            "RandomForest": 1.0,
+            "GradientBoosting": 0.9629629629629629
+          }
+        },
+        "exercise_check": {
+          "impurity_importance_sum": 1.0,
+          "permutation_mean": [
+            0.07222222222222223,
+            0.0,
+            0.0,
+            0.0,
+            0.016666666666666663,
+            0.0,
+            0.03333333333333335,
+            0.0,
+            0.0,
+            0.040740740740740765,
+            0.0,
+            0.0,
+            0.04629629629629632
+          ],
+          "permutation_std": [
+            0.025458753860865758,
+            0.0,
+            0.0,
+            0.0,
+            0.012962962962962978,
+            0.0,
+            0.0181443684650606,
+            0.0,
+            0.0,
+            0.01614407016126176,
+            0.0,
+            0.0,
+            0.0170732304764683
+          ]
+        }
+      },
+      "result_images": [
+        "ch08/exercises/results/check_12_ensemble_importance/ensemble_importance.png"
+      ]
+    },
+    {
+      "chapter": 9,
+      "section": "9.11.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch09/exercises/check_11_clustering_compare",
+      "summary": {
+        "exercise_check": {
+          "comparison": [
+            {
+              "eps": 0.15,
+              "clusters": 12,
+              "noise": 185,
+              "ARI": 0.031029798528385926,
+              "silhouette_without_noise": 0.5752680056306211
+            },
+            {
+              "eps": 0.5,
+              "clusters": 1,
+              "noise": 1,
+              "ARI": 0.0,
+              "silhouette_without_noise": null
+            }
+          ]
+        },
+        "clustering_compare": {
+          "KMeans": {
+            "ARI": 0.4789688417784687,
+            "noise_n": 0,
+            "silhouette_without_noise": 0.4794676118145756
+          },
+          "DBSCAN": {
+            "ARI": 0.016442244736271424,
+            "noise_n": 15,
+            "silhouette_without_noise": 0.17507986910405698
+          }
+        }
+      },
+      "result_images": [
+        "ch09/exercises/results/check_11_clustering_compare/clustering_compare.png"
+      ]
+    },
+    {
+      "chapter": 9,
+      "section": "9.12.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch09/exercises/check_12_pca_reconstruction",
+      "summary": {
+        "pca_reconstruction": {
+          "train_n": 124,
+          "test_n": 54,
+          "variance_first2": 0.5496008722014621,
+          "reconstruction": [
+            {
+              "components": 1,
+              "scaled_test_mse": 0.6095364010651653
+            },
+            {
+              "components": 2,
+              "scaled_test_mse": 0.40088476657451155
+            },
+            {
+              "components": 3,
+              "scaled_test_mse": 0.3120173677869732
+            },
+            {
+              "components": 5,
+              "scaled_test_mse": 0.2209629414664772
+            },
+            {
+              "components": 8,
+              "scaled_test_mse": 0.08390779160474185
+            },
+            {
+              "components": 13,
+              "scaled_test_mse": 1.4499782735682569e-30
+            }
+          ]
+        },
+        "exercise_check": {
+          "variance_2d": 0.5496008722014621,
+          "full_dimension_mse": 1.4499782735682569e-30
+        }
+      },
+      "result_images": [
+        "ch09/exercises/results/check_12_pca_reconstruction/pca_reconstruction.png"
+      ]
+    },
+    {
+      "chapter": 10,
+      "section": "10.11.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch10/exercises/check_11_mlp_boundary",
+      "summary": {
+        "mlp_boundary": {
+          "2": {
+            "test_accuracy": 0.8555555555555555,
+            "iterations": 42
+          },
+          "20": {
+            "test_accuracy": 0.9666666666666667,
+            "iterations": 147
+          }
+        },
+        "exercise_check": {
+          "last_model_errors": 3,
+          "test_rows": 90
+        }
+      },
+      "result_images": [
+        "ch10/exercises/results/check_11_mlp_boundary/mlp_boundary.png"
+      ]
+    },
+    {
+      "chapter": 10,
+      "section": "10.12.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch10/exercises/check_12_mlp_learning_curve",
+      "summary": {
+        "mlp_learning_curve": {
+          "validation_n": 54,
+          "curve": [
+            {
+              "train_n": 18,
+              "train_accuracy": 1.0,
+              "validation_accuracy": 0.8888888888888888
+            },
+            {
+              "train_n": 36,
+              "train_accuracy": 1.0,
+              "validation_accuracy": 0.9074074074074074
+            },
+            {
+              "train_n": 60,
+              "train_accuracy": 1.0,
+              "validation_accuracy": 0.9629629629629629
+            },
+            {
+              "train_n": 90,
+              "train_accuracy": 1.0,
+              "validation_accuracy": 0.9814814814814815
+            },
+            {
+              "train_n": 124,
+              "train_accuracy": 1.0,
+              "validation_accuracy": 0.9814814814814815
+            }
+          ]
+        },
+        "exercise_check": {
+          "coverage": [
+            {
+              "train_n": 18,
+              "classes": {
+                "0": 6,
+                "1": 6,
+                "2": 6
+              }
+            },
+            {
+              "train_n": 36,
+              "classes": {
+                "0": 12,
+                "1": 12,
+                "2": 12
+              }
+            },
+            {
+              "train_n": 60,
+              "classes": {
+                "0": 20,
+                "1": 20,
+                "2": 20
+              }
+            },
+            {
+              "train_n": 90,
+              "classes": {
+                "0": 30,
+                "1": 30,
+                "2": 30
+              }
+            },
+            {
+              "train_n": 124,
+              "classes": {
+                "0": 41,
+                "1": 50,
+                "2": 33
+              }
+            }
+          ]
+        }
+      },
+      "result_images": [
+        "ch10/exercises/results/check_12_mlp_learning_curve/mlp_learning_curve.png"
+      ]
+    },
+    {
+      "chapter": 11,
+      "section": "11.11.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch11/exercises/check_11_convolution",
+      "summary": {
+        "convolution": {
+          "input_shape": [
+            12,
+            12
+          ],
+          "feature_shape": [
+            10,
+            10
+          ],
+          "pooled_shape": [
+            5,
+            5
+          ],
+          "kernel": [
+            [
+              -1.0,
+              0.0,
+              1.0
+            ],
+            [
+              -2.0,
+              0.0,
+              2.0
+            ],
+            [
+              -1.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "stride": 1,
+          "padding": 0
+        },
+        "exercise_check": {
+          "correlation_size": 10,
+          "pool_size": 5,
+          "kernel_sign_reversal": true
+        }
+      },
+      "result_images": [
+        "ch11/exercises/results/check_11_convolution/convolution.png"
+      ]
+    },
+    {
+      "chapter": 11,
+      "section": "11.12.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch11/exercises/check_12_timeseries_forecast",
+      "summary": {
+        "exercise_check": {
+          "comparison": [
+            {
+              "lag": 1,
+              "RMSE": 0.2537078390468365,
+              "test_n": 90,
+              "first_test_target": 270
+            },
+            {
+              "lag": 12,
+              "RMSE": 0.17834284419927388,
+              "test_n": 87,
+              "first_test_target": 273
+            },
+            {
+              "lag": 24,
+              "RMSE": 0.1390733758842379,
+              "test_n": 84,
+              "first_test_target": 276
+            }
+          ],
+          "different_lags_have_different_test_start": true
+        },
+        "timeseries_forecast": {
+          "train_windows": 261,
+          "test_windows": 87,
+          "metrics": {
+            "ridge": {
+              "RMSE": 0.17834284419927388,
+              "MAE": 0.15006759504095918
+            },
+            "persistence": {
+              "RMSE": 0.2624706632413813,
+              "MAE": 0.20958071257908045
+            }
+          }
+        }
+      },
+      "result_images": [
+        "ch11/exercises/results/check_12_timeseries_forecast/timeseries_forecast.png"
+      ]
+    },
+    {
+      "chapter": 12,
+      "section": "12.11.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch12/exercises/check_11_attention",
+      "summary": {
+        "exercise_check": {
+          "first_weight_sum": 1.0,
+          "manual_first_output": [
+            0.5046423239899853,
+            0.6651192253366716
+          ],
+          "matches_output": true
+        },
+        "attention": {
+          "Q_shape": [
+            3,
+            2
+          ],
+          "K_shape": [
+            4,
+            2
+          ],
+          "V_shape": [
+            4,
+            2
+          ],
+          "row_sums": [
+            1.0,
+            0.9999999999999999,
+            1.0
+          ],
+          "output_shape": [
+            3,
+            2
+          ]
+        }
+      },
+      "result_images": [
+        "ch12/exercises/results/check_11_attention/attention.png"
+      ]
+    },
+    {
+      "chapter": 12,
+      "section": "12.12.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch12/exercises/check_12_retrieval",
+      "summary": {
+        "retrieval": {
+          "documents": 60,
+          "question": "데이터 전처리와 결측값 처리 방법은?",
+          "top_ids": [
+            "DOC000",
+            "DOC013",
+            "DOC026",
+            "DOC039",
+            "DOC052"
+          ],
+          "top_scores": [
+            0.20643015755249697,
+            0.20643015755249697,
+            0.20643015755249697,
+            0.20643015755249697,
+            0.20643015755249697
+          ],
+          "LLM_called": false
+        },
+        "exercise_check": {
+          "review_rows": 10,
+          "human_scores_completed": false
+        }
+      },
+      "result_images": [
+        "ch12/exercises/results/check_12_retrieval/retrieval.png"
+      ]
+    },
+    {
+      "chapter": 13,
+      "section": "13.11.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch13/exercises/check_11_drift_monitor",
+      "summary": {
+        "drift_monitor": {
+          "PSI": 0.3512911234541295,
+          "KS_statistic": 0.258,
+          "KS_pvalue": 4.977431397171044e-15,
+          "reference_n": 500,
+          "current_n": 500
+        },
+        "exercise_check": {
+          "identical_distribution_PSI": 0.0
+        }
+      },
+      "result_images": [
+        "ch13/exercises/results/check_11_drift_monitor/drift_monitor.png"
+      ]
+    },
+    {
+      "chapter": 13,
+      "section": "13.12.6",
+      "kind": "exercise",
+      "title": "확인 과제 참고 구현",
+      "path": "ch13/exercises/check_12_model_roundtrip",
+      "summary": {
+        "model_roundtrip": {
+          "test_n": 108,
+          "max_abs_diff": 0.0,
+          "test_RMSE": 0.19421003354419544,
+          "missing_field_rejected": "Missing fields: ['x1']"
+        },
+        "exercise_check": {
+          "column_reordering_invariant": true,
+          "NaN_rejected": "Input contains non-finite values"
+        }
+      },
+      "result_images": [
+        "ch13/exercises/results/check_12_model_roundtrip/model_roundtrip.png"
+      ]
+    }
+  ],
+  "independent_programs": 91,
+  "navigation_notebooks": 13,
+  "concept_questions": 130,
+  "data_csv_files": 31,
+  "method": "IPython sequential cell execution",
+  "jupyter_kernel_verified": false
+}

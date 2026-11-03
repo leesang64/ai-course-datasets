@@ -1,11 +1,19 @@
 [
   {
+    "file": "ch01/data/main_ai_history.csv",
+    "sha256": "908adceb0551f8483485be28265555a94bbfd1b20c8106285b483b1614ab8bf0"
+  },
+  {
     "file": "ch01/data/wine.csv",
     "sha256": "47946bdb6b5017961c6e2b5daa8a74b0d98779c1c66f21645d1d737eded7e8cb"
   },
   {
     "file": "ch02/data/linear.csv",
     "sha256": "7f4ec9eabcbef4c2b259d1f11af633bebb2a09a57daf59073b81a88f93a37fec"
+  },
+  {
+    "file": "ch02/data/main_math_sample.csv",
+    "sha256": "3222dc1e4c712603cc1debdde0b81296b1155f0b9a6b5398b21eb09f11b3520e"
   },
   {
     "file": "ch03/data/items.csv",
@@ -20,24 +28,52 @@
     "sha256": "3ba7cb141cab2dd302272ec555adb04842cc5adafd44a9e3968b93bad8cec0d1"
   },
   {
+    "file": "ch04/data/main_housing.csv",
+    "sha256": "cf205001ac0846a31d3c59d18647a4d5ee1212b4a5f10e67f0a721b452db6a86"
+  },
+  {
     "file": "ch05/data/churn.csv",
     "sha256": "3ba7cb141cab2dd302272ec555adb04842cc5adafd44a9e3968b93bad8cec0d1"
+  },
+  {
+    "file": "ch05/data/main_preprocessing.csv",
+    "sha256": "b9f58106f2695c283c33c2d1c8a78b32175712c2b27965752309421f39dd3f1a"
   },
   {
     "file": "ch06/data/housing.csv",
     "sha256": "d25be46f3069abd79501e8315ef866d9e9c8915b49b4899a62d16763ba61c88a"
   },
   {
+    "file": "ch06/data/main_housing.csv",
+    "sha256": "cf205001ac0846a31d3c59d18647a4d5ee1212b4a5f10e67f0a721b452db6a86"
+  },
+  {
     "file": "ch06/data/nonlinear.csv",
     "sha256": "dc5366f8949e175cb60f3e47303e801e1593732fedda4c469b8a34671ed70ba5"
+  },
+  {
+    "file": "ch07/data/main_cancer.csv",
+    "sha256": "75a1d74a59df9cb0a78ecc0a36085bf8a85239557f178d3b8d758e88b26416e1"
   },
   {
     "file": "ch07/data/wine.csv",
     "sha256": "47946bdb6b5017961c6e2b5daa8a74b0d98779c1c66f21645d1d737eded7e8cb"
   },
   {
+    "file": "ch08/data/main_churn.csv",
+    "sha256": "ef952478cfe156b6600d11bb5e2446410e68d6cc6143f2e7e385b8b83fa024fc"
+  },
+  {
     "file": "ch08/data/wine.csv",
     "sha256": "47946bdb6b5017961c6e2b5daa8a74b0d98779c1c66f21645d1d737eded7e8cb"
+  },
+  {
+    "file": "ch09/data/main_cancer.csv",
+    "sha256": "75a1d74a59df9cb0a78ecc0a36085bf8a85239557f178d3b8d758e88b26416e1"
+  },
+  {
+    "file": "ch09/data/main_customer.csv",
+    "sha256": "58e828c3c6321a19db64e5f8241124dd798ada84e645982c9d3a042d363e0be6"
   },
   {
     "file": "ch09/data/moons.csv",
@@ -70,6 +106,10 @@
   {
     "file": "ch12/data/keys.csv",
     "sha256": "f0cc913cc88a2705694fb0557ddc724ca929d2d37862ff4fcedcd1601559f4d9"
+  },
+  {
+    "file": "ch12/data/main_documents.csv",
+    "sha256": "857a6db84ed8f1d6c32555471fd0b7fb12433a955d1175d9bca3c9e95d275f5e"
   },
   {
     "file": "ch12/data/queries.csv",

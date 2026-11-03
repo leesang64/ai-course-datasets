@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="345.6pt" viewBox="0 0 648 345.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-03T19:57:36.291662</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 345.6 
+L 648 345.6 
+L 648 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 19.1808 129.66912 
+L 109.3824 129.66912 
+L 109.3824 63.31392 
+L 19.1808 63.31392 
+z
+" clip-path="url(#pf0a069fd20)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 159.1488 129.66912 
+L 255.5712 129.66912 
+L 255.5712 63.31392 
+L 159.1488 63.31392 
+z
+" clip-path="url(#pf0a069fd20)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 311.5584 129.66912 
+L 439.0848 129.66912 
+L 439.0848 63.31392 
+L 311.5584 63.31392 
+z
+" clip-path="url(#pf0a069fd20)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 513.7344 129.66912 
+L 625.7088 129.66912 
+L 625.7088 63.31392 
+L 513.7344 63.31392 
+z
+" clip-path="url(#pf0a069fd20)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 159.1488 249.10848 
+L 255.5712 249.10848 
+L 255.5712 182.75328 
+L 159.1488 182.75328 
+z
+" clip-path="url(#pf0a069fd20)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 311.5584 249.10848 
+L 439.0848 249.10848 
+L 439.0848 182.75328 
+L 311.5584 182.75328 
+z
+" clip-path="url(#pf0a069fd20)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 513.7344 249.10848 
+L 625.7088 249.10848 
+L 625.7088 182.75328 
+L 513.7344 182.75328 
+z
+" clip-path="url(#pf0a069fd20)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 111.384112 96.49152 
+Q 134.265042 96.49152 155.916134 96.49152 
+" clip-path="url(#pf0a069fd20)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 151.916134 94.49152 
+L 155.916134 96.49152 
+L 151.916134 98.49152 
+" clip-path="url(#pf0a069fd20)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 257.570255 96.49152 
+Q 283.564242 96.49152 308.328391 96.49152 
+" clip-path="url(#pf0a069fd20)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 304.328391 94.49152 
+L 308.328391 96.49152 
+L 304.328391 98.49152 
+" clip-path="url(#pf0a069fd20)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 441.084994 96.49152 
+Q 476.409792 96.49152 510.504753 96.49152 
+" clip-path="url(#pf0a069fd20)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 506.504753 94.49152 
+L 510.504753 96.49152 
+L 506.504753 98.49152 
+" clip-path="url(#pf0a069fd20)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 110.152406 98.339535 
+Q 134.265576 156.211142 157.905731 212.947515 
+" clip-path="url(#pf0a069fd20)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 158.213424 208.485976 
+L 157.905731 212.947515 
+L 154.521116 210.024438 
+" clip-path="url(#pf0a069fd20)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 257.570255 215.93088 
+Q 283.564242 215.93088 308.328391 215.93088 
+" clip-path="url(#pf0a069fd20)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 304.328391 213.93088 
+L 308.328391 215.93088 
+L 304.328391 217.93088 
+" clip-path="url(#pf0a069fd20)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 441.084994 215.93088 
+Q 476.409792 215.93088 510.504753 215.93088 
+" clip-path="url(#pf0a069fd20)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 506.504753 213.93088 
+L 510.504753 215.93088 
+L 506.504753 217.93088 
+" clip-path="url(#pf0a069fd20)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 375.3216 131.6682 
+Q 375.3216 156.211426 375.3216 179.524814 
+" clip-path="url(#pf0a069fd20)" style="fill: none; stroke-dasharray: 4.07,1.76; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 377.3216 175.524814 
+L 375.3216 179.524814 
+L 373.3216 175.524814 
+" clip-path="url(#pf0a069fd20)" style="fill: none; stroke-dasharray: 4.07,1.76; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="324" y="20.18304" transform="rotate(-0 324 20.18304)">Fit preprocessing on training data only</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(52.8066 86.365395)">X, y</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(25.144725 99.80277)">4 input fields</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(32.46285 113.240145)">80:20 split</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(186.285 92.750332)">X_train</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(168.815625 106.521457)">fit_transform</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(316.34535 86.365395)">ColumnTransformer</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(329.195662 99.80277)">Median + scale</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(337.104412 113.240145)">Mode + OHE</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(537.6891 86.19852)">Train array</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(525.73035 99.635895)">(n_train,p_out)</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(526.014413 113.40702)">feature names</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(188.728125 212.189692)">X_test</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(163.348125 225.960817)">transform only</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(339.219412 205.804755)">Reuse fitted</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(323.8416 219.24213)">medians, modes,</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(321.470662 232.679505)">scales, categories</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(540.267225 198.919192)">Test array</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(528.173475 212.356567)">(n_test,p_out)</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(529.816913 226.127692)">same feature</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'" transform="translate(553.721288 239.565067)">order</text>
+   </g>
+   <g id="text_9">
+    <g id="patch_16">
+     <path d="M 123.353725 88.885344 
+L 145.177475 88.885344 
+L 145.177475 78.618938 
+L 123.353725 78.618938 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="134.2656" y="86.09761" transform="rotate(-0 134.2656 86.09761)">train</text>
+   </g>
+   <g id="text_10">
+    <g id="patch_17">
+     <path d="M 125.084272 148.605024 
+L 143.446928 148.605024 
+L 143.446928 138.338618 
+L 125.084272 138.338618 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="134.2656" y="145.81729" transform="rotate(-0 134.2656 145.81729)">test</text>
+   </g>
+   <g id="text_11">
+    <g id="patch_18">
+     <path d="M 363.535819 148.605024 
+L 387.107381 148.605024 
+L 387.107381 138.338618 
+L 363.535819 138.338618 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="375.3216" y="145.81729" transform="rotate(-0 375.3216 145.81729)">state</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="22.2912" y="293.962121" transform="rotate(-0 22.2912 293.962121)">Numeric fields: age, income. Categorical fields: gender, city. Target y is excluded.</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="22.2912" y="317.186441" transform="rotate(-0 22.2912 317.186441)">OHE = OneHotEncoder(handle_unknown="ignore"). p_out depends on fitted categories.</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="22.2912" y="340.410761" transform="rotate(-0 22.2912 340.410761)">No estimator fit or prediction exists in the main ch05 code. Input: 100 synthetic practice rows; no classifier is fitted here.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf0a069fd20">
+   <rect x="12.96" y="6.912" width="622.08" height="331.776"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,1032 @@
+[
+  {
+    "file": "ch01/data/main_ai_history.csv",
+    "rows": 9,
+    "columns": [
+      "연도",
+      "분야",
+      "사건",
+      "설명"
+    ],
+    "dtypes": {
+      "연도": "int64",
+      "분야": "object",
+      "사건": "object",
+      "설명": "object"
+    },
+    "missing": {
+      "연도": 0,
+      "분야": 0,
+      "사건": 0,
+      "설명": 0
+    }
+  },
+  {
+    "file": "ch01/data/wine.csv",
+    "rows": 178,
+    "columns": [
+      "alcohol",
+      "malic_acid",
+      "ash",
+      "alcalinity_of_ash",
+      "magnesium",
+      "total_phenols",
+      "flavanoids",
+      "nonflavanoid_phenols",
+      "proanthocyanins",
+      "color_intensity",
+      "hue",
+      "od280_od315_of_diluted_wines",
+      "proline",
+      "target"
+    ],
+    "dtypes": {
+      "alcohol": "float64",
+      "malic_acid": "float64",
+      "ash": "float64",
+      "alcalinity_of_ash": "float64",
+      "magnesium": "int64",
+      "total_phenols": "float64",
+      "flavanoids": "float64",
+      "nonflavanoid_phenols": "float64",
+      "proanthocyanins": "float64",
+      "color_intensity": "float64",
+      "hue": "float64",
+      "od280_od315_of_diluted_wines": "float64",
+      "proline": "int64",
+      "target": "int64"
+    },
+    "missing": {
+      "alcohol": 0,
+      "malic_acid": 0,
+      "ash": 0,
+      "alcalinity_of_ash": 0,
+      "magnesium": 0,
+      "total_phenols": 0,
+      "flavanoids": 0,
+      "nonflavanoid_phenols": 0,
+      "proanthocyanins": 0,
+      "color_intensity": 0,
+      "hue": 0,
+      "od280_od315_of_diluted_wines": 0,
+      "proline": 0,
+      "target": 0
+    }
+  },
+  {
+    "file": "ch02/data/linear.csv",
+    "rows": 90,
+    "columns": [
+      "x",
+      "y"
+    ],
+    "dtypes": {
+      "x": "float64",
+      "y": "float64"
+    },
+    "missing": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "file": "ch02/data/main_math_sample.csv",
+    "rows": 120,
+    "columns": [
+      "x",
+      "y"
+    ],
+    "dtypes": {
+      "x": "float64",
+      "y": "float64"
+    },
+    "missing": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "file": "ch03/data/items.csv",
+    "rows": 8,
+    "columns": [
+      "item",
+      "weight",
+      "value"
+    ],
+    "dtypes": {
+      "item": "object",
+      "weight": "int64",
+      "value": "int64"
+    },
+    "missing": {
+      "item": 0,
+      "weight": 0,
+      "value": 0
+    }
+  },
+  {
+    "file": "ch03/data/maze.csv",
+    "rows": 6,
+    "columns": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "dtypes": {
+      "c0": "int64",
+      "c1": "int64",
+      "c2": "int64",
+      "c3": "int64",
+      "c4": "int64",
+      "c5": "int64"
+    },
+    "missing": {
+      "c0": 0,
+      "c1": 0,
+      "c2": 0,
+      "c3": 0,
+      "c4": 0,
+      "c5": 0
+    }
+  },
+  {
+    "file": "ch04/data/churn.csv",
+    "rows": 1200,
+    "columns": [
+      "customer_id",
+      "age",
+      "tenure",
+      "monthly_charge",
+      "total_charge",
+      "contract",
+      "internet",
+      "support",
+      "ebilling",
+      "churn"
+    ],
+    "dtypes": {
+      "customer_id": "object",
+      "age": "int64",
+      "tenure": "int64",
+      "monthly_charge": "float64",
+      "total_charge": "float64",
+      "contract": "object",
+      "internet": "object",
+      "support": "object",
+      "ebilling": "object",
+      "churn": "int64"
+    },
+    "missing": {
+      "customer_id": 0,
+      "age": 0,
+      "tenure": 0,
+      "monthly_charge": 20,
+      "total_charge": 20,
+      "contract": 0,
+      "internet": 0,
+      "support": 20,
+      "ebilling": 0,
+      "churn": 0
+    }
+  },
+  {
+    "file": "ch04/data/main_housing.csv",
+    "rows": 900,
+    "columns": [
+      "Area",
+      "Rooms",
+      "Age",
+      "Distance",
+      "School",
+      "Price"
+    ],
+    "dtypes": {
+      "Area": "float64",
+      "Rooms": "int64",
+      "Age": "int64",
+      "Distance": "float64",
+      "School": "float64",
+      "Price": "float64"
+    },
+    "missing": {
+      "Area": 0,
+      "Rooms": 0,
+      "Age": 0,
+      "Distance": 0,
+      "School": 0,
+      "Price": 0
+    }
+  },
+  {
+    "file": "ch05/data/churn.csv",
+    "rows": 1200,
+    "columns": [
+      "customer_id",
+      "age",
+      "tenure",
+      "monthly_charge",
+      "total_charge",
+      "contract",
+      "internet",
+      "support",
+      "ebilling",
+      "churn"
+    ],
+    "dtypes": {
+      "customer_id": "object",
+      "age": "int64",
+      "tenure": "int64",
+      "monthly_charge": "float64",
+      "total_charge": "float64",
+      "contract": "object",
+      "internet": "object",
+      "support": "object",
+      "ebilling": "object",
+      "churn": "int64"
+    },
+    "missing": {
+      "customer_id": 0,
+      "age": 0,
+      "tenure": 0,
+      "monthly_charge": 20,
+      "total_charge": 20,
+      "contract": 0,
+      "internet": 0,
+      "support": 20,
+      "ebilling": 0,
+      "churn": 0
+    }
+  },
+  {
+    "file": "ch05/data/main_preprocessing.csv",
+    "rows": 100,
+    "columns": [
+      "age",
+      "income",
+      "gender",
+      "city",
+      "target"
+    ],
+    "dtypes": {
+      "age": "float64",
+      "income": "float64",
+      "gender": "object",
+      "city": "object",
+      "target": "int64"
+    },
+    "missing": {
+      "age": 3,
+      "income": 2,
+      "gender": 0,
+      "city": 0,
+      "target": 0
+    }
+  },
+  {
+    "file": "ch06/data/housing.csv",
+    "rows": 900,
+    "columns": [
+      "area",
+      "rooms",
+      "age",
+      "distance",
+      "school_score",
+      "price"
+    ],
+    "dtypes": {
+      "area": "float64",
+      "rooms": "int64",
+      "age": "int64",
+      "distance": "float64",
+      "school_score": "float64",
+      "price": "int64"
+    },
+    "missing": {
+      "area": 0,
+      "rooms": 0,
+      "age": 0,
+      "distance": 0,
+      "school_score": 0,
+      "price": 0
+    }
+  },
+  {
+    "file": "ch06/data/main_housing.csv",
+    "rows": 900,
+    "columns": [
+      "Area",
+      "Rooms",
+      "Age",
+      "Distance",
+      "School",
+      "Price"
+    ],
+    "dtypes": {
+      "Area": "float64",
+      "Rooms": "int64",
+      "Age": "int64",
+      "Distance": "float64",
+      "School": "float64",
+      "Price": "float64"
+    },
+    "missing": {
+      "Area": 0,
+      "Rooms": 0,
+      "Age": 0,
+      "Distance": 0,
+      "School": 0,
+      "Price": 0
+    }
+  },
+  {
+    "file": "ch06/data/nonlinear.csv",
+    "rows": 100,
+    "columns": [
+      "x",
+      "y"
+    ],
+    "dtypes": {
+      "x": "float64",
+      "y": "float64"
+    },
+    "missing": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "file": "ch07/data/main_cancer.csv",
+    "rows": 569,
+    "columns": [
+      "mean radius",
+      "mean texture",
+      "mean perimeter",
+      "mean area",
+      "mean smoothness",
+      "mean compactness",
+      "mean concavity",
+      "mean concave points",
+      "mean symmetry",
+      "mean fractal dimension",
+      "radius error",
+      "texture error",
+      "perimeter error",
+      "area error",
+      "smoothness error",
+      "compactness error",
+      "concavity error",
+      "concave points error",
+      "symmetry error",
+      "fractal dimension error",
+      "worst radius",
+      "worst texture",
+      "worst perimeter",
+      "worst area",
+      "worst smoothness",
+      "worst compactness",
+      "worst concavity",
+      "worst concave points",
+      "worst symmetry",
+      "worst fractal dimension",
+      "target"
+    ],
+    "dtypes": {
+      "mean radius": "float64",
+      "mean texture": "float64",
+      "mean perimeter": "float64",
+      "mean area": "float64",
+      "mean smoothness": "float64",
+      "mean compactness": "float64",
+      "mean concavity": "float64",
+      "mean concave points": "float64",
+      "mean symmetry": "float64",
+      "mean fractal dimension": "float64",
+      "radius error": "float64",
+      "texture error": "float64",
+      "perimeter error": "float64",
+      "area error": "float64",
+      "smoothness error": "float64",
+      "compactness error": "float64",
+      "concavity error": "float64",
+      "concave points error": "float64",
+      "symmetry error": "float64",
+      "fractal dimension error": "float64",
+      "worst radius": "float64",
+      "worst texture": "float64",
+      "worst perimeter": "float64",
+      "worst area": "float64",
+      "worst smoothness": "float64",
+      "worst compactness": "float64",
+      "worst concavity": "float64",
+      "worst concave points": "float64",
+      "worst symmetry": "float64",
+      "worst fractal dimension": "float64",
+      "target": "int64"
+    },
+    "missing": {
+      "mean radius": 0,
+      "mean texture": 0,
+      "mean perimeter": 0,
+      "mean area": 0,
+      "mean smoothness": 0,
+      "mean compactness": 0,
+      "mean concavity": 0,
+      "mean concave points": 0,
+      "mean symmetry": 0,
+      "mean fractal dimension": 0,
+      "radius error": 0,
+      "texture error": 0,
+      "perimeter error": 0,
+      "area error": 0,
+      "smoothness error": 0,
+      "compactness error": 0,
+      "concavity error": 0,
+      "concave points error": 0,
+      "symmetry error": 0,
+      "fractal dimension error": 0,
+      "worst radius": 0,
+      "worst texture": 0,
+      "worst perimeter": 0,
+      "worst area": 0,
+      "worst smoothness": 0,
+      "worst compactness": 0,
+      "worst concavity": 0,
+      "worst concave points": 0,
+      "worst symmetry": 0,
+      "worst fractal dimension": 0,
+      "target": 0
+    }
+  },
+  {
+    "file": "ch07/data/wine.csv",
+    "rows": 178,
+    "columns": [
+      "alcohol",
+      "malic_acid",
+      "ash",
+      "alcalinity_of_ash",
+      "magnesium",
+      "total_phenols",
+      "flavanoids",
+      "nonflavanoid_phenols",
+      "proanthocyanins",
+      "color_intensity",
+      "hue",
+      "od280_od315_of_diluted_wines",
+      "proline",
+      "target"
+    ],
+    "dtypes": {
+      "alcohol": "float64",
+      "malic_acid": "float64",
+      "ash": "float64",
+      "alcalinity_of_ash": "float64",
+      "magnesium": "int64",
+      "total_phenols": "float64",
+      "flavanoids": "float64",
+      "nonflavanoid_phenols": "float64",
+      "proanthocyanins": "float64",
+      "color_intensity": "float64",
+      "hue": "float64",
+      "od280_od315_of_diluted_wines": "float64",
+      "proline": "int64",
+      "target": "int64"
+    },
+    "missing": {
+      "alcohol": 0,
+      "malic_acid": 0,
+      "ash": 0,
+      "alcalinity_of_ash": 0,
+      "magnesium": 0,
+      "total_phenols": 0,
+      "flavanoids": 0,
+      "nonflavanoid_phenols": 0,
+      "proanthocyanins": 0,
+      "color_intensity": 0,
+      "hue": 0,
+      "od280_od315_of_diluted_wines": 0,
+      "proline": 0,
+      "target": 0
+    }
+  },
+  {
+    "file": "ch08/data/main_churn.csv",
+    "rows": 1200,
+    "columns": [
+      "age",
+      "tenure",
+      "monthly_charge",
+      "total_charge",
+      "churn"
+    ],
+    "dtypes": {
+      "age": "int64",
+      "tenure": "int64",
+      "monthly_charge": "float64",
+      "total_charge": "float64",
+      "churn": "int64"
+    },
+    "missing": {
+      "age": 0,
+      "tenure": 0,
+      "monthly_charge": 20,
+      "total_charge": 20,
+      "churn": 0
+    }
+  },
+  {
+    "file": "ch08/data/wine.csv",
+    "rows": 178,
+    "columns": [
+      "alcohol",
+      "malic_acid",
+      "ash",
+      "alcalinity_of_ash",
+      "magnesium",
+      "total_phenols",
+      "flavanoids",
+      "nonflavanoid_phenols",
+      "proanthocyanins",
+      "color_intensity",
+      "hue",
+      "od280_od315_of_diluted_wines",
+      "proline",
+      "target"
+    ],
+    "dtypes": {
+      "alcohol": "float64",
+      "malic_acid": "float64",
+      "ash": "float64",
+      "alcalinity_of_ash": "float64",
+      "magnesium": "int64",
+      "total_phenols": "float64",
+      "flavanoids": "float64",
+      "nonflavanoid_phenols": "float64",
+      "proanthocyanins": "float64",
+      "color_intensity": "float64",
+      "hue": "float64",
+      "od280_od315_of_diluted_wines": "float64",
+      "proline": "int64",
+      "target": "int64"
+    },
+    "missing": {
+      "alcohol": 0,
+      "malic_acid": 0,
+      "ash": 0,
+      "alcalinity_of_ash": 0,
+      "magnesium": 0,
+      "total_phenols": 0,
+      "flavanoids": 0,
+      "nonflavanoid_phenols": 0,
+      "proanthocyanins": 0,
+      "color_intensity": 0,
+      "hue": 0,
+      "od280_od315_of_diluted_wines": 0,
+      "proline": 0,
+      "target": 0
+    }
+  },
+  {
+    "file": "ch09/data/main_cancer.csv",
+    "rows": 569,
+    "columns": [
+      "mean radius",
+      "mean texture",
+      "mean perimeter",
+      "mean area",
+      "mean smoothness",
+      "mean compactness",
+      "mean concavity",
+      "mean concave points",
+      "mean symmetry",
+      "mean fractal dimension",
+      "radius error",
+      "texture error",
+      "perimeter error",
+      "area error",
+      "smoothness error",
+      "compactness error",
+      "concavity error",
+      "concave points error",
+      "symmetry error",
+      "fractal dimension error",
+      "worst radius",
+      "worst texture",
+      "worst perimeter",
+      "worst area",
+      "worst smoothness",
+      "worst compactness",
+      "worst concavity",
+      "worst concave points",
+      "worst symmetry",
+      "worst fractal dimension",
+      "target"
+    ],
+    "dtypes": {
+      "mean radius": "float64",
+      "mean texture": "float64",
+      "mean perimeter": "float64",
+      "mean area": "float64",
+      "mean smoothness": "float64",
+      "mean compactness": "float64",
+      "mean concavity": "float64",
+      "mean concave points": "float64",
+      "mean symmetry": "float64",
+      "mean fractal dimension": "float64",
+      "radius error": "float64",
+      "texture error": "float64",
+      "perimeter error": "float64",
+      "area error": "float64",
+      "smoothness error": "float64",
+      "compactness error": "float64",
+      "concavity error": "float64",
+      "concave points error": "float64",
+      "symmetry error": "float64",
+      "fractal dimension error": "float64",
+      "worst radius": "float64",
+      "worst texture": "float64",
+      "worst perimeter": "float64",
+      "worst area": "float64",
+      "worst smoothness": "float64",
+      "worst compactness": "float64",
+      "worst concavity": "float64",
+      "worst concave points": "float64",
+      "worst symmetry": "float64",
+      "worst fractal dimension": "float64",
+      "target": "int64"
+    },
+    "missing": {
+      "mean radius": 0,
+      "mean texture": 0,
+      "mean perimeter": 0,
+      "mean area": 0,
+      "mean smoothness": 0,
+      "mean compactness": 0,
+      "mean concavity": 0,
+      "mean concave points": 0,
+      "mean symmetry": 0,
+      "mean fractal dimension": 0,
+      "radius error": 0,
+      "texture error": 0,
+      "perimeter error": 0,
+      "area error": 0,
+      "smoothness error": 0,
+      "compactness error": 0,
+      "concavity error": 0,
+      "concave points error": 0,
+      "symmetry error": 0,
+      "fractal dimension error": 0,
+      "worst radius": 0,
+      "worst texture": 0,
+      "worst perimeter": 0,
+      "worst area": 0,
+      "worst smoothness": 0,
+      "worst compactness": 0,
+      "worst concavity": 0,
+      "worst concave points": 0,
+      "worst symmetry": 0,
+      "worst fractal dimension": 0,
+      "target": 0
+    }
+  },
+  {
+    "file": "ch09/data/main_customer.csv",
+    "rows": 900,
+    "columns": [
+      "income",
+      "spending",
+      "visits",
+      "recency",
+      "age"
+    ],
+    "dtypes": {
+      "income": "float64",
+      "spending": "float64",
+      "visits": "int64",
+      "recency": "float64",
+      "age": "int64"
+    },
+    "missing": {
+      "income": 0,
+      "spending": 0,
+      "visits": 0,
+      "recency": 0,
+      "age": 0
+    }
+  },
+  {
+    "file": "ch09/data/moons.csv",
+    "rows": 300,
+    "columns": [
+      "x1",
+      "x2",
+      "target"
+    ],
+    "dtypes": {
+      "x1": "float64",
+      "x2": "float64",
+      "target": "int64"
+    },
+    "missing": {
+      "x1": 0,
+      "x2": 0,
+      "target": 0
+    }
+  },
+  {
+    "file": "ch09/data/wine.csv",
+    "rows": 178,
+    "columns": [
+      "alcohol",
+      "malic_acid",
+      "ash",
+      "alcalinity_of_ash",
+      "magnesium",
+      "total_phenols",
+      "flavanoids",
+      "nonflavanoid_phenols",
+      "proanthocyanins",
+      "color_intensity",
+      "hue",
+      "od280_od315_of_diluted_wines",
+      "proline",
+      "target"
+    ],
+    "dtypes": {
+      "alcohol": "float64",
+      "malic_acid": "float64",
+      "ash": "float64",
+      "alcalinity_of_ash": "float64",
+      "magnesium": "int64",
+      "total_phenols": "float64",
+      "flavanoids": "float64",
+      "nonflavanoid_phenols": "float64",
+      "proanthocyanins": "float64",
+      "color_intensity": "float64",
+      "hue": "float64",
+      "od280_od315_of_diluted_wines": "float64",
+      "proline": "int64",
+      "target": "int64"
+    },
+    "missing": {
+      "alcohol": 0,
+      "malic_acid": 0,
+      "ash": 0,
+      "alcalinity_of_ash": 0,
+      "magnesium": 0,
+      "total_phenols": 0,
+      "flavanoids": 0,
+      "nonflavanoid_phenols": 0,
+      "proanthocyanins": 0,
+      "color_intensity": 0,
+      "hue": 0,
+      "od280_od315_of_diluted_wines": 0,
+      "proline": 0,
+      "target": 0
+    }
+  },
+  {
+    "file": "ch10/data/moons.csv",
+    "rows": 300,
+    "columns": [
+      "x1",
+      "x2",
+      "target"
+    ],
+    "dtypes": {
+      "x1": "float64",
+      "x2": "float64",
+      "target": "int64"
+    },
+    "missing": {
+      "x1": 0,
+      "x2": 0,
+      "target": 0
+    }
+  },
+  {
+    "file": "ch10/data/wine.csv",
+    "rows": 178,
+    "columns": [
+      "alcohol",
+      "malic_acid",
+      "ash",
+      "alcalinity_of_ash",
+      "magnesium",
+      "total_phenols",
+      "flavanoids",
+      "nonflavanoid_phenols",
+      "proanthocyanins",
+      "color_intensity",
+      "hue",
+      "od280_od315_of_diluted_wines",
+      "proline",
+      "target"
+    ],
+    "dtypes": {
+      "alcohol": "float64",
+      "malic_acid": "float64",
+      "ash": "float64",
+      "alcalinity_of_ash": "float64",
+      "magnesium": "int64",
+      "total_phenols": "float64",
+      "flavanoids": "float64",
+      "nonflavanoid_phenols": "float64",
+      "proanthocyanins": "float64",
+      "color_intensity": "float64",
+      "hue": "float64",
+      "od280_od315_of_diluted_wines": "float64",
+      "proline": "int64",
+      "target": "int64"
+    },
+    "missing": {
+      "alcohol": 0,
+      "malic_acid": 0,
+      "ash": 0,
+      "alcalinity_of_ash": 0,
+      "magnesium": 0,
+      "total_phenols": 0,
+      "flavanoids": 0,
+      "nonflavanoid_phenols": 0,
+      "proanthocyanins": 0,
+      "color_intensity": 0,
+      "hue": 0,
+      "od280_od315_of_diluted_wines": 0,
+      "proline": 0,
+      "target": 0
+    }
+  },
+  {
+    "file": "ch11/data/image.csv",
+    "rows": 12,
+    "columns": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5",
+      "c6",
+      "c7",
+      "c8",
+      "c9",
+      "c10",
+      "c11"
+    ],
+    "dtypes": {
+      "c0": "int64",
+      "c1": "int64",
+      "c2": "int64",
+      "c3": "float64",
+      "c4": "float64",
+      "c5": "float64",
+      "c6": "float64",
+      "c7": "float64",
+      "c8": "float64",
+      "c9": "int64",
+      "c10": "int64",
+      "c11": "int64"
+    },
+    "missing": {
+      "c0": 0,
+      "c1": 0,
+      "c2": 0,
+      "c3": 0,
+      "c4": 0,
+      "c5": 0,
+      "c6": 0,
+      "c7": 0,
+      "c8": 0,
+      "c9": 0,
+      "c10": 0,
+      "c11": 0
+    }
+  },
+  {
+    "file": "ch11/data/series.csv",
+    "rows": 360,
+    "columns": [
+      "t",
+      "signal"
+    ],
+    "dtypes": {
+      "t": "int64",
+      "signal": "float64"
+    },
+    "missing": {
+      "t": 0,
+      "signal": 0
+    }
+  },
+  {
+    "file": "ch12/data/documents.csv",
+    "rows": 60,
+    "columns": [
+      "id",
+      "title",
+      "content"
+    ],
+    "dtypes": {
+      "id": "object",
+      "title": "object",
+      "content": "object"
+    },
+    "missing": {
+      "id": 0,
+      "title": 0,
+      "content": 0
+    }
+  },
+  {
+    "file": "ch12/data/keys.csv",
+    "rows": 4,
+    "columns": [
+      "d0",
+      "d1"
+    ],
+    "dtypes": {
+      "d0": "int64",
+      "d1": "int64"
+    },
+    "missing": {
+      "d0": 0,
+      "d1": 0
+    }
+  },
+  {
+    "file": "ch12/data/main_documents.csv",
+    "rows": 60,
+    "columns": [
+      "id",
+      "title",
+      "content"
+    ],
+    "dtypes": {
+      "id": "object",
+      "title": "object",
+      "content": "object"
+    },
+    "missing": {
+      "id": 0,
+      "title": 0,
+      "content": 0
+    }
+  },
+  {
+    "file": "ch12/data/queries.csv",
+    "rows": 3,
+    "columns": [
+      "d0",
+      "d1"
+    ],
+    "dtypes": {
+      "d0": "int64",
+      "d1": "int64"
+    },
+    "missing": {
+      "d0": 0,
+      "d1": 0
+    }
+  },
+  {
+    "file": "ch13/data/drift.csv",
+    "rows": 500,
+    "columns": [
+      "reference",
+      "current"
+    ],
+    "dtypes": {
+      "reference": "float64",
+      "current": "float64"
+    },
+    "missing": {
+      "reference": 0,
+      "current": 0
+    }
+  },
+  {
+    "file": "ch13/data/serving.csv",
+    "rows": 360,
+    "columns": [
+      "x0",
+      "x1",
+      "x2",
+      "target"
+    ],
+    "dtypes": {
+      "x0": "float64",
+      "x1": "float64",
+      "x2": "float64",
+      "target": "float64"
+    },
+    "missing": {
+      "x0": 0,
+      "x1": 0,
+      "x2": 0,
+      "target": 0
+    }
+  }
+]

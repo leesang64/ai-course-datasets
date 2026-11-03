@@ -1,0 +1,8 @@
+Out[0]: <matplotlib.lines.Line2D at 0x7f88e05f3fe0>
+{
+  "test_n": 54,
+  "prevalence": 0.3333333333333333,
+  "ROC_AUC": 1.0,
+  "AP": 1.0000000000000002,
+  "Brier": 0.027331693273780305
+}

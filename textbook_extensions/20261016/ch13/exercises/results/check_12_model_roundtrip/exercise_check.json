@@ -1,0 +1,4 @@
+{
+  "column_reordering_invariant": true,
+  "NaN_rejected": "Input contains non-finite values"
+}

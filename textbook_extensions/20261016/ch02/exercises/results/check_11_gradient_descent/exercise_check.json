@@ -1,0 +1,14 @@
+{
+  "comparison": [
+    {
+      "learning_rate": 0.006,
+      "final_mse": 0.3339749131821781,
+      "finite": true
+    },
+    {
+      "learning_rate": 0.6,
+      "final_mse": 3.2841963509618143e+69,
+      "finite": true
+    }
+  ]
+}

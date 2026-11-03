@@ -1,0 +1,27 @@
+Out[0]: <torch._C.Generator at 0x7f89630a9f90>
+CNN Input Shape: (6, 1, 28, 28)
+CNN Output Shape: (6, 10)
+LSTM Input Shape: (6, 20, 5)
+LSTM Output Shape: (6, 3)
+{
+  "cnn_input": [
+    6,
+    1,
+    28,
+    28
+  ],
+  "cnn_output": [
+    6,
+    10
+  ],
+  "lstm_input": [
+    6,
+    20,
+    5
+  ],
+  "lstm_output": [
+    6,
+    3
+  ],
+  "trained": false
+}

@@ -1,0 +1,25 @@
+{
+  "comparison": [
+    {
+      "capacity": 15,
+      "mutation_probability": 0.05,
+      "exact": 38,
+      "ga": 38,
+      "gap": 0
+    },
+    {
+      "capacity": 12,
+      "mutation_probability": 0.05,
+      "exact": 31,
+      "ga": 31,
+      "gap": 0
+    },
+    {
+      "capacity": 15,
+      "mutation_probability": 0.15,
+      "exact": 38,
+      "ga": 38,
+      "gap": 0
+    }
+  ]
+}

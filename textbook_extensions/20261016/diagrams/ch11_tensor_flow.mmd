@@ -1,0 +1,9 @@
+flowchart TD
+ subgraph CNN
+ A["Image (4,1,28,28)"] --> B["Conv2d BN ReLU (4,16,28,28)"]
+ B --> C["MaxPool (4,16,14,14)"] --> D["flatten(1) (4,3136)"] --> E["Linear (4,10) logits"]
+ end
+ subgraph LSTM
+ F["Sequence (4,20,5)"] --> G["LSTM output (4,20,16)"]
+ G --> H["Last time step (4,16)"] --> I["Linear (4,3) logits"]
+ end

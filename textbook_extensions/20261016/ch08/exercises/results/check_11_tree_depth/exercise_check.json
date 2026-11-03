@@ -1,0 +1,21 @@
+{
+  "route": [
+    {
+      "node": 0,
+      "feature": "color_intensity",
+      "value": 5.68,
+      "threshold": 3.819999933242798,
+      "left": false
+    },
+    {
+      "node": 4,
+      "feature": "flavanoids",
+      "value": 3.24,
+      "threshold": 1.5800000429153442,
+      "left": false
+    }
+  ],
+  "leaf": 6,
+  "manual": 0,
+  "prediction": 0
+}

@@ -1,0 +1,10 @@
+PSI: 0.0225
+Drift Status: 정상
+입력 피처: (5.0, 2.5)
+교육용 선형 계산 결과: 12.50
+{
+  "PSI": 0.022513466634676807,
+  "status": "정상",
+  "educational_linear_result": 12.5,
+  "trained_model": false
+}

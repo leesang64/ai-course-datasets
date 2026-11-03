@@ -1,48 +1,59 @@
-# 13개 장 프로그램·데이터·결과 확장 (2026-10-16)
+# 파이썬 기반 인공지능 교재 셀별 실습
 
-26개 추가 실습, 21개 고정 CSV 입력, 13개 Jupyter 노트북, 27개 실행 결과 그림을 포함한다.
-노트북 65개 코드 셀은 IPython에서 순차 실행해 확인했다. 별도 Jupyter 서버 화면에서의 실행은 검증 범위에 포함하지 않는다.
-현재 Word의 실제 목차에 맞춘 ch01~ch13이며, 기존 폴더 이름의 장 번호를 재해석해 덮어쓰지 않는다.
+2026년 11월 3일 개정에서는 본문 주 예제 13개, 추가 실습 26개, 확인 문제 8번 참고 코드 13개, 실습 과제 참고 코드 13개, 추가 실습 확인 과제 26개를 구분했습니다. 독립 프로그램은 91개이며 같은 내용의 전체 Python 코드와 셀별 Jupyter Notebook을 각각 제공합니다. 장별 안내 노트북 13개는 프로그램을 선택하는 목차입니다.
 
-## 설치와 실행
+모든 독립 프로그램은 각 셀의 코드를 IPython에서 위에서 아래로 실행하여 결과를 저장했습니다. Jupyter 메시징 커널은 실행 환경의 소켓 제한 때문에 시작하지 못했으므로 별도 커널·브라우저 실행 완료로 표시하지 않습니다. 새 입력을 연결한 본문 예제의 결과는 과거 원고의 누락 입력 결과를 복구한 값이 아닙니다.
 
-Python 3.12 환경을 권장한다. 아래 명령은 이 폴더에서 실행한다.
+## 처음 실행하는 순서
+
+1. 저장소 화면의 Code 메뉴에서 Download ZIP을 선택하고 압축을 풉니다. ZIP 안에서 파일을 직접 열지 않습니다.
+2. 아래 폴더로 이동합니다. 이 폴더의 data_manifest.json과 ch01~ch13을 확인합니다.
 
 ```bash
+cd ai-course-datasets-main/textbook_extensions/20261016
 python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux: source .venv/bin/activate
-python -m pip install -r requirements.txt
-python verify_all.py
-jupyter lab
 ```
 
-노트북은 각 chXX/chapter_practice.ipynb를 열어 전체 셀을 실행한다.
-프로그램은 script 위치를 기준으로 입력을 읽으므로 `python ch07/sec_11_threshold_metrics.py`처럼 실행할 수 있다.
-Jupyter의 커널과 패키지 설치 환경이 일치하는지 첫 셀에서 확인한다.
+Windows에서는 `.venv\Scripts\activate`, macOS·Linux에서는 `source .venv/bin/activate`를 실행합니다.
 
-## 재현성과 자료 출처
+```bash
+python -m pip install -r requirements.txt
+python -m pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+python -m ipykernel install --user --name ai-textbook --display-name "Python AI textbook"
+python validate_course.py
+python -m jupyterlab
+```
 
-- 기준 실행 환경은 environment.json, CSV 해시는 data_manifest.json, 장별 스키마·출처는 data_card.json에 있다.
-- 원 저장소에서 복사한 자료의 실제 측정/합성 여부나 금액 단위가 확인되지 않은 경우 그 한계를 명시했다.
-- 새 합성 자료는 관측 데이터로 부르지 않으며 생성 규칙과 난수 시드를 명시했다.
-- Wine은 scikit-learn load_wine으로 배포되는 자료다. 원 출처와 이용 조건은 https://scikit-learn.org/stable/datasets/toy_dataset.html#wine-recognition-dataset 및 https://archive.ics.uci.edu/dataset/109/wine 를 확인한다.
-- `results/*.svg`는 실제 실행한 계산에서 생성한 벡터 그림이다. 재실행 시 Word 삽입용 300dpi PNG도 생성된다.
-- `results/*.joblib`은 사용자 실행 때 로컬에서 생성하며 GitHub에는 올리지 않는다. 신뢰할 수 없는 모델 파일은 역직렬화하지 않는다.
-- 11.11은 고정 필터 연산, 11.12는 Ridge 시계열 기준선, 12.11은 수치 Attention, 12.12는 검색과 근거 프롬프트다. CNN/LSTM/LLM 전체 학습이나 운영 배포를 검증했다고 표시하지 않는다.
+위 PyTorch 명령은 CPU 실습용입니다. 운영체제와 Python에 맞는 배포 파일을 선택해야 하며 GPU 설치 완료를 뜻하지 않습니다. 노트북에서 Python AI textbook 커널을 선택한 뒤 `sys.executable`이 새 가상환경을 가리키는지 확인합니다. 장별 파일은 해당 파일이 있는 폴더에서 열고 커널을 다시 시작한 뒤 Run All을 선택합니다. 경로 검사에서 중단되면 현재 폴더와 장별 data 폴더를 확인합니다.
 
-## 장·절 대응
+각 `.py` 파일도 해당 실습의 전체 코드입니다. 단독으로 복사하면 데이터까지 복사되는 것은 아니므로 data 폴더를 함께 준비합니다. 예를 들어 이 폴더에서 `python ch01/body/sec_07_main.py`로 실행할 수 있습니다. `body`는 본문, `extensions`는 추가 실습, `exercises`는 확인 문제와 추가 확인 과제, `assignments`는 실습 과제 참고 구현입니다.
 
-- [제1장](ch01/README.md): 1.11 지도·비지도 학습의 입력과 출력 비교 / 1.12 난수 시드와 데이터 분할에 따른 평가 변동
-- [제2장](ch02/README.md): 2.11 선형 회귀 손실과 경사하강법 궤적 / 2.12 중앙 차분으로 해석적 미분 검산
-- [제3장](ch03/README.md): 3.11 BFS와 A*의 경로·확장 노드 비교 / 3.12 유전자 알고리즘과 완전 탐색의 배낭 해 비교
-- [제4장](ch04/README.md): 4.11 결측 분포와 범주별 관측 수 탐색 / 4.12 산점도·상관행렬·이상값 플래그 비교
-- [제5장](ch05/README.md): 5.11 혼합형 데이터 전처리 Pipeline과 계수 해석 / 5.12 훈련 통계 고정과 분포 이동 시 표준화
-- [제6장](ch06/README.md): 6.11 다항 회귀 차수와 훈련·검증 오차 / 6.12 다변량 회귀의 예측·잔차 진단
-- [제7장](ch07/README.md): 7.11 임계값 변화와 혼동행렬·정밀도·재현율 / 7.12 ROC·PR 곡선과 확률 보정 상태
-- [제8장](ch08/README.md): 8.11 의사결정트리 깊이와 가지 분기 해석 / 8.12 앙상블 비교와 테스트 순열 중요도
-- [제9장](ch09/README.md): 9.11 K-Means와 DBSCAN의 비선형 군집 비교 / 9.12 PCA 설명 분산과 재구성 오차
-- [제10장](ch10/README.md): 10.11 MLP 은닉층과 비선형 결정 경계 / 10.12 훈련 크기에 따른 신경망 학습 곡선
-- [제11장](ch11/README.md): 11.11 합성 영상의 필터·풀링과 크기 계산 / 11.12 시간순 분할의 한 단계 예측과 지속성 기준선
-- [제12장](ch12/README.md): 12.11 Attention 점수·정규화·가중합의 수치 검증 / 12.12 한국어 문서 TF-IDF 검색과 근거 프롬프트
-- [제13장](ch13/README.md): 13.11 PSI·KS와 분포 이동 모니터링 / 13.12 모델 저장·복원과 배치 추론 입력 검증
+## 실제 결과와 검증 범위
+
+- 실행 로그와 수치는 각 프로그램 폴더의 `results/프로그램이름/`에 있습니다. SVG는 GitHub에 제공하며 300dpi PNG는 노트북과 프로그램을 실행하면 생성됩니다. 노트북에도 실제 계산한 그림이 저장되어 있습니다.
+- [104개 노트북 셀 실행 기록](execution_20261103.json), [장·절별 대응과 결과](coverage_20261103.json), [모든 CSV 해시](data_manifest.json), [자료형·결측 사전](all_data_dictionary.json)를 제공합니다.
+- Wine은 같은 13개 특성으로 지도·비지도 학습을 비교하기 위해 사용합니다. 군집 번호는 품종 정답 번호와 같지 않습니다. 그림에는 첫 두 특성을 표시하지만 모델 입력은 13개입니다.
+- 본문 5장 입력은 새로 작성한 교육용 합성 자료입니다. 원래 누락 입력을 찾은 것처럼 표시하지 않습니다. 본문 7·9장 분류 자료는 사이킷런의 유방암 진단 자료이며 1은 양성 종양입니다.
+- 본문 11장은 난수 텐서의 순전파 검사이며 CNN·LSTM을 실제 데이터로 학습한 실험이 아닙니다. 12장은 문서 검색과 프롬프트이며 생성 모델 호출 결과가 아닙니다. 13장의 선형 계산은 학습 모델 예측이 아닙니다.
+- 문서 관련성 0·1·2점과 원인 가설 등 사람이 판단해야 하는 과제는 독자가 작성합니다. 코드는 빈 채점 양식을 제공하며 임의 점수를 생성하지 않습니다.
+
+## 장별 전체 코드와 해설
+
+- [제1장 본문·추가 실습·확인 문제·과제](ch01/README.md)
+- [제2장 본문·추가 실습·확인 문제·과제](ch02/README.md)
+- [제3장 본문·추가 실습·확인 문제·과제](ch03/README.md)
+- [제4장 본문·추가 실습·확인 문제·과제](ch04/README.md)
+- [제5장 본문·추가 실습·확인 문제·과제](ch05/README.md)
+- [제6장 본문·추가 실습·확인 문제·과제](ch06/README.md)
+- [제7장 본문·추가 실습·확인 문제·과제](ch07/README.md)
+- [제8장 본문·추가 실습·확인 문제·과제](ch08/README.md)
+- [제9장 본문·추가 실습·확인 문제·과제](ch09/README.md)
+- [제10장 본문·추가 실습·확인 문제·과제](ch10/README.md)
+- [제11장 본문·추가 실습·확인 문제·과제](ch11/README.md)
+- [제12장 본문·추가 실습·확인 문제·과제](ch12/README.md)
+- [제13장 본문·추가 실습·확인 문제·과제](ch13/README.md)
+
+## 입력 출처
+
+기존 저장소 자료는 파일과 행을 보존하고 필요한 열 이름·라벨 변환을 명시했습니다. 실측 여부나 단위를 확인할 수 없는 자료는 교육용 자료로 설명합니다. [Wine 공식 설명](https://scikit-learn.org/stable/datasets/toy_dataset.html#wine-recognition-dataset), [유방암 진단 자료 공식 설명](https://scikit-learn.org/stable/datasets/toy_dataset.html#breast-cancer-wisconsin-diagnostic-dataset)을 확인할 수 있습니다. 숫자 라벨의 의미는 프로그램별로 정의하며 다른 장과 자동으로 같다고 해석하지 않습니다.
+

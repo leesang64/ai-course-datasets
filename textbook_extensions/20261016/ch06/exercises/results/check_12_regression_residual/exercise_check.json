@@ -1,0 +1,12 @@
+{
+  "source_row": 543,
+  "residual": -77808.77118682387,
+  "missing_cells": 0,
+  "features": {
+    "area": 76.04,
+    "rooms": 6.0,
+    "age": 22.0,
+    "distance": 16.15,
+    "school_score": 43.9
+  }
+}

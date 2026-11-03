@@ -1,0 +1,22 @@
+원래 학습 피처 형태: (80, 4)
+전처리 후 학습 피처 형태: (80, 7)
+전처리 후 테스트 피처 형태: (20, 7)
+생성 피처: age, income, gender_F, gender_M, city_Busan, city_Gwangju, city_Seoul
+학습 데이터 결측값 합계: 4
+변환 데이터 결측값 합계: 0
+{
+  "train_shape": [
+    80,
+    4
+  ],
+  "transformed_train_shape": [
+    80,
+    7
+  ],
+  "test_shape": [
+    20,
+    7
+  ],
+  "missing_before": 4,
+  "missing_after": 0
+}

@@ -1,0 +1,12 @@
+Out[0]: Text(0.5, 1.0, 'Same procedure, different splits')
+{
+  "python": "3.12.14",
+  "sklearn": "1.8.0",
+  "accuracy_mean": 0.9814814814814815,
+  "accuracy_std_ddof1": 0.015120307054217172
+}
+{
+  "mean": 0.9814814814814815,
+  "sample_standard_deviation": 0.015120307054217172,
+  "seeds": 10
+}

@@ -1,19 +1,17 @@
-# 제3장 추가 실습
+# 제3장 독립 실행 자료
 
-현재 Word 원고의 3.11절과 3.12절에 대응한다. 저장소의 기존 폴더 번호와 현재 Word 장 번호는 일부 다르므로 이 대응을 우선한다.
+본문·추가 실습·확인 문제·과제를 구분했습니다. 각 노트북에 전체 코드와 설명·실제 출력이 직접 들어 있습니다. `%run`이나 숨겨진 공통 실행에 의존하지 않습니다.
 
-- [3.11 BFS와 A*의 경로·확장 노드 비교](sec_11_search_compare.md) — [코드](sec_11_search_compare.py)
-- [3.12 유전자 알고리즘과 완전 탐색의 배낭 해 비교](sec_12_genetic_knapsack.md) — [코드](sec_12_genetic_knapsack.py)
+| 장절과 분류 | 노트북 | 전체 코드 | 해설·결과 |
+|---|---|---|---|
+| 3.7 body | [열기](body/sec_07_main.ipynb) | [복사·다운로드](body/sec_07_main.py) | [자료·결과](body/sec_07_main.md) |
+| 3.11 extension | [열기](extensions/sec_11_search_compare.ipynb) | [복사·다운로드](extensions/sec_11_search_compare.py) | [자료·결과](extensions/sec_11_search_compare.md) |
+| 3.12 extension | [열기](extensions/sec_12_genetic_knapsack.ipynb) | [복사·다운로드](extensions/sec_12_genetic_knapsack.py) | [자료·결과](extensions/sec_12_genetic_knapsack.md) |
+| 3.9.2 문항 8 exercise | [열기](exercises/q08_parameter_change.ipynb) | [복사·다운로드](exercises/q08_parameter_change.py) | [자료·결과](exercises/q08_parameter_change.md) |
+| 3.9.3 assignment | [열기](assignments/task01_reference.ipynb) | [복사·다운로드](assignments/task01_reference.py) | [자료·결과](assignments/task01_reference.md) |
+| 3.11.6 exercise | [열기](exercises/check_11_search_compare.ipynb) | [복사·다운로드](exercises/check_11_search_compare.py) | [자료·결과](exercises/check_11_search_compare.md) |
+| 3.12.6 exercise | [열기](exercises/check_12_genetic_knapsack.ipynb) | [복사·다운로드](exercises/check_12_genetic_knapsack.py) | [자료·결과](exercises/check_12_genetic_knapsack.md) |
 
-[통합 Jupyter 노트북](chapter_practice.ipynb) · [데이터 카드](data_card.json) · [편집 가능한 과정 원본](process.mmd)
+[확인 문제 10개 해설](exercises/answers.md) · [과제와 채점 기준](assignments/README.md) · [전체 안내](../README.md)
 
-```mermaid
-flowchart TD
-    A["CSV 입력·스키마 확인"] --> B["BFS와 A*의 경로·확장 노드 비교"]
-    A --> C["유전자 알고리즘과 완전 탐색의 배낭 해 비교"]
-    B --> D["수치 CSV·JSON·흑백 SVG"]
-    C --> D
-    D --> E["수식·해석·검증 과제"]
-```
-
-[3.13 열별 데이터 사전과 검증 기준](dataset_guide.md) · [계산된 통계 JSON](data_profile.json)
+코드는 IPython에서 셀 순차 실행했습니다. 별도 Jupyter 메시징 커널·브라우저는 미검증입니다. 문서 관련성 점수나 원인 가설처럼 사람이 판단할 내용은 자동 완성으로 표시하지 않았습니다.

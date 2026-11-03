@@ -1,0 +1,15 @@
+{
+  "validation_n": 54,
+  "positive_definition": "wine target == 0",
+  "at_threshold_0.5": {
+    "threshold": 0.49999999999999994,
+    "TN": 35,
+    "FP": 1,
+    "FN": 1,
+    "TP": 17,
+    "Accuracy": 0.9629629629629629,
+    "Precision": 0.9444444444444444,
+    "Recall": 0.9444444444444444,
+    "F1": 0.9444444444444444
+  }
+}

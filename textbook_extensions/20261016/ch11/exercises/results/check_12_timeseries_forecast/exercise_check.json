@@ -1,0 +1,23 @@
+{
+  "comparison": [
+    {
+      "lag": 1,
+      "RMSE": 0.2537078390468365,
+      "test_n": 90,
+      "first_test_target": 270
+    },
+    {
+      "lag": 12,
+      "RMSE": 0.17834284419927388,
+      "test_n": 87,
+      "first_test_target": 273
+    },
+    {
+      "lag": 24,
+      "RMSE": 0.1390733758842379,
+      "test_n": 84,
+      "first_test_target": 276
+    }
+  ],
+  "different_lags_have_different_test_start": true
+}

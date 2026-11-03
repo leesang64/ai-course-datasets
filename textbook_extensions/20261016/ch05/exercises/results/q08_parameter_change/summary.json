@@ -1,0 +1,16 @@
+{
+  "train_shape": [
+    70,
+    4
+  ],
+  "transformed_train_shape": [
+    70,
+    7
+  ],
+  "test_shape": [
+    30,
+    7
+  ],
+  "missing_before": 4,
+  "missing_after": 0
+}

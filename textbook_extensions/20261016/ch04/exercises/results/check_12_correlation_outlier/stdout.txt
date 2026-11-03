@@ -1,0 +1,14 @@
+{
+  "iqr_flags": {
+    "age": 0,
+    "tenure": 0,
+    "monthly_charge": 9,
+    "total_charge": 5
+  },
+  "pairwise_corr_tenure_total": 0.8197286745425285
+}
+{
+  "flagged_rows": 11,
+  "causes_confirmed": false
+}
+오류 여부는 원본 기록·측정 단위·수집 조건을 추가 확인해야 합니다.

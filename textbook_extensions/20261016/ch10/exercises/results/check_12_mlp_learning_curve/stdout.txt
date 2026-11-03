@@ -1,0 +1,75 @@
+{
+  "validation_n": 54,
+  "curve": [
+    {
+      "train_n": 18,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.8888888888888888
+    },
+    {
+      "train_n": 36,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.9074074074074074
+    },
+    {
+      "train_n": 60,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.9629629629629629
+    },
+    {
+      "train_n": 90,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.9814814814814815
+    },
+    {
+      "train_n": 124,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.9814814814814815
+    }
+  ]
+}
+{
+  "coverage": [
+    {
+      "train_n": 18,
+      "classes": {
+        "0": 6,
+        "1": 6,
+        "2": 6
+      }
+    },
+    {
+      "train_n": 36,
+      "classes": {
+        "0": 12,
+        "1": 12,
+        "2": 12
+      }
+    },
+    {
+      "train_n": 60,
+      "classes": {
+        "0": 20,
+        "1": 20,
+        "2": 20
+      }
+    },
+    {
+      "train_n": 90,
+      "classes": {
+        "0": 30,
+        "1": 30,
+        "2": 30
+      }
+    },
+    {
+      "train_n": 124,
+      "classes": {
+        "0": 41,
+        "1": 50,
+        "2": 33
+      }
+    }
+  ]
+}
+여러 시드의 변동 폭은 별도 반복 실험으로 구해야 하며 미실행 변동 값을 만들지 않습니다.

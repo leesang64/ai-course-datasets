@@ -1,0 +1,15 @@
+{
+  "2": {
+    "test_accuracy": 0.8555555555555555,
+    "iterations": 42
+  },
+  "20": {
+    "test_accuracy": 0.9666666666666667,
+    "iterations": 147
+  }
+}
+{
+  "last_model_errors": 3,
+  "test_rows": 90
+}
+은닉 유닛 외 조건을 고정해 비교하며 오류의 경계 위치를 확인합니다.
