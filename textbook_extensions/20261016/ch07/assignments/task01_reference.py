@@ -134,7 +134,8 @@ ax.set_yticks([0,1], ["True 0", "True 1"])
 # 반복문(Loop)의 조건에 따라 들여쓴 계산을 수행합니다. for i in range(2):에서 반복 대상과 횟수를 확인하고 종료 뒤에는 마지막 계산 상태가 남는다는 점에 주의합니다.
 for i in range(2):
     for j in range(2):
-        ax.text(j, i, str(cm[i,j]), ha="center", va="center", fontsize=15)
+        ax.text(j, i, str(cm[i,j]), ha="center", va="center", fontsize=15,
+                color="white" if cm[i,j] > cm.max()/2 else "black")
 
 # 그림의 축·제목·범례·표시 범위를 설정합니다. 표시 범위가 계산에 사용한 관측 수를 바꾸는 것은 아닙니다.
 ax.set_title("Confusion Matrix")
