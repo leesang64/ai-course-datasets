@@ -37,7 +37,7 @@ draw('ch05_preprocessing_flow','Fit preprocessing on training data only',{
  'A':(.1,3.15,1.45,1.0,'X, y\n4 input fields\n80:20 split'), 'B':(2.35,3.15,1.55,1.,'X_train\nfit_transform'), 'C':(4.8,3.15,2.05,1.,'ColumnTransformer\nMedian + scale\nMode + OHE'), 'D':(8.05,3.15,1.8,1.,'Train array\n(n_train,p_out)\nfeature names'),
  'E':(2.35,1.35,1.55,1.,'X_test\ntransform only'), 'F':(4.8,1.35,2.05,1.,'Reuse fitted\nmedians, modes,\nscales, categories'), 'G':(8.05,1.35,1.8,1.,'Test array\n(n_test,p_out)\nsame feature\norder')},
  [('A','B','-','train','h'),('B','C','-','','h'),('C','D','-','','h'),('A','E','-','test','h'),('E','F','-','','h'),('F','G','-','','h'),('C','F','--','state','v')],
- [(.8,'Numeric fields: age, income. Categorical fields: gender, city. Target y is excluded.'),(.45,'OHE = OneHotEncoder(handle_unknown="ignore"). p_out depends on fitted categories.'),(.1,'No estimator fit or prediction exists in the main ch05 code. Input: 100 synthetic practice rows; no classifier is fitted here.')],
+ [(.8,'Numeric fields: age, income. Categorical fields: gender, city. Target y is excluded.'),(.45,'OHE = OneHotEncoder(handle_unknown="ignore"). p_out depends on fitted categories.'),(.1,'100 synthetic practice rows. No classifier is fitted; no prediction is computed.')],
  'flowchart TD\n A["X y split 80:20"] --> B["X_train fit_transform"]\n A --> E["X_test transform only"]\n B --> C["Numeric median scale and category mode one hot"]\n C --> D["Train array feature names"]\n C -. "fitted state" .-> F["Reuse learned statistics and categories"]\n E --> F --> G["Test array same feature\norder"]\n')
 assert 16*14*14==3136
 assert ((28+2-1*(3-1)-1)//1+1)==28

@@ -112,7 +112,7 @@
     ],
     [
       0.1,
-      "No estimator fit or prediction exists in the main ch05 code. Input: 100 synthetic practice rows; no classifier is fitted here."
+      "100 synthetic practice rows. No classifier is fitted; no prediction is computed."
     ]
   ]
 }
