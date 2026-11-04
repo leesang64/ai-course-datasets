@@ -1,0 +1,11 @@
+flowchart TD
+ A["X and y 120 training rows"]
+ B["Prediction X * W + b"]
+ C["Mean squared error backward()"]
+ D["Update W and b clear gradients"]
+ E["301 recorded losses training loss plot"]
+ A --> B
+ B --> C
+ C --> D
+ D -->|"next step"| B
+ D -->|"record"| E

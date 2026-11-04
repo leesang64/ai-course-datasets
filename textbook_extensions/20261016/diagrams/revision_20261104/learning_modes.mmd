@@ -1,0 +1,17 @@
+flowchart TD
+ A["Training X and y"]
+ B["Fit predictor"]
+ C["New X to prediction"]
+ D["Training X only"]
+ E["Fit representation or clustering"]
+ F["Coordinates or cluster assignments"]
+ G["Agent and policy"]
+ H["Environment"]
+ I["State and reward"]
+ A --> B
+ B --> C
+ D --> E
+ E --> F
+ G -->|"action"| H
+ H --> I
+ I -->|"feedback"| G

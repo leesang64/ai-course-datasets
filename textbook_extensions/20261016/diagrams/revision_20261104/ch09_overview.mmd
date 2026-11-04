@@ -1,0 +1,11 @@
+flowchart TD
+ A["Cancer table train and test split"]
+ B["Scale and RBF SVC fit training rows"]
+ C["Held-out classification accuracy"]
+ D["Customer features no class target"]
+ E["Scale then PCA 2 components"]
+ F["K-Means on PCA clusters and silhouette"]
+ A --> B
+ B --> C
+ D --> E
+ E --> F

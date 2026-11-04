@@ -1,0 +1,117 @@
+{
+  "name": "generation_paths",
+  "old": 4,
+  "title": "Three conceptual generation paths",
+  "nodes": {
+    "A": [
+      0.2,
+      3.8,
+      2.8,
+      0.9,
+      "Previous tokens"
+    ],
+    "B": [
+      3.7,
+      3.8,
+      2.7,
+      0.9,
+      "Next-token distribution"
+    ],
+    "C": [
+      7,
+      3.8,
+      2.9,
+      0.9,
+      "Select and append\nstop at end or limit"
+    ],
+    "D": [
+      0.2,
+      2.2,
+      2.8,
+      0.9,
+      "Noise and conditions"
+    ],
+    "E": [
+      3.7,
+      2.2,
+      2.7,
+      0.9,
+      "Iterative denoising"
+    ],
+    "F": [
+      7,
+      2.2,
+      2.9,
+      0.9,
+      "Image or latent\nthen decode"
+    ],
+    "G": [
+      0.2,
+      0.6,
+      2.8,
+      0.9,
+      "Latent sample"
+    ],
+    "H": [
+      3.7,
+      0.6,
+      2.7,
+      0.9,
+      "Decoder or generator"
+    ],
+    "I": [
+      7,
+      0.6,
+      2.9,
+      0.9,
+      "Generated sample"
+    ]
+  },
+  "edges": [
+    [
+      "A",
+      "B",
+      ""
+    ],
+    [
+      "B",
+      "C",
+      ""
+    ],
+    [
+      "C",
+      "A",
+      "continue"
+    ],
+    [
+      "D",
+      "E",
+      ""
+    ],
+    [
+      "E",
+      "F",
+      ""
+    ],
+    [
+      "G",
+      "H",
+      ""
+    ],
+    [
+      "H",
+      "I",
+      ""
+    ]
+  ],
+  "notes": [
+    "Conceptual model families; no trained generator or sample image is produced here.",
+    "The chapter 12 main program only constructs a retrieval-based prompt."
+  ],
+  "explanation": "첫 행은 이전 토큰을 조건으로 다음 토큰을 선택·추가하는 자기회귀 생성(Autoregressive Generation)입니다. 종료 토큰이나 길이 제한을 만나면 멈춥니다. 둘째 행은 여러 단계의 잡음 제거를 사용하는 확산 모델(Diffusion Model)의 개념이고 셋째 행은 잠재 표본을 디코더(Decoder) 또는 생성기(Generator)로 변환하는 관점입니다. 서로 다른 생성 계열을 하나의 필수 순서로 연결하지 않습니다.",
+  "size": [
+    9,
+    5.4
+  ],
+  "groups": []
+}

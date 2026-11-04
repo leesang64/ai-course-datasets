@@ -1,0 +1,29 @@
+{
+  "changed_programs": [
+    {
+      "path": "ch04/assignments/task01_reference.ipynb",
+      "cells": 6,
+      "errors": 0,
+      "source_sha256": "4687249f144b5b018dae85575bdf8d256751e8949a4eaa88b7ab0d09bcd71b89",
+      "method": "IPython sequential cell execution"
+    },
+    {
+      "path": "ch04/body/sec_07_main.ipynb",
+      "cells": 6,
+      "errors": 0,
+      "source_sha256": "1077b2a383a986fe2b6f4b4ed63ac5f7541d18f6c71b159d8960382c0bab6268",
+      "method": "IPython sequential cell execution"
+    },
+    {
+      "path": "ch04/exercises/q08_parameter_change.ipynb",
+      "cells": 6,
+      "errors": 0,
+      "source_sha256": "dbc08c0c8b1b3b9de176ff6d680b0639e721257bf295d1b698614a0a85c93b9c",
+      "method": "IPython sequential cell execution"
+    }
+  ],
+  "new_math_cells": 5,
+  "new_math_method": "Python sequential cell execution",
+  "jupyter_kernel_verified": false,
+  "historical_runs": "execution_20261103.json"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "ch11_overview",
+  "old": 35,
+  "title": "Chapter 11 Independent forward passes",
+  "nodes": {
+    "A": [
+      0.2,
+      2.2,
+      2.6,
+      0.9,
+      "Random image batch\n(4,1,28,28)"
+    ],
+    "B": [
+      3.7,
+      2.2,
+      2.6,
+      0.9,
+      "Convolution and pool\nflatten, linear"
+    ],
+    "C": [
+      7.2,
+      2.2,
+      2.6,
+      0.9,
+      "Image scores\n(4,10)"
+    ],
+    "D": [
+      0.2,
+      0.6,
+      2.6,
+      0.9,
+      "Random sequence batch\n(4,20,5)"
+    ],
+    "E": [
+      3.7,
+      0.6,
+      2.6,
+      0.9,
+      "LSTM last time step\nlinear projection"
+    ],
+    "F": [
+      7.2,
+      0.6,
+      2.6,
+      0.9,
+      "Sequence scores\n(4,3)"
+    ]
+  },
+  "edges": [
+    [
+      "A",
+      "B",
+      ""
+    ],
+    [
+      "B",
+      "C",
+      ""
+    ],
+    [
+      "D",
+      "E",
+      ""
+    ],
+    [
+      "E",
+      "F",
+      ""
+    ]
+  ],
+  "notes": [
+    "Random-input forward passes only. No optimizer, model training or accuracy evaluation."
+  ],
+  "explanation": "합성곱 신경망(Convolutional Neural Network, CNN)과 장단기 메모리(Long Short Term Memory, LSTM)는 별도의 입력을 받습니다. 숫자 4는 배치 크기이고 10과 3은 출력 점수의 수입니다. 두 모델을 연결한 구조가 아니며 무작위 입력의 순전파 형태를 확인하는 실습입니다.",
+  "size": [
+    9,
+    3.8
+  ],
+  "groups": []
+}

@@ -1,0 +1,83 @@
+{
+  "name": "ch05_overview",
+  "old": 22,
+  "title": "Chapter 5 Fit on training data only",
+  "nodes": {
+    "A": [
+      0.2,
+      2.2,
+      2.6,
+      0.9,
+      "100 synthetic rows\nX without target"
+    ],
+    "B": [
+      3.7,
+      2.2,
+      2.6,
+      0.9,
+      "Training rows\nfit_transform"
+    ],
+    "C": [
+      7.2,
+      2.2,
+      2.6,
+      0.9,
+      "Learned medians\nscales and categories"
+    ],
+    "D": [
+      3.7,
+      0.6,
+      2.6,
+      0.9,
+      "Test rows\ntransform only"
+    ],
+    "E": [
+      7.2,
+      0.6,
+      2.6,
+      0.9,
+      "Same output columns\nmissing-value check"
+    ]
+  },
+  "edges": [
+    [
+      "A",
+      "B",
+      "80 percent"
+    ],
+    [
+      "A",
+      "D",
+      "20 percent"
+    ],
+    [
+      "B",
+      "C",
+      ""
+    ],
+    [
+      "C",
+      "E",
+      ""
+    ],
+    [
+      "C",
+      "D",
+      "reuse state"
+    ],
+    [
+      "D",
+      "E",
+      ""
+    ]
+  ],
+  "notes": [
+    "Target is excluded from X. This example does not fit a classifier."
+  ],
+  "explanation": "목표 열을 입력에서 제외하고 층화 분할(Stratified Split)을 수행합니다. 수치형 결측 대치·표준화와 범주형 결측 대치·원 핫 인코딩의 기준은 훈련 행에서만 적합합니다. 테스트 행은 같은 기준으로 변환하며 이 주 실습에는 분류기 학습이 없습니다.",
+  "size": [
+    9,
+    3.8
+  ],
+  "groups": []
+}

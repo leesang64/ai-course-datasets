@@ -1,0 +1,46 @@
+{
+  "name": "array_shapes",
+  "old": 14,
+  "title": "Array rank and axis lengths are different",
+  "nodes": {
+    "A": [
+      0.2,
+      2.2,
+      4.5,
+      0.9,
+      "Scalar\nvalue 7, shape ()"
+    ],
+    "B": [
+      5.3,
+      2.2,
+      4.5,
+      0.9,
+      "Vector\n[2,5,1], shape (3,)"
+    ],
+    "C": [
+      0.2,
+      0.6,
+      4.5,
+      0.9,
+      "Matrix\n[[1,2,3],[4,5,6]], shape (2,3)"
+    ],
+    "D": [
+      5.3,
+      0.6,
+      4.5,
+      0.9,
+      "3-axis array\n2 blocks of 2 by 3, shape (2,2,3)"
+    ]
+  },
+  "edges": [],
+  "notes": [
+    "These are separate examples, not shape-conversion instructions.",
+    "In array programming, scalar and matrix arrays are also tensors."
+  ],
+  "explanation": "네 상자는 별도의 배열 예입니다. 스칼라는 축이 0개, 벡터는 축이 1개, 행렬은 축이 2개입니다. 형태(Shape)의 괄호 안 숫자는 각 축의 길이이고 축 개수와 원소 개수는 다릅니다. 배열 프로그래밍 문맥의 텐서(Tensor)는 3차원 이상만 뜻하지 않고 스칼라·벡터·행렬도 포함합니다.",
+  "size": [
+    9,
+    3.8
+  ],
+  "groups": []
+}

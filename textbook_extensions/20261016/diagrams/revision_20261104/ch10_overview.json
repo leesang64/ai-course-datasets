@@ -1,0 +1,78 @@
+{
+  "name": "ch10_overview",
+  "old": 33,
+  "title": "Chapter 10 XOR training only",
+  "nodes": {
+    "A": [
+      0.2,
+      2.2,
+      2.6,
+      0.9,
+      "Four XOR rows\nX shape (4,2)"
+    ],
+    "B": [
+      3.7,
+      2.2,
+      2.6,
+      0.9,
+      "Linear 2 to 8\nTanh, Linear 8 to 2"
+    ],
+    "C": [
+      7.2,
+      2.2,
+      2.6,
+      0.9,
+      "Cross-entropy loss\nbackward and Adam"
+    ],
+    "D": [
+      7.2,
+      0.6,
+      2.6,
+      0.9,
+      "1001 updates\ntraining loss history"
+    ],
+    "E": [
+      3.7,
+      0.6,
+      2.6,
+      0.9,
+      "Predict same four rows\ntraining accuracy"
+    ]
+  },
+  "edges": [
+    [
+      "A",
+      "B",
+      ""
+    ],
+    [
+      "B",
+      "C",
+      ""
+    ],
+    [
+      "C",
+      "B",
+      "next step"
+    ],
+    [
+      "C",
+      "D",
+      "record"
+    ],
+    [
+      "D",
+      "E",
+      ""
+    ]
+  ],
+  "notes": [
+    "No separate validation or test set exists in this four-row demonstration."
+  ],
+  "explanation": "배타적 논리합(Exclusive OR, XOR) 네 행으로 다층 퍼셉트론(Multilayer Perceptron, MLP)을 학습합니다. 입력 2개·은닉 8개·출력 2개이며 교차엔트로피(Cross Entropy)를 줄입니다. 같은 네 행의 정확도는 학습 정확도이고 일반화 성능이 아닙니다.",
+  "size": [
+    9,
+    3.8
+  ],
+  "groups": []
+}

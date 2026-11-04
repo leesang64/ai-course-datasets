@@ -57,3 +57,9 @@ python -m jupyterlab
 
 기존 저장소 자료는 파일과 행을 보존하고 필요한 열 이름·라벨 변환을 명시했습니다. 실측 여부나 단위를 확인할 수 없는 자료는 교육용 자료로 설명합니다. [Wine 공식 설명](https://scikit-learn.org/stable/datasets/toy_dataset.html#wine-recognition-dataset), [유방암 진단 자료 공식 설명](https://scikit-learn.org/stable/datasets/toy_dataset.html#breast-cancer-wisconsin-diagnostic-dataset)을 확인할 수 있습니다. 숫자 라벨의 의미는 프로그램별로 정의하며 다른 장과 자동으로 같다고 해석하지 않습니다.
 
+
+## 2026년 11월 4일 보완
+
+[19개 편집 가능한 도식과 수정 내역](diagrams/revision_20261104/README.md) · [새 배열 실습](ch02/extensions/sec_01_array_operations.ipynb) · [수정 대상 실행 기록](execution_20261104.json)
+
+기존 독립 프로그램 91개에 2.1절 배열 실습 1개를 더해 92개이며 안내용 13개를 포함한 노트북은 총 105개입니다. 확인 문제와 과제의 기존 분류를 유지했습니다. 기존 전체 실행 이력과 이번 수정 대상 실행은 날짜별로 구분합니다.

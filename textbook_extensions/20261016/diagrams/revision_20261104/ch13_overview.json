@@ -1,0 +1,73 @@
+{
+  "name": "ch13_overview",
+  "old": 39,
+  "title": "Chapter 13 Synthetic distribution monitoring",
+  "nodes": {
+    "A": [
+      0.2,
+      2.2,
+      2.6,
+      0.9,
+      "Reference samples\n3000 synthetic rows"
+    ],
+    "B": [
+      0.2,
+      0.6,
+      2.6,
+      0.9,
+      "Current samples\n3000 synthetic rows"
+    ],
+    "C": [
+      3.7,
+      2.2,
+      2.6,
+      0.9,
+      "Shared bin boundaries\nreference and current ratios"
+    ],
+    "D": [
+      7.2,
+      2.2,
+      2.6,
+      0.9,
+      "Population stability\nindex calculation"
+    ],
+    "E": [
+      7.2,
+      0.6,
+      2.6,
+      0.9,
+      "Rule-based status\ncompare density plots"
+    ]
+  },
+  "edges": [
+    [
+      "A",
+      "C",
+      ""
+    ],
+    [
+      "B",
+      "C",
+      ""
+    ],
+    [
+      "C",
+      "D",
+      ""
+    ],
+    [
+      "D",
+      "E",
+      ""
+    ]
+  ],
+  "notes": [
+    "PSI thresholds are teaching rules. The separate linear calculation is not a fitted predictor."
+  ],
+  "explanation": "기준·현재 합성 자료를 공통 구간으로 나누어 비율을 비교하고 모집단 안정성 지수(Population Stability Index, PSI)를 계산합니다. 주의·재학습 검토는 교재의 예시 규칙이며 자동 재학습을 실행하는 명령이 아닙니다. 별도의 선형 계산값도 학습 모델의 예측과 구분합니다.",
+  "size": [
+    9,
+    3.8
+  ],
+  "groups": []
+}

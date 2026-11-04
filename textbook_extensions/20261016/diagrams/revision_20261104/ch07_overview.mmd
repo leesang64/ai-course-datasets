@@ -1,0 +1,10 @@
+flowchart TD
+ A["Breast-cancer data stratified split"]
+ B["Training pipeline scale and logistic fit"]
+ C["Test predictions and P(class 1)"]
+ D["Confusion matrix true rows, pred columns"]
+ E["Classification report ROC AUC"]
+ A -->|"train"| B
+ B --> C
+ C --> D
+ C --> E

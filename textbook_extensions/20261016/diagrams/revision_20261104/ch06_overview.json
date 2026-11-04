@@ -1,0 +1,73 @@
+{
+  "name": "ch06_overview",
+  "old": 24,
+  "title": "Chapter 6 Regression on the same split",
+  "nodes": {
+    "A": [
+      0.2,
+      2.2,
+      2.6,
+      0.9,
+      "Housing X and Price\n80:20 split"
+    ],
+    "B": [
+      3.7,
+      2.2,
+      2.6,
+      0.9,
+      "Fit linear regression\nRidge and Lasso"
+    ],
+    "C": [
+      7.2,
+      2.2,
+      2.6,
+      0.9,
+      "Predict test rows\nno refit on test"
+    ],
+    "D": [
+      3.7,
+      0.6,
+      2.6,
+      0.9,
+      "Ridge prediction\nand residual plots"
+    ],
+    "E": [
+      7.2,
+      0.6,
+      2.6,
+      0.9,
+      "MAE RMSE and R2\ncompare same rows"
+    ]
+  },
+  "edges": [
+    [
+      "A",
+      "B",
+      "train"
+    ],
+    [
+      "B",
+      "C",
+      ""
+    ],
+    [
+      "C",
+      "D",
+      ""
+    ],
+    [
+      "C",
+      "E",
+      ""
+    ]
+  ],
+  "notes": [
+    "All model scores use the same held-out rows. Residual = actual minus predicted."
+  ],
+  "explanation": "세 회귀 모델은 같은 훈련·테스트 행을 사용합니다. 평균절대오차(Mean Absolute Error, MAE), 평균제곱근오차(Root Mean Squared Error, RMSE), 결정계수(Coefficient of Determination, R2)를 같은 평가 행에서 비교합니다. 잔차는 실제값에서 예측값을 뺀 값입니다.",
+  "size": [
+    9,
+    3.8
+  ],
+  "groups": []
+}

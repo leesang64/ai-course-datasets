@@ -1,0 +1,535 @@
+{
+  "schema_validated": 105,
+  "independent_programs": 92,
+  "navigation_notebooks": 13,
+  "code_cells": 618,
+  "recorded_execution_errors": 0,
+  "note": "실행 기록은 20261103 전체 실행과 20261104 수정 대상 실행을 구분합니다.",
+  "notebooks": [
+    {
+      "file": "ch01/assignments/task01_reference.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch01/body/sec_07_main.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch01/chapter_practice.ipynb",
+      "code_cells": 1,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch01/exercises/check_11_learning_modes.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch01/exercises/check_12_seed_sensitivity.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch01/exercises/q08_parameter_change.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch01/extensions/sec_11_learning_modes.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch01/extensions/sec_12_seed_sensitivity.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch02/assignments/task01_reference.ipynb",
+      "code_cells": 7,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch02/body/sec_07_main.ipynb",
+      "code_cells": 7,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch02/chapter_practice.ipynb",
+      "code_cells": 1,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch02/exercises/check_11_gradient_descent.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch02/exercises/check_12_gradient_check.ipynb",
+      "code_cells": 8,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch02/exercises/q08_parameter_change.ipynb",
+      "code_cells": 7,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch02/extensions/sec_01_array_operations.ipynb",
+      "code_cells": 5,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch02/extensions/sec_11_gradient_descent.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch02/extensions/sec_12_gradient_check.ipynb",
+      "code_cells": 8,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch03/assignments/task01_reference.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch03/body/sec_07_main.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch03/chapter_practice.ipynb",
+      "code_cells": 1,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch03/exercises/check_11_search_compare.ipynb",
+      "code_cells": 10,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch03/exercises/check_12_genetic_knapsack.ipynb",
+      "code_cells": 10,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch03/exercises/q08_parameter_change.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch03/extensions/sec_11_search_compare.ipynb",
+      "code_cells": 9,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch03/extensions/sec_12_genetic_knapsack.ipynb",
+      "code_cells": 9,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch04/assignments/task01_reference.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch04/body/sec_07_main.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch04/chapter_practice.ipynb",
+      "code_cells": 1,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch04/exercises/check_11_missingness.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch04/exercises/check_12_correlation_outlier.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch04/exercises/q08_parameter_change.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch04/extensions/sec_11_missingness.ipynb",
+      "code_cells": 5,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch04/extensions/sec_12_correlation_outlier.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch05/assignments/task01_reference.ipynb",
+      "code_cells": 7,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch05/body/sec_07_main.ipynb",
+      "code_cells": 7,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch05/chapter_practice.ipynb",
+      "code_cells": 1,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch05/exercises/check_11_mixed_pipeline.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch05/exercises/check_12_shift_scaler.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch05/exercises/q08_parameter_change.ipynb",
+      "code_cells": 7,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch05/extensions/sec_11_mixed_pipeline.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch05/extensions/sec_12_shift_scaler.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch06/assignments/task01_reference.ipynb",
+      "code_cells": 7,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch06/body/sec_07_main.ipynb",
+      "code_cells": 7,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch06/chapter_practice.ipynb",
+      "code_cells": 1,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch06/exercises/check_11_polynomial_complexity.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch06/exercises/check_12_regression_residual.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch06/exercises/q08_parameter_change.ipynb",
+      "code_cells": 7,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch06/extensions/sec_11_polynomial_complexity.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch06/extensions/sec_12_regression_residual.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch07/assignments/task01_reference.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch07/body/sec_07_main.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch07/chapter_practice.ipynb",
+      "code_cells": 1,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch07/exercises/check_11_threshold_metrics.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch07/exercises/check_12_roc_pr.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch07/exercises/q08_parameter_change.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch07/extensions/sec_11_threshold_metrics.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch07/extensions/sec_12_roc_pr.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch08/assignments/task01_reference.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch08/body/sec_07_main.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch08/chapter_practice.ipynb",
+      "code_cells": 1,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch08/exercises/check_11_tree_depth.ipynb",
+      "code_cells": 7,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch08/exercises/check_12_ensemble_importance.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch08/exercises/q08_parameter_change.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch08/extensions/sec_11_tree_depth.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch08/extensions/sec_12_ensemble_importance.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch09/assignments/task01_reference.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch09/body/sec_07_main.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch09/chapter_practice.ipynb",
+      "code_cells": 1,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch09/exercises/check_11_clustering_compare.ipynb",
+      "code_cells": 7,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch09/exercises/check_12_pca_reconstruction.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch09/exercises/q08_parameter_change.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch09/extensions/sec_11_clustering_compare.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch09/extensions/sec_12_pca_reconstruction.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch10/assignments/task01_reference.ipynb",
+      "code_cells": 8,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch10/body/sec_07_main.ipynb",
+      "code_cells": 8,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch10/chapter_practice.ipynb",
+      "code_cells": 1,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch10/exercises/check_11_mlp_boundary.ipynb",
+      "code_cells": 7,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch10/exercises/check_12_mlp_learning_curve.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch10/exercises/q08_parameter_change.ipynb",
+      "code_cells": 8,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch10/extensions/sec_11_mlp_boundary.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch10/extensions/sec_12_mlp_learning_curve.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch11/assignments/task01_reference.ipynb",
+      "code_cells": 8,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch11/body/sec_07_main.ipynb",
+      "code_cells": 8,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch11/chapter_practice.ipynb",
+      "code_cells": 1,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch11/exercises/check_11_convolution.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch11/exercises/check_12_timeseries_forecast.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch11/exercises/q08_parameter_change.ipynb",
+      "code_cells": 8,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch11/extensions/sec_11_convolution.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch11/extensions/sec_12_timeseries_forecast.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch12/assignments/task01_reference.ipynb",
+      "code_cells": 8,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch12/body/sec_07_main.ipynb",
+      "code_cells": 8,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch12/chapter_practice.ipynb",
+      "code_cells": 1,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch12/exercises/check_11_attention.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch12/exercises/check_12_retrieval.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch12/exercises/q08_parameter_change.ipynb",
+      "code_cells": 8,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch12/extensions/sec_11_attention.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch12/extensions/sec_12_retrieval.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch13/assignments/task01_reference.ipynb",
+      "code_cells": 7,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch13/body/sec_07_main.ipynb",
+      "code_cells": 7,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch13/chapter_practice.ipynb",
+      "code_cells": 1,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch13/exercises/check_11_drift_monitor.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch13/exercises/check_12_model_roundtrip.ipynb",
+      "code_cells": 8,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch13/exercises/q08_parameter_change.ipynb",
+      "code_cells": 7,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch13/extensions/sec_11_drift_monitor.ipynb",
+      "code_cells": 6,
+      "has_execution_counts": true
+    },
+    {
+      "file": "ch13/extensions/sec_12_model_roundtrip.ipynb",
+      "code_cells": 8,
+      "has_execution_counts": true
+    }
+  ]
+}

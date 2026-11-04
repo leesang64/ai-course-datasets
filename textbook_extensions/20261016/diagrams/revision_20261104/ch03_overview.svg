@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="273.6pt" viewBox="0 0 648 273.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 273.6 
+L 648 273.6 
+L 648 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 22.166733 107.14529 
+L 183.974257 107.14529 
+L 183.974257 56.308645 
+L 22.166733 56.308645 
+z
+" clip-path="url(#pf24e6e5e56)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 239.984554 107.14529 
+L 401.792079 107.14529 
+L 401.792079 56.308645 
+L 239.984554 56.308645 
+z
+" clip-path="url(#pf24e6e5e56)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 457.802376 107.14529 
+L 619.609901 107.14529 
+L 619.609901 56.308645 
+L 457.802376 56.308645 
+z
+" clip-path="url(#pf24e6e5e56)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 239.984554 197.521548 
+L 401.792079 197.521548 
+L 401.792079 146.684903 
+L 239.984554 146.684903 
+z
+" clip-path="url(#pf24e6e5e56)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 457.802376 197.521548 
+L 619.609901 197.521548 
+L 619.609901 146.684903 
+L 457.802376 146.684903 
+z
+" clip-path="url(#pf24e6e5e56)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 186.972367 81.726968 
+Q 211.978757 81.726968 235.755309 81.726968 
+" clip-path="url(#pf24e6e5e56)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 231.355309 79.526968 
+L 235.755309 81.726968 
+L 231.355309 83.926968 
+" clip-path="url(#pf24e6e5e56)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 404.790189 81.726968 
+Q 429.796579 81.726968 453.573131 81.726968 
+" clip-path="url(#pf24e6e5e56)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 449.173131 79.526968 
+L 453.573131 81.726968 
+L 449.173131 83.926968 
+" clip-path="url(#pf24e6e5e56)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 456.221275 84.278177 
+Q 429.796505 126.916263 404.019593 168.508987 
+" clip-path="url(#pf24e6e5e56)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 408.20744 165.927913 
+L 404.019593 168.508987 
+L 404.467442 163.610066 
+" clip-path="url(#pf24e6e5e56)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 320.888317 143.687577 
+Q 320.888317 126.917469 320.888317 111.377198 
+" clip-path="url(#pf24e6e5e56)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 318.688317 115.777198 
+L 320.888317 111.377198 
+L 323.088317 115.777198 
+" clip-path="url(#pf24e6e5e56)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 538.706139 110.142617 
+Q 538.706139 126.912725 538.706139 142.452996 
+" clip-path="url(#pf24e6e5e56)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 540.906139 138.052996 
+L 538.706139 142.452996 
+L 536.506139 138.052996 
+" clip-path="url(#pf24e6e5e56)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 404.790189 172.103226 
+Q 429.796579 172.103226 453.573131 172.103226 
+" clip-path="url(#pf24e6e5e56)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 449.173131 169.903226 
+L 453.573131 172.103226 
+L 449.173131 174.303226 
+" clip-path="url(#pf24e6e5e56)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="324" y="22.69304" transform="rotate(-0 324 22.69304)">Chapter 3 A-star search and termination</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'" transform="translate(83.263542 78.461507)">Start A</text>
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'" transform="translate(62.479987 91.338991)">priority queue</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'" transform="translate(286.176286 78.461507)">Pop lowest f</text>
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'" transform="translate(294.623395 91.338991)">f = g + h</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="538.706139" y="84.900249" transform="rotate(-0 538.706139 84.900249)">Goal reached?</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'" transform="translate(268.954137 168.837765)">Expand neighbors</text>
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'" transform="translate(272.605387 181.715249)">update best cost</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'" transform="translate(478.323951 168.837765)">Return path and cost</text>
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'" transform="translate(489.548131 181.715249)">or report no path</text>
+   </g>
+   <g id="text_7">
+    <g id="patch_13">
+     <path d="M 423.854728 124.968127 
+L 435.739728 124.968127 
+L 435.739728 115.305627 
+L 423.854728 115.305627 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="429.797228" y="122.344377" transform="rotate(-0 429.797228 122.344377)">no</text>
+   </g>
+   <g id="text_8">
+    <g id="patch_14">
+     <path d="M 285.470817 124.968127 
+L 356.305817 124.968127 
+L 356.305817 115.305627 
+L 285.470817 115.305627 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="320.888317" y="122.344377" transform="rotate(-0 320.888317 122.344377)">queue not empty</text>
+   </g>
+   <g id="text_9">
+    <g id="patch_15">
+     <path d="M 530.833639 124.968127 
+L 546.578639 124.968127 
+L 546.578639 115.305627 
+L 530.833639 115.305627 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="538.706139" y="122.344377" transform="rotate(-0 538.706139 122.344377)">yes</text>
+   </g>
+   <g id="text_10">
+    <g id="patch_16">
+     <path d="M 402.201603 170.156256 
+L 457.392853 170.156256 
+L 457.392853 160.493756 
+L 402.201603 160.493756 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="429.797228" y="167.532506" transform="rotate(-0 429.797228 167.532506)">queue empty</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="15.943366" y="238.816091" transform="rotate(-0 15.943366 238.816091)">This supplied graph returns A to C to D with total cost 4.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf24e6e5e56">
+   <rect x="9.72" y="5.472" width="628.56" height="262.656"/>
+  </clipPath>
+ </defs>
+</svg>

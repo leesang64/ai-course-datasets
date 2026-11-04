@@ -1,0 +1,117 @@
+{
+  "name": "learning_modes",
+  "old": 3,
+  "title": "Supervised, unsupervised and reinforcement learning",
+  "nodes": {
+    "A": [
+      0.2,
+      3.8,
+      2.8,
+      0.9,
+      "Training X and y"
+    ],
+    "B": [
+      3.7,
+      3.8,
+      2.6,
+      0.9,
+      "Fit predictor"
+    ],
+    "C": [
+      7,
+      3.8,
+      2.9,
+      0.9,
+      "New X to prediction"
+    ],
+    "D": [
+      0.2,
+      2.2,
+      2.8,
+      0.9,
+      "Training X only"
+    ],
+    "E": [
+      3.7,
+      2.2,
+      2.6,
+      0.9,
+      "Fit representation\nor clustering"
+    ],
+    "F": [
+      7,
+      2.2,
+      2.9,
+      0.9,
+      "Coordinates or\ncluster assignments"
+    ],
+    "G": [
+      0.2,
+      0.6,
+      2.8,
+      0.9,
+      "Agent and policy"
+    ],
+    "H": [
+      3.7,
+      0.6,
+      2.6,
+      0.9,
+      "Environment"
+    ],
+    "I": [
+      7,
+      0.6,
+      2.9,
+      0.9,
+      "State and reward"
+    ]
+  },
+  "edges": [
+    [
+      "A",
+      "B",
+      ""
+    ],
+    [
+      "B",
+      "C",
+      ""
+    ],
+    [
+      "D",
+      "E",
+      ""
+    ],
+    [
+      "E",
+      "F",
+      ""
+    ],
+    [
+      "G",
+      "H",
+      "action"
+    ],
+    [
+      "H",
+      "I",
+      ""
+    ],
+    [
+      "I",
+      "G",
+      "feedback"
+    ]
+  ],
+  "notes": [
+    "Training y is not provided to the unsupervised fit.",
+    "Reinforcement learning is an interaction loop, not static labeled pairs."
+  ],
+  "explanation": "지도학습은 훈련 입력 X와 목표 y로 예측기를 적합한 뒤 새 입력을 예측합니다. 비지도학습은 y를 적합에 전달하지 않고 구조를 찾습니다. 강화학습은 에이전트(Agent)가 행동을 선택하고 환경(Environment)에서 상태와 보상 피드백을 받는 반복입니다. 세 경로의 화살표는 학습 방식의 차이를 설명하며 실제 측정 점수를 나타내지 않습니다.",
+  "size": [
+    9,
+    5.4
+  ],
+  "groups": []
+}

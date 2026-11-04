@@ -1,0 +1,12 @@
+flowchart TD
+ A["Start A priority queue"]
+ B["Pop lowest f f = g + h"]
+ C["Goal reached?"]
+ D["Expand neighbors update best cost"]
+ E["Return path and cost or report no path"]
+ A --> B
+ B --> C
+ C -->|"no"| D
+ D -->|"queue not empty"| B
+ C -->|"yes"| E
+ D -->|"queue empty"| E

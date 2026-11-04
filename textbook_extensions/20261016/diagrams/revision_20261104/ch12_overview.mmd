@@ -1,0 +1,10 @@
+flowchart TD
+ A["Query tokens fixed user question"]
+ B["60 course documents content tokens"]
+ C["Shared-token scores rank and top documents"]
+ D["Retrieved context document identifiers"]
+ E["Question plus context save prompt text"]
+ A --> C
+ B --> C
+ C --> D
+ D --> E

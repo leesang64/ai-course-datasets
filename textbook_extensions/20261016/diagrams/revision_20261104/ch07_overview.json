@@ -1,0 +1,73 @@
+{
+  "name": "ch07_overview",
+  "old": 27,
+  "title": "Chapter 7 Classification and score meaning",
+  "nodes": {
+    "A": [
+      0.2,
+      2.2,
+      2.6,
+      0.9,
+      "Breast-cancer data\nstratified split"
+    ],
+    "B": [
+      3.7,
+      2.2,
+      2.6,
+      0.9,
+      "Training pipeline\nscale and logistic fit"
+    ],
+    "C": [
+      7.2,
+      2.2,
+      2.6,
+      0.9,
+      "Test predictions\nand P(class 1)"
+    ],
+    "D": [
+      3.7,
+      0.6,
+      2.6,
+      0.9,
+      "Confusion matrix\ntrue rows, pred columns"
+    ],
+    "E": [
+      7.2,
+      0.6,
+      2.6,
+      0.9,
+      "Classification report\nROC AUC"
+    ]
+  },
+  "edges": [
+    [
+      "A",
+      "B",
+      "train"
+    ],
+    [
+      "B",
+      "C",
+      ""
+    ],
+    [
+      "C",
+      "D",
+      ""
+    ],
+    [
+      "C",
+      "E",
+      ""
+    ]
+  ],
+  "notes": [
+    "In this supplied dataset: class 0 = malignant; class 1 = benign."
+  ],
+  "explanation": "로지스틱 회귀(Logistic Regression)와 표준화를 파이프라인(Pipeline)으로 묶습니다. 혼동행렬의 행은 실제값, 열은 예측값입니다. 이 자료의 클래스 1은 양성 종양(Benign)이므로 양성 클래스(Positive Class)를 악성 종양으로 오해하면 지표의 의미가 뒤바뀝니다.",
+  "size": [
+    9,
+    3.8
+  ],
+  "groups": []
+}

@@ -1,0 +1,1543 @@
+[
+  {
+    "name": "ch01_overview",
+    "old": 1,
+    "title": "Chapter 1 Environment and event intervals",
+    "nodes": {
+      "A": [
+        0.2,
+        2.2,
+        2.6,
+        0.9,
+        "Versions and device\nrandom seed 42"
+      ],
+      "B": [
+        3.7,
+        2.2,
+        2.6,
+        0.9,
+        "9 selected events\nYear column"
+      ],
+      "C": [
+        7.2,
+        2.2,
+        2.6,
+        0.9,
+        "Year tensor\nshape (9,)"
+      ],
+      "D": [
+        7.2,
+        0.6,
+        2.6,
+        0.9,
+        "Consecutive gaps\nshape (8,)"
+      ],
+      "E": [
+        3.7,
+        0.6,
+        2.6,
+        0.9,
+        "Mean and gap plot\n8 intervals"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "B",
+        ""
+      ],
+      [
+        "B",
+        "C",
+        ""
+      ],
+      [
+        "C",
+        "D",
+        ""
+      ],
+      [
+        "D",
+        "E",
+        ""
+      ]
+    ],
+    "notes": [
+      "Event selection changes the intervals. No prediction model is trained."
+    ],
+    "explanation": "버전·장치·시드를 기록한 뒤 사건 연도 9개를 텐서로 변환합니다. 이웃한 연도를 빼므로 간격은 8개입니다. 평균 간격과 막대그래프는 선택한 사건 목록의 특성이며 인공지능 발전 속도를 추정한 값이 아닙니다.",
+    "size": [
+      9,
+      3.8
+    ],
+    "groups": []
+  },
+  {
+    "name": "ch02_overview",
+    "old": 13,
+    "title": "Chapter 2 Full-batch gradient descent",
+    "nodes": {
+      "A": [
+        0.2,
+        2.2,
+        2.6,
+        0.9,
+        "X and y\n120 training rows"
+      ],
+      "B": [
+        3.7,
+        2.2,
+        2.6,
+        0.9,
+        "Prediction\nX * W + b"
+      ],
+      "C": [
+        7.2,
+        2.2,
+        2.6,
+        0.9,
+        "Mean squared error\nbackward()"
+      ],
+      "D": [
+        7.2,
+        0.6,
+        2.6,
+        0.9,
+        "Update W and b\nclear gradients"
+      ],
+      "E": [
+        3.7,
+        0.6,
+        2.6,
+        0.9,
+        "301 recorded losses\ntraining loss plot"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "B",
+        ""
+      ],
+      [
+        "B",
+        "C",
+        ""
+      ],
+      [
+        "C",
+        "D",
+        ""
+      ],
+      [
+        "D",
+        "B",
+        "next step"
+      ],
+      [
+        "D",
+        "E",
+        "record"
+      ]
+    ],
+    "notes": [
+      "The recorded loss is measured before the corresponding parameter update."
+    ],
+    "explanation": "120행 전체를 사용하는 전체배치 경사하강법(Full Batch Gradient Descent)입니다. 예측·손실·역전파·갱신·기울기 초기화를 반복하며 갱신 전 손실을 301번 기록합니다. 검증 손실이나 테스트 성능을 그린 그림이 아닙니다.",
+    "size": [
+      9,
+      3.8
+    ],
+    "groups": []
+  },
+  {
+    "name": "ch03_overview",
+    "old": 16,
+    "title": "Chapter 3 A-star search and termination",
+    "nodes": {
+      "A": [
+        0.2,
+        2.2,
+        2.6,
+        0.9,
+        "Start A\npriority queue"
+      ],
+      "B": [
+        3.7,
+        2.2,
+        2.6,
+        0.9,
+        "Pop lowest f\nf = g + h"
+      ],
+      "C": [
+        7.2,
+        2.2,
+        2.6,
+        0.9,
+        "Goal reached?"
+      ],
+      "D": [
+        3.7,
+        0.6,
+        2.6,
+        0.9,
+        "Expand neighbors\nupdate best cost"
+      ],
+      "E": [
+        7.2,
+        0.6,
+        2.6,
+        0.9,
+        "Return path and cost\nor report no path"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "B",
+        ""
+      ],
+      [
+        "B",
+        "C",
+        ""
+      ],
+      [
+        "C",
+        "D",
+        "no"
+      ],
+      [
+        "D",
+        "B",
+        "queue not empty"
+      ],
+      [
+        "C",
+        "E",
+        "yes"
+      ],
+      [
+        "D",
+        "E",
+        "queue empty"
+      ]
+    ],
+    "notes": [
+      "This supplied graph returns A to C to D with total cost 4."
+    ],
+    "explanation": "후보 우선순위는 누적 비용 g와 휴리스틱 h의 합으로 정합니다. 목표를 꺼내면 경로와 비용을 반환하며 후보가 소진되어도 종료합니다. 제공 그래프의 결과는 A→C→D, 비용 4입니다. 이 결과 하나로 모든 휴리스틱의 최적성을 보장하지 않습니다.",
+    "size": [
+      9,
+      3.8
+    ],
+    "groups": []
+  },
+  {
+    "name": "ch04_overview",
+    "old": 19,
+    "title": "Chapter 4 Housing data exploration",
+    "nodes": {
+      "A": [
+        0.2,
+        2.2,
+        2.6,
+        0.9,
+        "Housing table\n900 rows"
+      ],
+      "B": [
+        3.7,
+        2.2,
+        2.6,
+        0.9,
+        "Shape and head\ndescriptive statistics"
+      ],
+      "C": [
+        7.2,
+        2.2,
+        2.6,
+        0.9,
+        "Numeric correlation\nmatrix"
+      ],
+      "D": [
+        3.7,
+        0.6,
+        2.6,
+        0.9,
+        "Area and Price\nscatter and fitted line"
+      ],
+      "E": [
+        7.2,
+        0.6,
+        2.6,
+        0.9,
+        "Two plots\nsummary metrics"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "B",
+        ""
+      ],
+      [
+        "B",
+        "C",
+        ""
+      ],
+      [
+        "A",
+        "D",
+        ""
+      ],
+      [
+        "C",
+        "E",
+        ""
+      ],
+      [
+        "D",
+        "E",
+        ""
+      ]
+    ],
+    "notes": [
+      "The fitted line describes the same observed rows; it is not a held-out evaluation."
+    ],
+    "explanation": "900행 주택 자료의 형태·일부 행·기술통계와 수치형 열 간 상관을 확인합니다. 면적과 가격의 산점도에 같은 자료로 계산한 직선을 겹칩니다. 관측 단위와 실측 출처가 확인되지 않은 열에 임의의 단위를 붙이지 않습니다.",
+    "size": [
+      9,
+      3.8
+    ],
+    "groups": []
+  },
+  {
+    "name": "ch05_overview",
+    "old": 22,
+    "title": "Chapter 5 Fit on training data only",
+    "nodes": {
+      "A": [
+        0.2,
+        2.2,
+        2.6,
+        0.9,
+        "100 synthetic rows\nX without target"
+      ],
+      "B": [
+        3.7,
+        2.2,
+        2.6,
+        0.9,
+        "Training rows\nfit_transform"
+      ],
+      "C": [
+        7.2,
+        2.2,
+        2.6,
+        0.9,
+        "Learned medians\nscales and categories"
+      ],
+      "D": [
+        3.7,
+        0.6,
+        2.6,
+        0.9,
+        "Test rows\ntransform only"
+      ],
+      "E": [
+        7.2,
+        0.6,
+        2.6,
+        0.9,
+        "Same output columns\nmissing-value check"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "B",
+        "80 percent"
+      ],
+      [
+        "A",
+        "D",
+        "20 percent"
+      ],
+      [
+        "B",
+        "C",
+        ""
+      ],
+      [
+        "C",
+        "E",
+        ""
+      ],
+      [
+        "C",
+        "D",
+        "reuse state"
+      ],
+      [
+        "D",
+        "E",
+        ""
+      ]
+    ],
+    "notes": [
+      "Target is excluded from X. This example does not fit a classifier."
+    ],
+    "explanation": "목표 열을 입력에서 제외하고 층화 분할(Stratified Split)을 수행합니다. 수치형 결측 대치·표준화와 범주형 결측 대치·원 핫 인코딩의 기준은 훈련 행에서만 적합합니다. 테스트 행은 같은 기준으로 변환하며 이 주 실습에는 분류기 학습이 없습니다.",
+    "size": [
+      9,
+      3.8
+    ],
+    "groups": []
+  },
+  {
+    "name": "ch06_overview",
+    "old": 24,
+    "title": "Chapter 6 Regression on the same split",
+    "nodes": {
+      "A": [
+        0.2,
+        2.2,
+        2.6,
+        0.9,
+        "Housing X and Price\n80:20 split"
+      ],
+      "B": [
+        3.7,
+        2.2,
+        2.6,
+        0.9,
+        "Fit linear regression\nRidge and Lasso"
+      ],
+      "C": [
+        7.2,
+        2.2,
+        2.6,
+        0.9,
+        "Predict test rows\nno refit on test"
+      ],
+      "D": [
+        3.7,
+        0.6,
+        2.6,
+        0.9,
+        "Ridge prediction\nand residual plots"
+      ],
+      "E": [
+        7.2,
+        0.6,
+        2.6,
+        0.9,
+        "MAE RMSE and R2\ncompare same rows"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "B",
+        "train"
+      ],
+      [
+        "B",
+        "C",
+        ""
+      ],
+      [
+        "C",
+        "D",
+        ""
+      ],
+      [
+        "C",
+        "E",
+        ""
+      ]
+    ],
+    "notes": [
+      "All model scores use the same held-out rows. Residual = actual minus predicted."
+    ],
+    "explanation": "세 회귀 모델은 같은 훈련·테스트 행을 사용합니다. 평균절대오차(Mean Absolute Error, MAE), 평균제곱근오차(Root Mean Squared Error, RMSE), 결정계수(Coefficient of Determination, R2)를 같은 평가 행에서 비교합니다. 잔차는 실제값에서 예측값을 뺀 값입니다.",
+    "size": [
+      9,
+      3.8
+    ],
+    "groups": []
+  },
+  {
+    "name": "ch07_overview",
+    "old": 27,
+    "title": "Chapter 7 Classification and score meaning",
+    "nodes": {
+      "A": [
+        0.2,
+        2.2,
+        2.6,
+        0.9,
+        "Breast-cancer data\nstratified split"
+      ],
+      "B": [
+        3.7,
+        2.2,
+        2.6,
+        0.9,
+        "Training pipeline\nscale and logistic fit"
+      ],
+      "C": [
+        7.2,
+        2.2,
+        2.6,
+        0.9,
+        "Test predictions\nand P(class 1)"
+      ],
+      "D": [
+        3.7,
+        0.6,
+        2.6,
+        0.9,
+        "Confusion matrix\ntrue rows, pred columns"
+      ],
+      "E": [
+        7.2,
+        0.6,
+        2.6,
+        0.9,
+        "Classification report\nROC AUC"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "B",
+        "train"
+      ],
+      [
+        "B",
+        "C",
+        ""
+      ],
+      [
+        "C",
+        "D",
+        ""
+      ],
+      [
+        "C",
+        "E",
+        ""
+      ]
+    ],
+    "notes": [
+      "In this supplied dataset: class 0 = malignant; class 1 = benign."
+    ],
+    "explanation": "로지스틱 회귀(Logistic Regression)와 표준화를 파이프라인(Pipeline)으로 묶습니다. 혼동행렬의 행은 실제값, 열은 예측값입니다. 이 자료의 클래스 1은 양성 종양(Benign)이므로 양성 클래스(Positive Class)를 악성 종양으로 오해하면 지표의 의미가 뒤바뀝니다.",
+    "size": [
+      9,
+      3.8
+    ],
+    "groups": []
+  },
+  {
+    "name": "ch08_overview",
+    "old": 29,
+    "title": "Chapter 8 Compare two ensemble pipelines",
+    "nodes": {
+      "A": [
+        0.2,
+        2.2,
+        2.6,
+        0.9,
+        "Churn table\n75:25 split"
+      ],
+      "B": [
+        3.7,
+        2.2,
+        2.6,
+        0.9,
+        "Median imputer\nRandom Forest"
+      ],
+      "C": [
+        3.7,
+        0.6,
+        2.6,
+        0.9,
+        "Median imputer\nGradient Boosting"
+      ],
+      "D": [
+        7.2,
+        2.2,
+        2.6,
+        0.9,
+        "Same test rows\nAccuracy and F1"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "B",
+        "train"
+      ],
+      [
+        "A",
+        "C",
+        "train"
+      ],
+      [
+        "B",
+        "D",
+        ""
+      ],
+      [
+        "C",
+        "D",
+        ""
+      ]
+    ],
+    "notes": [
+      "Each pipeline learns imputation on training rows. XGBoost is not run here.",
+      "Feature importance is read from the fitted Random Forest, not the boosting model."
+    ],
+    "explanation": "랜덤 포레스트(Random Forest)와 기울기 부스팅(Gradient Boosting)은 각각 훈련 자료의 중앙값으로 결측을 처리합니다. 같은 테스트 행에서 정확도(Accuracy)와 F1 점수를 비교하며 중요도 그림은 랜덤 포레스트 모델의 값입니다. 이 주 실습에서 실행하지 않는 XGBoost의 성능을 포함하지 않습니다.",
+    "size": [
+      9,
+      3.8
+    ],
+    "groups": []
+  },
+  {
+    "name": "ch09_overview",
+    "old": 31,
+    "title": "Chapter 9 Two independent input paths",
+    "nodes": {
+      "A": [
+        0.2,
+        2.2,
+        2.6,
+        0.9,
+        "Cancer table\ntrain and test split"
+      ],
+      "B": [
+        3.7,
+        2.2,
+        2.6,
+        0.9,
+        "Scale and RBF SVC\nfit training rows"
+      ],
+      "C": [
+        7.2,
+        2.2,
+        2.6,
+        0.9,
+        "Held-out\nclassification accuracy"
+      ],
+      "D": [
+        0.2,
+        0.6,
+        2.6,
+        0.9,
+        "Customer features\nno class target"
+      ],
+      "E": [
+        3.7,
+        0.6,
+        2.6,
+        0.9,
+        "Scale then PCA\n2 components"
+      ],
+      "F": [
+        7.2,
+        0.6,
+        2.6,
+        0.9,
+        "K-Means on PCA\nclusters and silhouette"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "B",
+        ""
+      ],
+      [
+        "B",
+        "C",
+        ""
+      ],
+      [
+        "D",
+        "E",
+        ""
+      ],
+      [
+        "E",
+        "F",
+        ""
+      ]
+    ],
+    "notes": [
+      "These are separate datasets. The customer path is exploratory, without a held-out test."
+    ],
+    "explanation": "위 경로는 유방암 자료의 분류이고 아래 경로는 고객 자료의 탐색입니다. 고객 경로에서는 표준화 후 주성분 분석(Principal Component Analysis, PCA) 2차원에 케이평균 군집화(K-Means Clustering)를 적합합니다. 서로 다른 입력과 평가 목적을 가진 두 경로를 하나의 연속 학습으로 해석하지 않습니다.",
+    "size": [
+      9,
+      3.8
+    ],
+    "groups": []
+  },
+  {
+    "name": "ch10_overview",
+    "old": 33,
+    "title": "Chapter 10 XOR training only",
+    "nodes": {
+      "A": [
+        0.2,
+        2.2,
+        2.6,
+        0.9,
+        "Four XOR rows\nX shape (4,2)"
+      ],
+      "B": [
+        3.7,
+        2.2,
+        2.6,
+        0.9,
+        "Linear 2 to 8\nTanh, Linear 8 to 2"
+      ],
+      "C": [
+        7.2,
+        2.2,
+        2.6,
+        0.9,
+        "Cross-entropy loss\nbackward and Adam"
+      ],
+      "D": [
+        7.2,
+        0.6,
+        2.6,
+        0.9,
+        "1001 updates\ntraining loss history"
+      ],
+      "E": [
+        3.7,
+        0.6,
+        2.6,
+        0.9,
+        "Predict same four rows\ntraining accuracy"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "B",
+        ""
+      ],
+      [
+        "B",
+        "C",
+        ""
+      ],
+      [
+        "C",
+        "B",
+        "next step"
+      ],
+      [
+        "C",
+        "D",
+        "record"
+      ],
+      [
+        "D",
+        "E",
+        ""
+      ]
+    ],
+    "notes": [
+      "No separate validation or test set exists in this four-row demonstration."
+    ],
+    "explanation": "배타적 논리합(Exclusive OR, XOR) 네 행으로 다층 퍼셉트론(Multilayer Perceptron, MLP)을 학습합니다. 입력 2개·은닉 8개·출력 2개이며 교차엔트로피(Cross Entropy)를 줄입니다. 같은 네 행의 정확도는 학습 정확도이고 일반화 성능이 아닙니다.",
+    "size": [
+      9,
+      3.8
+    ],
+    "groups": []
+  },
+  {
+    "name": "ch11_overview",
+    "old": 35,
+    "title": "Chapter 11 Independent forward passes",
+    "nodes": {
+      "A": [
+        0.2,
+        2.2,
+        2.6,
+        0.9,
+        "Random image batch\n(4,1,28,28)"
+      ],
+      "B": [
+        3.7,
+        2.2,
+        2.6,
+        0.9,
+        "Convolution and pool\nflatten, linear"
+      ],
+      "C": [
+        7.2,
+        2.2,
+        2.6,
+        0.9,
+        "Image scores\n(4,10)"
+      ],
+      "D": [
+        0.2,
+        0.6,
+        2.6,
+        0.9,
+        "Random sequence batch\n(4,20,5)"
+      ],
+      "E": [
+        3.7,
+        0.6,
+        2.6,
+        0.9,
+        "LSTM last time step\nlinear projection"
+      ],
+      "F": [
+        7.2,
+        0.6,
+        2.6,
+        0.9,
+        "Sequence scores\n(4,3)"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "B",
+        ""
+      ],
+      [
+        "B",
+        "C",
+        ""
+      ],
+      [
+        "D",
+        "E",
+        ""
+      ],
+      [
+        "E",
+        "F",
+        ""
+      ]
+    ],
+    "notes": [
+      "Random-input forward passes only. No optimizer, model training or accuracy evaluation."
+    ],
+    "explanation": "합성곱 신경망(Convolutional Neural Network, CNN)과 장단기 메모리(Long Short Term Memory, LSTM)는 별도의 입력을 받습니다. 숫자 4는 배치 크기이고 10과 3은 출력 점수의 수입니다. 두 모델을 연결한 구조가 아니며 무작위 입력의 순전파 형태를 확인하는 실습입니다.",
+    "size": [
+      9,
+      3.8
+    ],
+    "groups": []
+  },
+  {
+    "name": "ch12_overview",
+    "old": 37,
+    "title": "Chapter 12 Retrieval and prompt construction",
+    "nodes": {
+      "A": [
+        0.2,
+        2.2,
+        2.6,
+        0.9,
+        "Query tokens\nfixed user question"
+      ],
+      "B": [
+        0.2,
+        0.6,
+        2.6,
+        0.9,
+        "60 course documents\ncontent tokens"
+      ],
+      "C": [
+        3.7,
+        2.2,
+        2.6,
+        0.9,
+        "Shared-token scores\nrank and top documents"
+      ],
+      "D": [
+        7.2,
+        2.2,
+        2.6,
+        0.9,
+        "Retrieved context\ndocument identifiers"
+      ],
+      "E": [
+        7.2,
+        0.6,
+        2.6,
+        0.9,
+        "Question plus context\nsave prompt text"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "C",
+        ""
+      ],
+      [
+        "B",
+        "C",
+        ""
+      ],
+      [
+        "C",
+        "D",
+        ""
+      ],
+      [
+        "D",
+        "E",
+        ""
+      ]
+    ],
+    "notes": [
+      "No language model is called. The saved prompt is not a generated answer."
+    ],
+    "explanation": "질문과 문서의 공통 토큰(Token) 수로 문서를 정렬한 뒤 근거 문맥과 프롬프트(Prompt)를 만듭니다. 대규모 언어 모델(Large Language Model, LLM)을 호출하지 않으므로 저장한 문장은 생성 답변이 아닙니다. 어텐션(Attention)의 실제 계산은 별도의 12.11절 실습에서 확인합니다.",
+    "size": [
+      9,
+      3.8
+    ],
+    "groups": []
+  },
+  {
+    "name": "ch13_overview",
+    "old": 39,
+    "title": "Chapter 13 Synthetic distribution monitoring",
+    "nodes": {
+      "A": [
+        0.2,
+        2.2,
+        2.6,
+        0.9,
+        "Reference samples\n3000 synthetic rows"
+      ],
+      "B": [
+        0.2,
+        0.6,
+        2.6,
+        0.9,
+        "Current samples\n3000 synthetic rows"
+      ],
+      "C": [
+        3.7,
+        2.2,
+        2.6,
+        0.9,
+        "Shared bin boundaries\nreference and current ratios"
+      ],
+      "D": [
+        7.2,
+        2.2,
+        2.6,
+        0.9,
+        "Population stability\nindex calculation"
+      ],
+      "E": [
+        7.2,
+        0.6,
+        2.6,
+        0.9,
+        "Rule-based status\ncompare density plots"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "C",
+        ""
+      ],
+      [
+        "B",
+        "C",
+        ""
+      ],
+      [
+        "C",
+        "D",
+        ""
+      ],
+      [
+        "D",
+        "E",
+        ""
+      ]
+    ],
+    "notes": [
+      "PSI thresholds are teaching rules. The separate linear calculation is not a fitted predictor."
+    ],
+    "explanation": "기준·현재 합성 자료를 공통 구간으로 나누어 비율을 비교하고 모집단 안정성 지수(Population Stability Index, PSI)를 계산합니다. 주의·재학습 검토는 교재의 예시 규칙이며 자동 재학습을 실행하는 명령이 아닙니다. 별도의 선형 계산값도 학습 모델의 예측과 구분합니다.",
+    "size": [
+      9,
+      3.8
+    ],
+    "groups": []
+  },
+  {
+    "name": "ai_relationships",
+    "old": 2,
+    "title": "Artificial intelligence and generative tasks",
+    "nodes": {
+      "A": [
+        0.3,
+        3.8,
+        4.2,
+        0.9,
+        "Artificial Intelligence"
+      ],
+      "B": [
+        0.7,
+        2.5,
+        3.4,
+        0.9,
+        "Machine Learning"
+      ],
+      "C": [
+        1.1,
+        1.2,
+        2.6,
+        0.9,
+        "Deep Learning"
+      ],
+      "D": [
+        6,
+        3.8,
+        3.7,
+        0.9,
+        "Rule-based reasoning\nand search"
+      ],
+      "E": [
+        6,
+        2.2,
+        3.7,
+        0.9,
+        "Generative tasks\ntext, image, audio"
+      ],
+      "F": [
+        6,
+        0.6,
+        3.7,
+        0.9,
+        "Deep and non-deep\ngenerative models"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "B",
+        "includes"
+      ],
+      [
+        "B",
+        "C",
+        "includes"
+      ],
+      [
+        "A",
+        "D",
+        "includes"
+      ],
+      [
+        "C",
+        "E",
+        "can support"
+      ],
+      [
+        "F",
+        "E",
+        "can support"
+      ]
+    ],
+    "notes": [
+      "Hierarchy and task purpose are different axes of description.",
+      "Generative AI is not defined as every model inside Deep Learning."
+    ],
+    "explanation": "실선의 includes는 포함 관계입니다. 인공지능은 기계학습뿐 아니라 규칙 기반 추론과 탐색을 포함하고, 딥러닝은 기계학습의 한 방법입니다. can support는 수행 가능한 과제를 연결합니다. 생성은 과제의 목적이므로 딥러닝 내부의 가장 작은 범주로 일괄 정의하지 않습니다.",
+    "size": [
+      9,
+      5.4
+    ],
+    "groups": []
+  },
+  {
+    "name": "learning_modes",
+    "old": 3,
+    "title": "Supervised, unsupervised and reinforcement learning",
+    "nodes": {
+      "A": [
+        0.2,
+        3.8,
+        2.8,
+        0.9,
+        "Training X and y"
+      ],
+      "B": [
+        3.7,
+        3.8,
+        2.6,
+        0.9,
+        "Fit predictor"
+      ],
+      "C": [
+        7,
+        3.8,
+        2.9,
+        0.9,
+        "New X to prediction"
+      ],
+      "D": [
+        0.2,
+        2.2,
+        2.8,
+        0.9,
+        "Training X only"
+      ],
+      "E": [
+        3.7,
+        2.2,
+        2.6,
+        0.9,
+        "Fit representation\nor clustering"
+      ],
+      "F": [
+        7,
+        2.2,
+        2.9,
+        0.9,
+        "Coordinates or\ncluster assignments"
+      ],
+      "G": [
+        0.2,
+        0.6,
+        2.8,
+        0.9,
+        "Agent and policy"
+      ],
+      "H": [
+        3.7,
+        0.6,
+        2.6,
+        0.9,
+        "Environment"
+      ],
+      "I": [
+        7,
+        0.6,
+        2.9,
+        0.9,
+        "State and reward"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "B",
+        ""
+      ],
+      [
+        "B",
+        "C",
+        ""
+      ],
+      [
+        "D",
+        "E",
+        ""
+      ],
+      [
+        "E",
+        "F",
+        ""
+      ],
+      [
+        "G",
+        "H",
+        "action"
+      ],
+      [
+        "H",
+        "I",
+        ""
+      ],
+      [
+        "I",
+        "G",
+        "feedback"
+      ]
+    ],
+    "notes": [
+      "Training y is not provided to the unsupervised fit.",
+      "Reinforcement learning is an interaction loop, not static labeled pairs."
+    ],
+    "explanation": "지도학습은 훈련 입력 X와 목표 y로 예측기를 적합한 뒤 새 입력을 예측합니다. 비지도학습은 y를 적합에 전달하지 않고 구조를 찾습니다. 강화학습은 에이전트(Agent)가 행동을 선택하고 환경(Environment)에서 상태와 보상 피드백을 받는 반복입니다. 세 경로의 화살표는 학습 방식의 차이를 설명하며 실제 측정 점수를 나타내지 않습니다.",
+    "size": [
+      9,
+      5.4
+    ],
+    "groups": []
+  },
+  {
+    "name": "generation_paths",
+    "old": 4,
+    "title": "Three conceptual generation paths",
+    "nodes": {
+      "A": [
+        0.2,
+        3.8,
+        2.8,
+        0.9,
+        "Previous tokens"
+      ],
+      "B": [
+        3.7,
+        3.8,
+        2.7,
+        0.9,
+        "Next-token distribution"
+      ],
+      "C": [
+        7,
+        3.8,
+        2.9,
+        0.9,
+        "Select and append\nstop at end or limit"
+      ],
+      "D": [
+        0.2,
+        2.2,
+        2.8,
+        0.9,
+        "Noise and conditions"
+      ],
+      "E": [
+        3.7,
+        2.2,
+        2.7,
+        0.9,
+        "Iterative denoising"
+      ],
+      "F": [
+        7,
+        2.2,
+        2.9,
+        0.9,
+        "Image or latent\nthen decode"
+      ],
+      "G": [
+        0.2,
+        0.6,
+        2.8,
+        0.9,
+        "Latent sample"
+      ],
+      "H": [
+        3.7,
+        0.6,
+        2.7,
+        0.9,
+        "Decoder or generator"
+      ],
+      "I": [
+        7,
+        0.6,
+        2.9,
+        0.9,
+        "Generated sample"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "B",
+        ""
+      ],
+      [
+        "B",
+        "C",
+        ""
+      ],
+      [
+        "C",
+        "A",
+        "continue"
+      ],
+      [
+        "D",
+        "E",
+        ""
+      ],
+      [
+        "E",
+        "F",
+        ""
+      ],
+      [
+        "G",
+        "H",
+        ""
+      ],
+      [
+        "H",
+        "I",
+        ""
+      ]
+    ],
+    "notes": [
+      "Conceptual model families; no trained generator or sample image is produced here.",
+      "The chapter 12 main program only constructs a retrieval-based prompt."
+    ],
+    "explanation": "첫 행은 이전 토큰을 조건으로 다음 토큰을 선택·추가하는 자기회귀 생성(Autoregressive Generation)입니다. 종료 토큰이나 길이 제한을 만나면 멈춥니다. 둘째 행은 여러 단계의 잡음 제거를 사용하는 확산 모델(Diffusion Model)의 개념이고 셋째 행은 잠재 표본을 디코더(Decoder) 또는 생성기(Generator)로 변환하는 관점입니다. 서로 다른 생성 계열을 하나의 필수 순서로 연결하지 않습니다.",
+    "size": [
+      9,
+      5.4
+    ],
+    "groups": []
+  },
+  {
+    "name": "responsible_lifecycle",
+    "old": 5,
+    "title": "Evidence across the model lifecycle",
+    "nodes": {
+      "A": [
+        0.2,
+        3.8,
+        2.8,
+        0.9,
+        "Data collection\nsource and permission"
+      ],
+      "B": [
+        3.7,
+        3.8,
+        2.8,
+        0.9,
+        "Preparation\nquality and leakage"
+      ],
+      "C": [
+        7,
+        3.8,
+        2.8,
+        0.9,
+        "Model fitting\nsplit and settings"
+      ],
+      "D": [
+        7,
+        2.1,
+        2.8,
+        0.9,
+        "Evaluation\nerrors and group effects"
+      ],
+      "E": [
+        3.7,
+        2.1,
+        2.8,
+        0.9,
+        "Deployment and review\nmonitor and respond"
+      ],
+      "F": [
+        0.2,
+        2.1,
+        2.8,
+        0.9,
+        "Change decision\nretain or revise"
+      ],
+      "G": [
+        0.2,
+        0.4,
+        9.6,
+        0.8,
+        "Versioned evidence: data hashes, code, environment, logs and reviewer decisions"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "B",
+        ""
+      ],
+      [
+        "B",
+        "C",
+        ""
+      ],
+      [
+        "C",
+        "D",
+        ""
+      ],
+      [
+        "D",
+        "E",
+        ""
+      ],
+      [
+        "E",
+        "F",
+        ""
+      ],
+      [
+        "F",
+        "B",
+        "revise"
+      ]
+    ],
+    "notes": [
+      "Arrows show a review cycle. Check labels do not certify safety or fairness."
+    ],
+    "explanation": "자료 수집에서는 출처·사용 권한, 준비 단계에서는 품질·누수, 학습에서는 분할·설정값을 관리합니다. 평가는 오류와 집단별 영향을 확인하고 운영 중 변화가 관찰되면 원인을 검토해 유지·수정 여부를 결정합니다. 아래의 증거 기록은 모든 단계에 공통으로 적용되며 확인 항목만 나열했다고 검증이 끝난 것은 아닙니다.",
+    "size": [
+      9,
+      5.6
+    ],
+    "groups": []
+  },
+  {
+    "name": "reproducibility",
+    "old": 6,
+    "title": "Reproduction requires comparable conditions",
+    "nodes": {
+      "A": [
+        0.2,
+        3.8,
+        2.8,
+        0.9,
+        "Data bytes\nand file hashes"
+      ],
+      "B": [
+        3.7,
+        3.8,
+        2.8,
+        0.9,
+        "Code and settings\nrandom generators"
+      ],
+      "C": [
+        7,
+        3.8,
+        2.8,
+        0.9,
+        "Versions and hardware\nexecution conditions"
+      ],
+      "D": [
+        3.7,
+        2,
+        2.8,
+        0.9,
+        "Run and save\noutputs and logs"
+      ],
+      "E": [
+        7,
+        2,
+        2.8,
+        0.9,
+        "Compare with baseline\nexact or tolerance"
+      ],
+      "F": [
+        7,
+        0.4,
+        2.8,
+        0.9,
+        "Mismatch?\ninspect changed inputs"
+      ]
+    },
+    "edges": [
+      [
+        "A",
+        "D",
+        ""
+      ],
+      [
+        "B",
+        "D",
+        ""
+      ],
+      [
+        "C",
+        "D",
+        ""
+      ],
+      [
+        "D",
+        "E",
+        ""
+      ],
+      [
+        "E",
+        "F",
+        "not equal"
+      ]
+    ],
+    "notes": [
+      "The same seed alone does not guarantee identical values across platforms.",
+      "Record the comparison tolerance before interpreting differences."
+    ],
+    "explanation": "파일 해시는 입력 바이트의 동일성을, 코드 버전은 처리 절차를, 난수 발생기와 설정은 무작위 처리 조건을 식별합니다. 소프트웨어 버전과 장치 정보도 함께 기록한 뒤 기준 실행과 비교합니다. 정수는 정확 비교가 가능할 수 있지만 부동소수점은 계산 목적에 맞는 허용 오차를 먼저 정해야 합니다.",
+    "size": [
+      9,
+      5.6
+    ],
+    "groups": []
+  },
+  {
+    "name": "array_shapes",
+    "old": 14,
+    "title": "Array rank and axis lengths are different",
+    "nodes": {
+      "A": [
+        0.2,
+        2.2,
+        4.5,
+        0.9,
+        "Scalar\nvalue 7, shape ()"
+      ],
+      "B": [
+        5.3,
+        2.2,
+        4.5,
+        0.9,
+        "Vector\n[2,5,1], shape (3,)"
+      ],
+      "C": [
+        0.2,
+        0.6,
+        4.5,
+        0.9,
+        "Matrix\n[[1,2,3],[4,5,6]], shape (2,3)"
+      ],
+      "D": [
+        5.3,
+        0.6,
+        4.5,
+        0.9,
+        "3-axis array\n2 blocks of 2 by 3, shape (2,2,3)"
+      ]
+    },
+    "edges": [],
+    "notes": [
+      "These are separate examples, not shape-conversion instructions.",
+      "In array programming, scalar and matrix arrays are also tensors."
+    ],
+    "explanation": "네 상자는 별도의 배열 예입니다. 스칼라는 축이 0개, 벡터는 축이 1개, 행렬은 축이 2개입니다. 형태(Shape)의 괄호 안 숫자는 각 축의 길이이고 축 개수와 원소 개수는 다릅니다. 배열 프로그래밍 문맥의 텐서(Tensor)는 3차원 이상만 뜻하지 않고 스칼라·벡터·행렬도 포함합니다.",
+    "size": [
+      9,
+      3.8
+    ],
+    "groups": []
+  }
+]

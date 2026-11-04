@@ -1,0 +1,86 @@
+{
+  "name": "reproducibility",
+  "old": 6,
+  "title": "Reproduction requires comparable conditions",
+  "nodes": {
+    "A": [
+      0.2,
+      3.8,
+      2.8,
+      0.9,
+      "Data bytes\nand file hashes"
+    ],
+    "B": [
+      3.7,
+      3.8,
+      2.8,
+      0.9,
+      "Code and settings\nrandom generators"
+    ],
+    "C": [
+      7,
+      3.8,
+      2.8,
+      0.9,
+      "Versions and hardware\nexecution conditions"
+    ],
+    "D": [
+      3.7,
+      2,
+      2.8,
+      0.9,
+      "Run and save\noutputs and logs"
+    ],
+    "E": [
+      7,
+      2,
+      2.8,
+      0.9,
+      "Compare with baseline\nexact or tolerance"
+    ],
+    "F": [
+      7,
+      0.4,
+      2.8,
+      0.9,
+      "Mismatch?\ninspect changed inputs"
+    ]
+  },
+  "edges": [
+    [
+      "A",
+      "D",
+      ""
+    ],
+    [
+      "B",
+      "D",
+      ""
+    ],
+    [
+      "C",
+      "D",
+      ""
+    ],
+    [
+      "D",
+      "E",
+      ""
+    ],
+    [
+      "E",
+      "F",
+      "not equal"
+    ]
+  ],
+  "notes": [
+    "The same seed alone does not guarantee identical values across platforms.",
+    "Record the comparison tolerance before interpreting differences."
+  ],
+  "explanation": "파일 해시는 입력 바이트의 동일성을, 코드 버전은 처리 절차를, 난수 발생기와 설정은 무작위 처리 조건을 식별합니다. 소프트웨어 버전과 장치 정보도 함께 기록한 뒤 기준 실행과 비교합니다. 정수는 정확 비교가 가능할 수 있지만 부동소수점은 계산 목적에 맞는 허용 오차를 먼저 정해야 합니다.",
+  "size": [
+    9,
+    5.6
+  ],
+  "groups": []
+}

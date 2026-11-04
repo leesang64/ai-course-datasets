@@ -1,0 +1,12 @@
+flowchart TD
+ A["Data bytes and file hashes"]
+ B["Code and settings random generators"]
+ C["Versions and hardware execution conditions"]
+ D["Run and save outputs and logs"]
+ E["Compare with baseline exact or tolerance"]
+ F["Mismatch? inspect changed inputs"]
+ A --> D
+ B --> D
+ C --> D
+ D --> E
+ E -->|"not equal"| F

@@ -1,0 +1,17 @@
+flowchart TD
+ A["Previous tokens"]
+ B["Next-token distribution"]
+ C["Select and append stop at end or limit"]
+ D["Noise and conditions"]
+ E["Iterative denoising"]
+ F["Image or latent then decode"]
+ G["Latent sample"]
+ H["Decoder or generator"]
+ I["Generated sample"]
+ A --> B
+ B --> C
+ C -->|"continue"| A
+ D --> E
+ E --> F
+ G --> H
+ H --> I

@@ -1,0 +1,11 @@
+flowchart TD
+ A["Random image batch (4,1,28,28)"]
+ B["Convolution and pool flatten, linear"]
+ C["Image scores (4,10)"]
+ D["Random sequence batch (4,20,5)"]
+ E["LSTM last time step linear projection"]
+ F["Sequence scores (4,3)"]
+ A --> B
+ B --> C
+ D --> E
+ E --> F

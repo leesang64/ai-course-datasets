@@ -1,0 +1,78 @@
+{
+  "name": "ch04_overview",
+  "old": 19,
+  "title": "Chapter 4 Housing data exploration",
+  "nodes": {
+    "A": [
+      0.2,
+      2.2,
+      2.6,
+      0.9,
+      "Housing table\n900 rows"
+    ],
+    "B": [
+      3.7,
+      2.2,
+      2.6,
+      0.9,
+      "Shape and head\ndescriptive statistics"
+    ],
+    "C": [
+      7.2,
+      2.2,
+      2.6,
+      0.9,
+      "Numeric correlation\nmatrix"
+    ],
+    "D": [
+      3.7,
+      0.6,
+      2.6,
+      0.9,
+      "Area and Price\nscatter and fitted line"
+    ],
+    "E": [
+      7.2,
+      0.6,
+      2.6,
+      0.9,
+      "Two plots\nsummary metrics"
+    ]
+  },
+  "edges": [
+    [
+      "A",
+      "B",
+      ""
+    ],
+    [
+      "B",
+      "C",
+      ""
+    ],
+    [
+      "A",
+      "D",
+      ""
+    ],
+    [
+      "C",
+      "E",
+      ""
+    ],
+    [
+      "D",
+      "E",
+      ""
+    ]
+  ],
+  "notes": [
+    "The fitted line describes the same observed rows; it is not a held-out evaluation."
+  ],
+  "explanation": "900행 주택 자료의 형태·일부 행·기술통계와 수치형 열 간 상관을 확인합니다. 면적과 가격의 산점도에 같은 자료로 계산한 직선을 겹칩니다. 관측 단위와 실측 출처가 확인되지 않은 열에 임의의 단위를 붙이지 않습니다.",
+  "size": [
+    9,
+    3.8
+  ],
+  "groups": []
+}

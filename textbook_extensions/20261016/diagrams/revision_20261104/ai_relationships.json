@@ -1,0 +1,86 @@
+{
+  "name": "ai_relationships",
+  "old": 2,
+  "title": "Artificial intelligence and generative tasks",
+  "nodes": {
+    "A": [
+      0.3,
+      3.8,
+      4.2,
+      0.9,
+      "Artificial Intelligence"
+    ],
+    "B": [
+      0.7,
+      2.5,
+      3.4,
+      0.9,
+      "Machine Learning"
+    ],
+    "C": [
+      1.1,
+      1.2,
+      2.6,
+      0.9,
+      "Deep Learning"
+    ],
+    "D": [
+      6,
+      3.8,
+      3.7,
+      0.9,
+      "Rule-based reasoning\nand search"
+    ],
+    "E": [
+      6,
+      2.2,
+      3.7,
+      0.9,
+      "Generative tasks\ntext, image, audio"
+    ],
+    "F": [
+      6,
+      0.6,
+      3.7,
+      0.9,
+      "Deep and non-deep\ngenerative models"
+    ]
+  },
+  "edges": [
+    [
+      "A",
+      "B",
+      "includes"
+    ],
+    [
+      "B",
+      "C",
+      "includes"
+    ],
+    [
+      "A",
+      "D",
+      "includes"
+    ],
+    [
+      "C",
+      "E",
+      "can support"
+    ],
+    [
+      "F",
+      "E",
+      "can support"
+    ]
+  ],
+  "notes": [
+    "Hierarchy and task purpose are different axes of description.",
+    "Generative AI is not defined as every model inside Deep Learning."
+  ],
+  "explanation": "실선의 includes는 포함 관계입니다. 인공지능은 기계학습뿐 아니라 규칙 기반 추론과 탐색을 포함하고, 딥러닝은 기계학습의 한 방법입니다. can support는 수행 가능한 과제를 연결합니다. 생성은 과제의 목적이므로 딥러닝 내부의 가장 작은 범주로 일괄 정의하지 않습니다.",
+  "size": [
+    9,
+    5.4
+  ],
+  "groups": []
+}

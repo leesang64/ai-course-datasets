@@ -1,0 +1,73 @@
+{
+  "name": "ch01_overview",
+  "old": 1,
+  "title": "Chapter 1 Environment and event intervals",
+  "nodes": {
+    "A": [
+      0.2,
+      2.2,
+      2.6,
+      0.9,
+      "Versions and device\nrandom seed 42"
+    ],
+    "B": [
+      3.7,
+      2.2,
+      2.6,
+      0.9,
+      "9 selected events\nYear column"
+    ],
+    "C": [
+      7.2,
+      2.2,
+      2.6,
+      0.9,
+      "Year tensor\nshape (9,)"
+    ],
+    "D": [
+      7.2,
+      0.6,
+      2.6,
+      0.9,
+      "Consecutive gaps\nshape (8,)"
+    ],
+    "E": [
+      3.7,
+      0.6,
+      2.6,
+      0.9,
+      "Mean and gap plot\n8 intervals"
+    ]
+  },
+  "edges": [
+    [
+      "A",
+      "B",
+      ""
+    ],
+    [
+      "B",
+      "C",
+      ""
+    ],
+    [
+      "C",
+      "D",
+      ""
+    ],
+    [
+      "D",
+      "E",
+      ""
+    ]
+  ],
+  "notes": [
+    "Event selection changes the intervals. No prediction model is trained."
+  ],
+  "explanation": "버전·장치·시드를 기록한 뒤 사건 연도 9개를 텐서로 변환합니다. 이웃한 연도를 빼므로 간격은 8개입니다. 평균 간격과 막대그래프는 선택한 사건 목록의 특성이며 인공지능 발전 속도를 추정한 값이 아닙니다.",
+  "size": [
+    9,
+    3.8
+  ],
+  "groups": []
+}

@@ -92,7 +92,8 @@ ax.set_yticks(range(len(corr.columns)), corr.columns)
 # 반복문(Loop)의 조건에 따라 들여쓴 계산을 수행합니다. for i in range(len(corr)):에서 반복 대상과 횟수를 확인하고 종료 뒤에는 마지막 계산 상태가 남는다는 점에 주의합니다.
 for i in range(len(corr)):
     for j in range(len(corr)):
-        ax.text(j, i, f"{corr.iloc[i, j]:.2f}", ha="center", va="center", fontsize=9)
+        ax.text(j, i, f"{corr.iloc[i, j]:.2f}", ha="center", va="center", fontsize=9,
+                color="white" if corr.iloc[i, j] > 0.0 else "black")
 
 # 앞 셀의 값을 사용해 fig.colorbar(im, ax=ax, shrink=0.8) 동작을 수행합니다. 코드에 쓰인 괄호·인자·들여쓰기를 유지합니다.
 fig.colorbar(im, ax=ax, shrink=0.8)

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="388.8pt" viewBox="0 0 648 388.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 388.8 
+L 648 388.8 
+L 648 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 28.390099 115.271424 
+L 289.771485 115.271424 
+L 289.771485 61.523712 
+L 28.390099 61.523712 
+z
+" clip-path="url(#pc1ae535278)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 53.283564 192.907008 
+L 264.87802 192.907008 
+L 264.87802 139.159296 
+L 53.283564 139.159296 
+z
+" clip-path="url(#pc1ae535278)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 78.17703 270.542592 
+L 239.984554 270.542592 
+L 239.984554 216.79488 
+L 78.17703 216.79488 
+z
+" clip-path="url(#pc1ae535278)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 383.12198 115.271424 
+L 613.386535 115.271424 
+L 613.386535 61.523712 
+L 383.12198 61.523712 
+z
+" clip-path="url(#pc1ae535278)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 383.12198 210.822912 
+L 613.386535 210.822912 
+L 613.386535 157.0752 
+L 383.12198 157.0752 
+z
+" clip-path="url(#pc1ae535278)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 383.12198 306.3744 
+L 613.386535 306.3744 
+L 613.386535 252.626688 
+L 383.12198 252.626688 
+z
+" clip-path="url(#pc1ae535278)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 159.080792 118.271988 
+Q 159.080792 127.215132 159.080792 134.928438 
+" clip-path="url(#pc1ae535278)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 161.280792 130.528438 
+L 159.080792 134.928438 
+L 156.880792 130.528438 
+" clip-path="url(#pc1ae535278)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 159.080792 195.907572 
+Q 159.080792 204.850716 159.080792 212.564022 
+" clip-path="url(#pc1ae535278)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 161.280792 208.164022 
+L 159.080792 212.564022 
+L 156.880792 208.164022 
+" clip-path="url(#pc1ae535278)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 292.771304 88.397568 
+Q 336.445301 88.397568 378.889461 88.397568 
+" clip-path="url(#pc1ae535278)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 374.489461 86.197568 
+L 378.889461 88.397568 
+L 374.489461 90.597568 
+" clip-path="url(#pc1ae535278)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 242.74963 242.515094 
+Q 311.549988 213.810264 379.215334 185.578984 
+" clip-path="url(#pc1ae535278)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 374.307483 185.242832 
+L 379.215334 185.578984 
+L 376.001702 189.303574 
+" clip-path="url(#pc1ae535278)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 498.254257 249.628675 
+Q 498.254257 231.725064 498.254257 215.05129 
+" clip-path="url(#pc1ae535278)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 496.054257 219.45129 
+L 498.254257 215.05129 
+L 500.454257 219.45129 
+" clip-path="url(#pc1ae535278)" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="324" y="25.417527" transform="rotate(-0 324 25.417527)">Artificial intelligence and generative tasks</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="159.080792" y="91.570849" transform="rotate(-0 159.080792 91.570849)">Artificial Intelligence</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="159.080792" y="169.206433" transform="rotate(-0 159.080792 169.206433)">Machine Learning</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="159.080792" y="246.842017" transform="rotate(-0 159.080792 246.842017)">Deep Learning</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'" transform="translate(436.132695 85.132107)">Rule-based reasoning</text>
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'" transform="translate(466.511562 98.009591)">and search</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'" transform="translate(449.472695 180.683595)">Generative tasks</text>
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'" transform="translate(445.751367 193.561079)">text, image, audio</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'" transform="translate(441.369687 276.235083)">Deep and non-deep</text>
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'" transform="translate(444.475586 289.112567)">generative models</text>
+   </g>
+   <g id="text_8">
+    <g id="patch_13">
+     <path d="M 141.544542 124.880248 
+L 176.617042 124.880248 
+L 176.617042 115.217748 
+L 141.544542 115.217748 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="159.080792" y="122.256498" transform="rotate(-0 159.080792 122.256498)">includes</text>
+   </g>
+   <g id="text_9">
+    <g id="patch_14">
+     <path d="M 141.544542 202.515832 
+L 176.617042 202.515832 
+L 176.617042 192.853332 
+L 141.544542 192.853332 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="159.080792" y="199.892082" transform="rotate(-0 159.080792 199.892082)">includes</text>
+   </g>
+   <g id="text_10">
+    <g id="patch_15">
+     <path d="M 318.910483 86.062456 
+L 353.982983 86.062456 
+L 353.982983 76.399956 
+L 318.910483 76.399956 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="336.446733" y="83.438706" transform="rotate(-0 336.446733 83.438706)">includes</text>
+   </g>
+   <g id="text_11">
+    <g id="patch_16">
+     <path d="M 286.778892 211.473784 
+L 336.327642 211.473784 
+L 336.327642 201.811284 
+L 286.778892 201.811284 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="311.553267" y="208.850034" transform="rotate(-0 311.553267 208.850034)">can support</text>
+   </g>
+   <g id="text_12">
+    <g id="patch_17">
+     <path d="M 473.479882 229.389688 
+L 523.028632 229.389688 
+L 523.028632 219.727188 
+L 473.479882 219.727188 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="498.254257" y="226.765938" transform="rotate(-0 498.254257 226.765938)">can support</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="15.943366" y="349.641999" transform="rotate(-0 15.943366 349.641999)">Hierarchy and task purpose are different axes of description.</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="15.943366" y="363.377525" transform="rotate(-0 15.943366 363.377525)">Generative AI is not defined as every model inside Deep Learning.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc1ae535278">
+   <rect x="9.72" y="7.776" width="628.56" height="373.248"/>
+  </clipPath>
+ </defs>
+</svg>

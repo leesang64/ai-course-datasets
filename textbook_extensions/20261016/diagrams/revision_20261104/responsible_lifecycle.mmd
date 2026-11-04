@@ -1,0 +1,14 @@
+flowchart TD
+ A["Data collection source and permission"]
+ B["Preparation quality and leakage"]
+ C["Model fitting split and settings"]
+ D["Evaluation errors and group effects"]
+ E["Deployment and review monitor and respond"]
+ F["Change decision retain or revise"]
+ G["Versioned evidence: data hashes, code, environment, logs and reviewer decisions"]
+ A --> B
+ B --> C
+ C --> D
+ D --> E
+ E --> F
+ F -->|"revise"| B

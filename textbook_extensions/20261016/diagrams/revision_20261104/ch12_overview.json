@@ -1,0 +1,73 @@
+{
+  "name": "ch12_overview",
+  "old": 37,
+  "title": "Chapter 12 Retrieval and prompt construction",
+  "nodes": {
+    "A": [
+      0.2,
+      2.2,
+      2.6,
+      0.9,
+      "Query tokens\nfixed user question"
+    ],
+    "B": [
+      0.2,
+      0.6,
+      2.6,
+      0.9,
+      "60 course documents\ncontent tokens"
+    ],
+    "C": [
+      3.7,
+      2.2,
+      2.6,
+      0.9,
+      "Shared-token scores\nrank and top documents"
+    ],
+    "D": [
+      7.2,
+      2.2,
+      2.6,
+      0.9,
+      "Retrieved context\ndocument identifiers"
+    ],
+    "E": [
+      7.2,
+      0.6,
+      2.6,
+      0.9,
+      "Question plus context\nsave prompt text"
+    ]
+  },
+  "edges": [
+    [
+      "A",
+      "C",
+      ""
+    ],
+    [
+      "B",
+      "C",
+      ""
+    ],
+    [
+      "C",
+      "D",
+      ""
+    ],
+    [
+      "D",
+      "E",
+      ""
+    ]
+  ],
+  "notes": [
+    "No language model is called. The saved prompt is not a generated answer."
+  ],
+  "explanation": "질문과 문서의 공통 토큰(Token) 수로 문서를 정렬한 뒤 근거 문맥과 프롬프트(Prompt)를 만듭니다. 대규모 언어 모델(Large Language Model, LLM)을 호출하지 않으므로 저장한 문장은 생성 답변이 아닙니다. 어텐션(Attention)의 실제 계산은 별도의 12.11절 실습에서 확인합니다.",
+  "size": [
+    9,
+    3.8
+  ],
+  "groups": []
+}

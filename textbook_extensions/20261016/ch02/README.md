@@ -15,3 +15,7 @@
 [확인 문제 10개 해설](exercises/answers.md) · [과제와 채점 기준](assignments/README.md) · [전체 안내](../README.md)
 
 코드는 IPython에서 셀 순차 실행했습니다. 별도 Jupyter 메시징 커널·브라우저는 미검증입니다. 문서 관련성 점수나 원인 가설처럼 사람이 판단할 내용은 자동 완성으로 표시하지 않았습니다.
+
+## 2.1절 배열 연산 보충
+
+[전체 코드](extensions/sec_01_array_operations.py) · [셀별 노트북](extensions/sec_01_array_operations.ipynb) · [실제 출력·해설](extensions/sec_01_array_operations.md)

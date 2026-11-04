@@ -1,0 +1,12 @@
+flowchart TD
+ A["100 synthetic rows X without target"]
+ B["Training rows fit_transform"]
+ C["Learned medians scales and categories"]
+ D["Test rows transform only"]
+ E["Same output columns missing-value check"]
+ A -->|"80 percent"| B
+ A -->|"20 percent"| D
+ B --> C
+ C --> E
+ C -->|"reuse state"| D
+ D --> E

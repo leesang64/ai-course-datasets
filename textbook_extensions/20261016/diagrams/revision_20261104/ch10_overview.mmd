@@ -1,0 +1,11 @@
+flowchart TD
+ A["Four XOR rows X shape (4,2)"]
+ B["Linear 2 to 8 Tanh, Linear 8 to 2"]
+ C["Cross-entropy loss backward and Adam"]
+ D["1001 updates training loss history"]
+ E["Predict same four rows training accuracy"]
+ A --> B
+ B --> C
+ C -->|"next step"| B
+ C -->|"record"| D
+ D --> E

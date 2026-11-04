@@ -1,0 +1,83 @@
+{
+  "name": "ch03_overview",
+  "old": 16,
+  "title": "Chapter 3 A-star search and termination",
+  "nodes": {
+    "A": [
+      0.2,
+      2.2,
+      2.6,
+      0.9,
+      "Start A\npriority queue"
+    ],
+    "B": [
+      3.7,
+      2.2,
+      2.6,
+      0.9,
+      "Pop lowest f\nf = g + h"
+    ],
+    "C": [
+      7.2,
+      2.2,
+      2.6,
+      0.9,
+      "Goal reached?"
+    ],
+    "D": [
+      3.7,
+      0.6,
+      2.6,
+      0.9,
+      "Expand neighbors\nupdate best cost"
+    ],
+    "E": [
+      7.2,
+      0.6,
+      2.6,
+      0.9,
+      "Return path and cost\nor report no path"
+    ]
+  },
+  "edges": [
+    [
+      "A",
+      "B",
+      ""
+    ],
+    [
+      "B",
+      "C",
+      ""
+    ],
+    [
+      "C",
+      "D",
+      "no"
+    ],
+    [
+      "D",
+      "B",
+      "queue not empty"
+    ],
+    [
+      "C",
+      "E",
+      "yes"
+    ],
+    [
+      "D",
+      "E",
+      "queue empty"
+    ]
+  ],
+  "notes": [
+    "This supplied graph returns A to C to D with total cost 4."
+  ],
+  "explanation": "후보 우선순위는 누적 비용 g와 휴리스틱 h의 합으로 정합니다. 목표를 꺼내면 경로와 비용을 반환하며 후보가 소진되어도 종료합니다. 제공 그래프의 결과는 A→C→D, 비용 4입니다. 이 결과 하나로 모든 휴리스틱의 최적성을 보장하지 않습니다.",
+  "size": [
+    9,
+    3.8
+  ],
+  "groups": []
+}

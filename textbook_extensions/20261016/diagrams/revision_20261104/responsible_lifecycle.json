@@ -1,0 +1,97 @@
+{
+  "name": "responsible_lifecycle",
+  "old": 5,
+  "title": "Evidence across the model lifecycle",
+  "nodes": {
+    "A": [
+      0.2,
+      3.8,
+      2.8,
+      0.9,
+      "Data collection\nsource and permission"
+    ],
+    "B": [
+      3.7,
+      3.8,
+      2.8,
+      0.9,
+      "Preparation\nquality and leakage"
+    ],
+    "C": [
+      7,
+      3.8,
+      2.8,
+      0.9,
+      "Model fitting\nsplit and settings"
+    ],
+    "D": [
+      7,
+      2.1,
+      2.8,
+      0.9,
+      "Evaluation\nerrors and group effects"
+    ],
+    "E": [
+      3.7,
+      2.1,
+      2.8,
+      0.9,
+      "Deployment and review\nmonitor and respond"
+    ],
+    "F": [
+      0.2,
+      2.1,
+      2.8,
+      0.9,
+      "Change decision\nretain or revise"
+    ],
+    "G": [
+      0.2,
+      0.4,
+      9.6,
+      0.8,
+      "Versioned evidence: data hashes, code, environment, logs and reviewer decisions"
+    ]
+  },
+  "edges": [
+    [
+      "A",
+      "B",
+      ""
+    ],
+    [
+      "B",
+      "C",
+      ""
+    ],
+    [
+      "C",
+      "D",
+      ""
+    ],
+    [
+      "D",
+      "E",
+      ""
+    ],
+    [
+      "E",
+      "F",
+      ""
+    ],
+    [
+      "F",
+      "B",
+      "revise"
+    ]
+  ],
+  "notes": [
+    "Arrows show a review cycle. Check labels do not certify safety or fairness."
+  ],
+  "explanation": "자료 수집에서는 출처·사용 권한, 준비 단계에서는 품질·누수, 학습에서는 분할·설정값을 관리합니다. 평가는 오류와 집단별 영향을 확인하고 운영 중 변화가 관찰되면 원인을 검토해 유지·수정 여부를 결정합니다. 아래의 증거 기록은 모든 단계에 공통으로 적용되며 확인 항목만 나열했다고 검증이 끝난 것은 아닙니다.",
+  "size": [
+    9,
+    5.6
+  ],
+  "groups": []
+}

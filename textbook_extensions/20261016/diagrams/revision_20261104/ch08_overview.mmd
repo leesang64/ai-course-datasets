@@ -1,0 +1,9 @@
+flowchart TD
+ A["Churn table 75:25 split"]
+ B["Median imputer Random Forest"]
+ C["Median imputer Gradient Boosting"]
+ D["Same test rows Accuracy and F1"]
+ A -->|"train"| B
+ A -->|"train"| C
+ B --> D
+ C --> D
